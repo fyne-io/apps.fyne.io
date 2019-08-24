@@ -1,1 +1,13 @@
+title: Fyne Apps
+email: info@fyne.io
+url: "https://apps.fyne.io"
+
 remote_theme: gdgmanagua/jekyll-mdl
+
+header_type: default
+post_type: highlight
+
+more_vert:
+  option1:
+    name: Submit App
+    link: mailto:info@fyne.io
