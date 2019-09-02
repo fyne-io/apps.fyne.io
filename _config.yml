@@ -7,6 +7,9 @@ remote_theme: gdgmanagua/jekyll-mdl
 header_type: default
 post_type: highlight
 
+disqus: true
+disqus_shortname: 'fyne-apps'
+
 more_vert:
   option1:
     name: Submit App
