@@ -14,3 +14,24 @@ more_vert:
   option1:
     name: Submit App
     link: mailto:info@fyne.io
+
+collections:
+  apps:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "apps"
+    values:
+      layout: "app"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+

@@ -4,7 +4,6 @@ layout: default
 <div class="page-content">
   <div class="mdl-grid">
     {% for post in site.posts %}
-    {% if post.highlight %}
 
     <div class="section-highlight section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" style="width: 100%">
 
@@ -31,31 +30,34 @@ layout: default
 
     </div>
 
-    {% else %}
+    {% endfor %}
+
+    {% for app in site.apps %}
+    {% assign app_id = "todo" %}
+    {% assign app_url = app.url | absolute_url  %}
 
     <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone">
-      <div class="mdl-card__title" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}>
-        <h2 class="mdl-card__title-text">{{ post.title }}</h2>
+      <div class="mdl-card__title" style="background: url('{{ app.img }}') center/cover;">
+        <h2 class="mdl-card__title-text">{{ app.name }}</h2>
       </div>
       <div class="mdl-card__supporting-text">
-        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
-        <p>{{ post.excerpt }}</p>
+        <span>{{ app.date | date: "%b %-d, %Y" }}</span>
+        <p>{{ app.excerpt }}</p>
       </div>
       <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ app_url }}">Read More</a>
       </div>
       <div class="mdl-card__menu">
-        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="post-{{ post.id }}">
+        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="app-{{ app_id }}">
           <i class="material-icons">share</i>
         </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="post-{{ post.id }}">
-          <li><a href="https://www.facebook.com/dialog/share?app_id={{site.facebook_app_id}}&display=page&href={{ post.url | prepend: site.baseurl }}&redirect_uri={{ site.baseurl }}" class="mdl-menu__item">Facebook</a></li>
-          <li><a href="https://twitter.com/share?url={{ post.url | prepend: site.baseurl }}&text={{ post.title }}&via={{ site.twitter_username }}" class="mdl-menu__item">Twitter</a></li>
-          <li><a href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" class="mdl-menu__item">Google+</a></li>
+        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="app-{{ app_id }}">
+          <li><a href="https://www.facebook.com/dialog/share?app_id={{site.facebook_app_id}}&display=page&href={{ app_url }}&redirect_uri={{ site.baseurl }}" class="mdl-menu__item">Facebook</a></li>
+          <li><a href="https://twitter.com/share?url={{ app_url }}&text={{ app.name }}&via={{ site.twitter_username }}" class="mdl-menu__item">Twitter</a></li>
+          <li><a href="https://plus.google.com/share?url={{ app_url }}" class="mdl-menu__item">Google+</a></li>
         </ul>
       </div>
     </div>
-    {% endif %}
     {% endfor %}
 
   </div>
