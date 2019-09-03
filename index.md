@@ -18,22 +18,11 @@ layout: default
           <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
         </div>
       </div>
-
-      <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn-high-{{ post.id }}">
-        <i class="material-icons">more_vert</i>
-      </button>
-      <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn-high-{{ post.id }}">
-        <li><a href="https://www.facebook.com/dialog/share?app_id={{site.facebook_app_id}}&display=page&href={{ post.url | prepend: site.baseurl }}&redirect_uri={{ site.baseurl }}" class="mdl-menu__item">Facebook</a></li>
-        <li><a href="https://twitter.com/share?url={{ post.url | prepend: site.baseurl }}&text={{ post.title }}&via={{ site.twitter_username }}" class="mdl-menu__item">Twitter</a></li>
-        <li><a href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" class="mdl-menu__item">Google+</a></li>
-      </ul>
-
     </div>
 
     {% endfor %}
 
     {% for app in site.apps %}
-    {% assign app_id = "todo" %}
     {% assign app_url = app.url | absolute_url  %}
 
     <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone">
@@ -48,10 +37,10 @@ layout: default
         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ app_url }}">Read More</a>
       </div>
       <div class="mdl-card__menu">
-        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="app-{{ app_id }}">
+        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="app-{{ app.id }}">
           <i class="material-icons">share</i>
         </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="app-{{ app_id }}">
+        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="app-{{ app.id }}">
           <li><a href="https://www.facebook.com/dialog/share?app_id={{site.facebook_app_id}}&display=page&href={{ app_url }}&redirect_uri={{ site.baseurl }}" class="mdl-menu__item">Facebook</a></li>
           <li><a href="https://twitter.com/share?url={{ app_url }}&text={{ app.name }}&via={{ site.twitter_username }}" class="mdl-menu__item">Twitter</a></li>
           <li><a href="https://plus.google.com/share?url={{ app_url }}" class="mdl-menu__item">Google+</a></li>
