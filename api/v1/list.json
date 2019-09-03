@@ -1,0 +1,22 @@
+---
+layout: none
+---
+[
+{%- assign applist = site.apps | sort: 'title' -%}
+{%- for app in applist -%}
+{%- assign app_url = app.url | absolute_url  -%}
+{
+  "title": "{{ app.name }}",
+  "img": "{{ app.img }}",
+  "date": "{{ app.date | date_to_rfc822 }}",
+  "excerpt": "{{ app.excerpt }}",
+  "url": "{{ app.url | absolute_url  }}",
+
+  "git": "{{ app.git }}",
+  "tag": "{{ app.tag }}",
+  "dir": "{{ app.dir }}",
+  "version": "{{ app.version }}"
+}
+{%- unless forloop.last -%},{%- endunless -%}
+{%- endfor -%}
+]
