@@ -19,6 +19,18 @@ a.mdl-layout-title {
     text-decoration: none;
 }
 
+h2.mdl-card__title-text a {
+    color: white;
+    text-decoration: none;
+
+    font-weight: 300;
+}
+
+h2.mdl-card__title-text {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 5px;
+}
+
 img#preview {
     max-width: 100%
 }

@@ -29,7 +29,7 @@ title:  Home
 
     <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone">
       <div class="mdl-card__title" style="background: url('{{ app.img }}') center/cover;">
-        <h2 class="mdl-card__title-text">{{ app.name }}</h2>
+        <h2 class="mdl-card__title-text"><a href="{{ app_url }}">{{ app.name }}</a></h2>
       </div>
       <div class="mdl-card__supporting-text">
         <span>{{ app.date | date: "%b %-d, %Y" }}</span>
