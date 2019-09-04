@@ -7,7 +7,7 @@ layout: none
 {%- assign app_url = app.url | absolute_url  -%}
 {
   "id": "{{ app.appid }}",
-  "title": "{{ app.name }}",
+  "name": "{{ app.name }}",
   "img": "{{ app.img }}",
   "date": "{{ app.date | date_to_xmlschema }}",
   "excerpt": "{{ app.excerpt }}",
