@@ -9,7 +9,7 @@ layout: none
   "id": "{{ app.appid }}",
   "title": "{{ app.name }}",
   "img": "{{ app.img }}",
-  "date": "{{ app.date | date_to_rfc822 }}",
+  "date": "{{ app.date | date_to_xmlschema }}",
   "excerpt": "{{ app.excerpt }}",
   "url": "{{ app.url | absolute_url  }}",
 
