@@ -12,6 +12,7 @@ layout: none
   "date": "{{ app.date | date_to_xmlschema }}",
   "excerpt": "{{ app.excerpt }}",
   "url": "{{ app.url | absolute_url  }}",
+  "homepage": "{{ app.home }}",
 
   "git": "{{ app.git }}",
   "tag": "{{ app.tag }}",
