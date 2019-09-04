@@ -1,4 +1,5 @@
 ---
+appid: io.fyne.examples/solitaire
 name: Solitaire
 home: https://github.com/fyne-io/examples/
 img: https://github.com/fyne-io/examples/blob/develop/img/solitaire.png?raw=true

@@ -1,4 +1,5 @@
 ---
+appid: xyz.andy.dicomviewer
 name: DICOM Viewer
 home: https://github.com/andydotxyz/dicomgraphics/
 img: https://github.com/andydotxyz/dicomgraphics/blob/master/screenshot.png?raw=true

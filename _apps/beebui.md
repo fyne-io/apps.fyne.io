@@ -1,4 +1,5 @@
 ---
+appid: xyz.andy.beebui
 name: beebUI
 home: https://github.com/andydotxyz/beebui
 img: https://github.com/andydotxyz/beebui/blob/master/beebui.png?raw=true

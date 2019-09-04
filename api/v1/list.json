@@ -6,6 +6,7 @@ layout: none
 {%- for app in applist -%}
 {%- assign app_url = app.url | absolute_url  -%}
 {
+  "id": "{{ app.appid }}",
   "title": "{{ app.name }}",
   "img": "{{ app.img }}",
   "date": "{{ app.date | date_to_rfc822 }}",

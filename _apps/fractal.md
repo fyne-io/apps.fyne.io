@@ -1,4 +1,5 @@
 ---
+appid: io.fyne.examples.fractal
 name: Fractal
 home: https://github.com/fyne-io/examples/
 img: https://github.com/fyne-io/examples/raw/develop/img/fractal.png

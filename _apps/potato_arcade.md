@@ -1,4 +1,5 @@
 ---
+appid: com.github.potato-arcade.p64
 name: Potato Arcade
 home: https://github.com/potato-arcade/p64
 img: https://github.com/potato-arcade/p64/blob/master/pong.gif?raw=true

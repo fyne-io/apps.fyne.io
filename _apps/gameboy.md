@@ -1,4 +1,5 @@
 ---
+appid: xyz.andy.gameboy
 name: GameBoy.live
 home: https://github.com/andydotxyz/fynegameboy
 img: https://github.com/andydotxyz/fynegameboy/blob/master/zelda_screen.png?raw=true

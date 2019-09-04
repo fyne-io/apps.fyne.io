@@ -1,4 +1,5 @@
 ---
+appid: io.fyne.examples.calculator
 name: Calculator
 home: https://github.com/fyne-io/examples/
 img: https://github.com/fyne-io/examples/raw/develop/img/calc-dark.png

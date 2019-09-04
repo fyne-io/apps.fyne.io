@@ -1,4 +1,5 @@
 ---
+appid: com.github.gmlewis.gerberviewer
 name: Gerber Viewer
 home: https://github.com/gmlewis/go-gerber/
 img: https://github.com/gmlewis/go-gerber/blob/master/examples/hex-bifilar-coil/hex-bifilar-coil-layers.gif?raw=true

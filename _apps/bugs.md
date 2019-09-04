@@ -1,4 +1,5 @@
 ---
+appid: io.fyne.examples.bugs
 name: Bugs
 home: https://github.com/fyne-io/examples/
 img: https://github.com/fyne-io/examples/raw/develop/img/bugs.png
