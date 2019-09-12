@@ -4,9 +4,10 @@ name: Solitaire
 home: https://github.com/fyne-io/examples/
 img: https://github.com/fyne-io/examples/blob/develop/img/solitaire.png?raw=true
 
-date:       2019-01-19 22:51:00
-excerpt:    Solitaire card game
-categories: entertainment
+date:      2019-01-19 22:51:00
+excerpt:   Solitaire card game
+category:  entertainment
+developer: The Fyne Team
 
 git: https://github.com/fyne-io/examples.git
 tag: develop

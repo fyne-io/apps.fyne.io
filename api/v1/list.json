@@ -8,17 +8,22 @@ layout: none
 {
   "id": "{{ app.appid }}",
   "name": "{{ app.name }}",
-  "img": "{{ app.img }}",
-  "date": "{{ app.date | date_to_xmlschema }}",
-  "excerpt": "{{ app.excerpt }}",
+  "icon": "{{ app.img }}",
+  "summary": "{{ app.excerpt }}",
   "url": "{{ app.url | absolute_url  }}",
-  "homepage": "{{ app.home }}",
 
-  "git": "{{ app.git }}",
-  "tag": "{{ app.tag }}",
-  "dir": "{{ app.dir }}",
+  "category": "{{ app.category }}",
+  "website": "{{ app.home }}",
+  "developer": "{{ app.developer }}",
+
+  "source": {
+    "git": "{{ app.git }}",
+    "tag": "{{ app.tag }}",
+    "dir": "{{ app.dir }}",
+  },
   "version": "{{ app.version }}"
-}
+  "date": "{{ app.date | date_to_xmlschema }}",
+} 
 {%- unless forloop.last -%},{%- endunless -%}
 {%- endfor -%}
 ]

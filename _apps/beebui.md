@@ -4,9 +4,10 @@ name: beebUI
 home: https://github.com/andydotxyz/beebui
 img: https://github.com/andydotxyz/beebui/blob/master/beebui.png?raw=true
 
-date:       2019-03-17 19:32:14
-excerpt:    A BBC Micro Emulator based on Fyne and skx/gobasic
-categories: entertainment
+date:      2019-03-17 19:32:14
+excerpt:   A BBC Micro Emulator based on Fyne and skx/gobasic
+category:  entertainment
+developer: Andy Williams
 
 git: https://github.com/andydotxyz/beebui.git
 tag: master

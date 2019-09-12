@@ -4,9 +4,10 @@ name: Fyne OpenSnitch
 home: https://github.com/lucor/fyne-opensnitch/
 img: https://github.com/lucor/fyne-opensnitch/blob/master/screenshot/ask_rule.png?raw=true
 
-date:       2019-05-13 9:43:42+100
-excerpt:    An OpenSnitch UI in Go using Fyne
-categories: utility
+date:      2019-05-13 9:43:42+100
+excerpt:   An OpenSnitch UI in Go using Fyne
+category:  utility
+developer: Luca Corbo
 
 git: https://github.com/lucor/fyne-opensnitch.git
 tag: master

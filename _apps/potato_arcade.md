@@ -4,9 +4,10 @@ name: Potato Arcade
 home: https://github.com/potato-arcade/p64
 img: https://github.com/potato-arcade/p64/blob/master/pong.gif?raw=true
 
-date:       2019-03-03 13:28:52+900
-excerpt:    The P64 computer console. In Golang.
-categories: entertainment
+date:      2019-03-03 13:28:52+900
+excerpt:   The P64 computer console. In Golang.
+category:  entertainment
+developer: SteveOC
 
 git: https://github.com/potato-arcade/p64.git
 tag: master
