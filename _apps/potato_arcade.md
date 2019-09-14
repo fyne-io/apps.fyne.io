@@ -2,7 +2,9 @@
 appid: com.github.potato-arcade.p64
 name: Potato Arcade
 home: https://github.com/potato-arcade/p64
-img: https://github.com/potato-arcade/p64/blob/master/pong.gif?raw=true
+icon: https://github.com/potato-arcade/p64/raw/master/potato.jpg?raw=true
+
+screenshot1: https://github.com/potato-arcade/p64/blob/master/pong.gif?raw=true
 
 date:      2019-03-03 13:28:52+900
 excerpt:   The P64 computer console. In Golang.

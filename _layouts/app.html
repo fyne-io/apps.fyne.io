@@ -22,11 +22,13 @@ layout: default
         </ul>
       </div>
 
+      <img id="preview" src="{{ page.icon }}" />
       <h3>{{ page.name }}</h3>
-      <img id="preview" src="{{ page.img }}" />
 
       <article class="post-content">
         <p>{{ content }}</p>
+
+	<img src="{{ page.screenshot1 }}" />
       </article>
       <!-- Disqus comments -->
       {% if site.disqus %}

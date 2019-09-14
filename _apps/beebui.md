@@ -2,7 +2,9 @@
 appid: xyz.andy.beebui
 name: beebUI
 home: https://github.com/andydotxyz/beebui
-img: https://github.com/andydotxyz/beebui/blob/master/beebui.png?raw=true
+icon: https://github.com/andydotxyz/beebui/blob/master/icon.png?raw=true
+
+screenshot1: https://github.com/andydotxyz/beebui/blob/master/beebui.png?raw=true
 
 date:      2019-03-17 19:32:14
 excerpt:   A BBC Micro Emulator based on Fyne and skx/gobasic

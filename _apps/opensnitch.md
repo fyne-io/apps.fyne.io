@@ -2,7 +2,9 @@
 appid: com.github.lucor.opensnitch
 name: Fyne OpenSnitch
 home: https://github.com/lucor/fyne-opensnitch/
-img: https://github.com/lucor/fyne-opensnitch/blob/master/screenshot/ask_rule.png?raw=true
+icon:
+
+screenshot1: https://github.com/lucor/fyne-opensnitch/blob/master/screenshot/ask_rule.png?raw=true
 
 date:      2019-05-13 9:43:42+100
 excerpt:   An OpenSnitch UI in Go using Fyne

@@ -28,7 +28,7 @@ title:  Home
     {% assign app_url = app.url | absolute_url  %}
 
     <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone">
-      <div class="mdl-card__title" style="background: url('{{ app.img }}') center/cover;">
+      <div class="mdl-card__title" style="{% if app.icon %}background: url({{ app.icon }}) no-repeat center/contain; background-color: #c0c0c0;{% else %}background: url({{ app.screenshot1 }}) center/cover;{% endif %}">
         <h2 class="mdl-card__title-text"><a href="{{ app_url }}">{{ app.name }}</a></h2>
       </div>
       <div class="mdl-card__supporting-text">

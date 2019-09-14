@@ -8,7 +8,7 @@ layout: none
 {
   "id": "{{ app.appid }}",
   "name": "{{ app.name }}",
-  "icon": "{{ app.img }}",
+  "icon": "{{ app.icon }}",
   "summary": "{{ app.excerpt }}",
   "url": "{{ app.url | absolute_url  }}",
 
@@ -16,6 +16,12 @@ layout: none
   "website": "{{ app.home }}",
   "developer": "{{ app.developer }}",
 
+  "screenshots": [
+	  {
+	  	"image": "{{ app.screenshot1 }}",
+		"type": "desktop"
+	  }
+  ],
   "source": {
     "git": "{{ app.git }}",
     "tag": "{{ app.tag }}",
