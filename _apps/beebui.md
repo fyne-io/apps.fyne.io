@@ -12,8 +12,7 @@ category:  entertainment
 developer: Andy Williams
 
 git: https://github.com/andydotxyz/beebui.git
-tag: master
-dir: cmd/beebui
+package: github.com/andydotxyz/beebui/cmd/beebui
 version: 
 ---
 

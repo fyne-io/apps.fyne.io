@@ -12,8 +12,7 @@ category:  scientific
 developer: Glenn Lewis
 
 git: https://github.com/gmlewis/go-gerber.git
-tag: master
-dir: gerber/viewer
+package: github.com/gmlewis/go-gerber/gerber/viewer
 version: 
 ---
 

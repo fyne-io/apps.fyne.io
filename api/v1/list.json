@@ -17,15 +17,14 @@ layout: none
   "developer": "{{ app.developer }}",
 
   "screenshots": [
-	  {
-	  	"image": "{{ app.screenshot1 }}",
-		"type": "desktop"
-	  }
+    {
+      "image": "{{ app.screenshot1 }}",
+      "type": "desktop"
+    }
   ],
   "source": {
     "git": "{{ app.git }}",
-    "tag": "{{ app.tag }}",
-    "dir": "{{ app.dir }}"
+    "package": "{{ app.package }}",
   },
   "version": "{{ app.version }}",
   "date": "{{ app.date | date_to_xmlschema }}"

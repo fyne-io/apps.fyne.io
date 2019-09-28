@@ -12,8 +12,7 @@ category:  entertainment
 developer: The Fyne Team
 
 git: https://github.com/fyne-io/examples.git
-tag: develop
-dir: cmd/solitaire
+package: github.com/fyne-io/example/cmd/solitaire
 version: 
 ---
 

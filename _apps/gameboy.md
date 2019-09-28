@@ -12,8 +12,7 @@ category:  entertainment
 developer: Andy Williams
 
 git: https://github.com/andydotxyz/fynegameboy.git
-tag: master
-dir: 
+package: github.com/andydotxyz/fynegameboy
 version: 
 ---
 

@@ -12,8 +12,7 @@ category:  utility
 developer: Luca Corbo
 
 git: https://github.com/lucor/fyne-opensnitch.git
-tag: master
-dir: 
+package: github.com/lucor/fyne-opensnitch
 version: 
 ---
 

@@ -12,8 +12,7 @@ category:  medical
 developer: Andy Williams
 
 git: https://github.com/andydotxyz/dicomgraphics.git
-tag: master
-dir: cmd/dicomviewer
+package: github.com/andydotxyz/dicomgraphics/cmd/dicomviewer
 version: 
 ---
 

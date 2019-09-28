@@ -12,8 +12,7 @@ category:  entertainment
 developer: SteveOC
 
 git: https://github.com/potato-arcade/p64.git
-tag: master
-dir: cmd/potato64
+package: github.com/potato-arcade/p64/cmd/potato64
 version: 
 ---
 
