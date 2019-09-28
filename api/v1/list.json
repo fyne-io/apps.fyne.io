@@ -24,7 +24,7 @@ layout: none
   ],
   "source": {
     "git": "{{ app.git }}",
-    "package": "{{ app.package }}",
+    "package": "{{ app.package }}"
   },
   "version": "{{ app.version }}",
   "date": "{{ app.date | date_to_xmlschema }}"
