@@ -1,13 +1,13 @@
 ---
-appid: xyz.andy.gameboy
-name: GameBoy.live
+appid: xyz.andy.fynegameboy
+name: FyneGameBoy
 home: https://github.com/andydotxyz/fynegameboy
 icon: https://github.com/andydotxyz/fynegameboy/raw/master/Icon.png
 
-screenshot1: https://github.com/andydotxyz/fynegameboy/blob/master/zelda_screen.png?raw=true
+screenshot1: https://github.com/andydotxyz/fynegameboy/blob/master/img/dino.png?raw=true
 
 date:      2019-03-10 22:31:00-000
-excerpt:   A Fyne based interface using the gameboy.live emulator written by AaronLiu (@HFO4).
+excerpt:   A Fyne based interface for desktop and mobile
 category:  entertainment
 developer: Andy Williams
 
@@ -18,5 +18,4 @@ version:
 
 Run gameboy cartridges on your computer or your mobile!
 
-![](https://github.com/andydotxyz/fynegameboy/raw/master/zelda.gif)
-
+Based on the emulator written by AaronLiu (@HFO4).
