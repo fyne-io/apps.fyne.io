@@ -2,7 +2,7 @@
 appid: io.fyne.pixeledit
 name: PixelEdit
 home: https://github.com/fyne-io/pixeledit
-icon: https://github.com/fyne-io/fyne/blob/master/theme/icons/fyne.png?raw=true
+icon: https://github.com/fyne-io/pixeledit/blob/master/Icon.png?raw=true
 screenshot1: https://github.com/fyne-io/pixeledit/raw/master/Screenshot.png
 
 date:      2020-02-19 12:11:00
