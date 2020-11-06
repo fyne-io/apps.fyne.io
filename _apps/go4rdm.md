@@ -12,7 +12,7 @@ category:  development
 developer: fizzday
 
 git: https://github.com/gohouse/go4rdm.git
-package: github.com/gohouse/go4rdm/cmd/go4rdm
+package: github.com/gohouse/go4rdm
 version: 0.0.1
 
 ---
