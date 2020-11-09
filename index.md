@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Home
+title:  Fyne Apps Listing
 ---
 <div class="page-content">
   <div class="mdl-grid">
