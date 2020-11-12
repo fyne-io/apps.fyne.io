@@ -12,7 +12,7 @@ category:  entertainment
 developer: The Fyne Team
 
 git: https://github.com/fyne-io/examples.git
-package: github.com/fyne-io/example/cmd/solitaire
+package: github.com/fyne-io/examples/cmd/solitaire
 version: 
 ---
 
