@@ -4,24 +4,18 @@ title:  Fyne Apps Listing
 ---
 <div class="page-content">
   <div class="mdl-grid">
-    {% for post in site.posts %}
-
     <div class="section-highlight section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" style="width: 100%">
 
-      <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}></header>
+      <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone" style="background: url('/assets/img/FyneSquare.png') center/cover;"></header>
 
       <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
         <div class="mdl-card__supporting-text">
-          <h4>{{ post.title }}</h4>
-          <p>{{ post.excerpt }}</p>
-        </div>
-        <div class="mdl-card__actions">
-          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+          <h4>Welcome to Fyne Apps</h4>
+          <p>A listing of apps built using Fyne that you can download on run on your Windows, macOS, Linux or BSD computer
+as well as iOS and Android mobile devices.</p>
         </div>
       </div>
     </div>
-
-    {% endfor %}
 
     {% assign applist = site.apps | sort: 'date' | reverse %}
     {% for app in applist %}
