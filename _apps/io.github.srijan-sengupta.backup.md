@@ -1,5 +1,5 @@
 ---
-appid: com.srijan.golang.backup
+appid: io.github.srijan-sengupta.backup
 name: Backup-Master
 icon: https://raw.githubusercontent.com/Srijan-Sengupta/Backup-Master/master/Icon.png
 screenshot1: 
