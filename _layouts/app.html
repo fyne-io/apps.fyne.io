@@ -17,13 +17,13 @@ layout: default
         </button>
         <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="app-share">
           <li><a href="https://www.facebook.com/dialog/share?app_id={{site.facebook_app_id}}&display=page&href={{ page.url | absolute_url }}&redirect_uri={{ site.baseurl }}" class="mdl-menu__item">Facebook</a></li>
-          <li><a href="https://twitter.com/share?url={{ page.url | absolute_url }}&text={{ app.name }}&via={{ site.twitter_username }}" class="mdl-menu__item">Twitter</a></li>
+          <li><a href="https://twitter.com/share?url={{ page.url | absolute_url }}&text={{ app.title }}&via={{ site.twitter_username }}" class="mdl-menu__item">Twitter</a></li>
           <li><a href="https://plus.google.com/share?url={{ page.url | absolute_url }}" class="mdl-menu__item">Google+</a></li>
         </ul>
       </div>
 
       <img id="preview" src="{{ page.icon }}" />
-      <h3>{{ page.name }}</h3>
+      <h3>{{ page.title }}</h3>
 
       <article class="post-content">
         <p>{{ content }}</p>

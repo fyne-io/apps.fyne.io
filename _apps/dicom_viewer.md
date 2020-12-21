@@ -1,6 +1,6 @@
 ---
 appid: xyz.andy.dicomviewer
-name: DICOM Viewer
+title: DICOM Viewer
 home: https://github.com/andydotxyz/dicomgraphics/
 icon: https://github.com/andydotxyz/dicomgraphics/raw/master/icon.png
 

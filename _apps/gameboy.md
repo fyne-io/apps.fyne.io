@@ -1,6 +1,6 @@
 ---
 appid: xyz.andy.fynegameboy
-name: FyneGameBoy
+title: FyneGameBoy
 home: https://github.com/andydotxyz/fynegameboy
 icon: https://github.com/andydotxyz/fynegameboy/raw/master/Icon.png
 

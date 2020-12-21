@@ -1,6 +1,6 @@
 ---
 appid: com.github.gmlewis.gerberviewer
-name: Gerber Viewer
+title: Gerber Viewer
 home: https://github.com/gmlewis/go-gerber/
 icon: 
 

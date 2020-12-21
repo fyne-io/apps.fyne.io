@@ -1,6 +1,6 @@
 ---
 appid: github.com.gohouse.go4rdm
-name: Go4RDM
+title: Go4RDM
 home: https://github.com/gohouse/go4rdm
 icon: https://raw.githubusercontent.com/gohouse/go4rdm/master/assets/logo.png
 

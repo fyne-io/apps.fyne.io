@@ -1,6 +1,6 @@
 ---
 appid: io.fyne.solitaire
-name: Solitaire
+title: Solitaire
 home: https://github.com/fyne-io/solitaire/
 icon: https://raw.githubusercontent.com/fyne-io/solitaire/main/Icon.png
 

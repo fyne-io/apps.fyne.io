@@ -1,6 +1,6 @@
 ---
 appid: io.fyne.settings
-name: Fyne Settings
+title: Fyne Settings
 home: https://github.com/fyne-io/fyne/
 icon: https://github.com/fyne-io/fyne/raw/develop/cmd/fyne_settings/Icon.png
 

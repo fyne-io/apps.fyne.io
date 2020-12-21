@@ -1,6 +1,6 @@
 ---
 appid: io.fyne.calculator
-name: Calculator
+title: Calculator
 home: https://github.com/fyne-io/calculator/
 icon: https://raw.githubusercontent.com/fyne-io/calculator/main/Icon.png
 

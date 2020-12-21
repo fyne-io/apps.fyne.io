@@ -1,6 +1,6 @@
 ---
 appid: com.fynelabs.snowflake
-name: Snowflake
+title: Snowflake
 home: https://github.com/fynelabs/snowflake
 icon: https://github.com/fynelabs/snowflake/blob/main/Icon.png?raw=true
 screenshot1: https://github.com/fynelabs/snowflake/raw/main/img/screenshot.png

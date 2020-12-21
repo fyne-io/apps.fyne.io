@@ -1,6 +1,6 @@
 ---
 appid: com.github.jacalz.sparta
-name: Sparta
+title: Sparta
 home: https://github.com/Jacalz/sparta
 icon: https://raw.githubusercontent.com/Jacalz/sparta/master/internal/assets/icon-512.png
 screenshot1: https://raw.githubusercontent.com/Jacalz/sparta/master/internal/assets/screenshot.png

@@ -1,6 +1,6 @@
 ---
 appid: com.github.jacalz.fyne-board-games.tic-tac-toe
-name: Tic-tac-Toe
+title: Tic-tac-Toe
 home: https://github.com/Jacalz/fyne-board-games
 icon: https://raw.githubusercontent.com/Jacalz/fyne-board-games/master/tic-tac-toe/assets/bundle/icon-512.png
 screenshot1: https://raw.githubusercontent.com/Jacalz/fyne-board-games/master/tic-tac-toe/assets/screenshot.png

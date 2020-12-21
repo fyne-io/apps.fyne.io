@@ -1,6 +1,6 @@
 ---
 appid: com.github.lucor.opensnitch
-name: Fyne OpenSnitch
+title: Fyne OpenSnitch
 home: https://github.com/lucor/fyne-opensnitch/
 icon:
 

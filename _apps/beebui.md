@@ -1,6 +1,6 @@
 ---
 appid: xyz.andy.beebui
-name: beebUI
+title: BeebUI
 home: https://github.com/andydotxyz/beebui
 icon: https://github.com/andydotxyz/beebui/blob/master/icon.png?raw=true
 

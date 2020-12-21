@@ -1,6 +1,6 @@
 ---
 appid: io.github.srijan-sengupta.backup
-name: Backup-Master
+title: Backup-Master
 icon: https://raw.githubusercontent.com/Srijan-Sengupta/Backup-Master/master/Icon.png
 screenshot1: 
 

@@ -1,6 +1,6 @@
 ---
 appid: subtitlewatcher/polotto/com.github
-name: Subtitle watcher
+title: Subtitle watcher
 home: https://github.com/polotto/subtitlewatcher
 icon: https://github.com/polotto/subtitlewatcher/blob/main/icon.png?raw=true
 screenshot1: https://github.com/polotto/subtitlewatcher/blob/main/images/screen1.png?raw=true

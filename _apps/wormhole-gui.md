@@ -1,6 +1,6 @@
 ---
 appid: com.github.jacalz.wormhole-gui
-name: wormhole-gui
+title: wormhole-gui
 home: https://github.com/Jacalz/wormhole-gui
 icon: https://raw.githubusercontent.com/Jacalz/wormhole-gui/main/internal/assets/icon/icon-512.png
 screenshot1: https://raw.githubusercontent.com/Jacalz/wormhole-gui/main/internal/assets/screenshot.png

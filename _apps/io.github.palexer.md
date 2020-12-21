@@ -1,6 +1,6 @@
 ---
 appid: io.github.palexer
-name: Vocabulary Trainer
+title: Vocabulary Trainer
 home: https://palexer.github.io/vocabulary-trainer/
 icon: https://raw.githubusercontent.com/Palexer/vocabulary-trainer/master/VocabularyTrainer/resources/icon.png
 screenshot1: https://raw.githubusercontent.com/Palexer/vocabulary-trainer/master/screenshot.png

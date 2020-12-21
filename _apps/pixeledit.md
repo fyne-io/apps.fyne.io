@@ -1,6 +1,6 @@
 ---
 appid: io.fyne.pixeledit
-name: PixelEdit
+title: PixelEdit
 home: https://github.com/fyne-io/pixeledit
 icon: https://github.com/fyne-io/pixeledit/blob/master/Icon.png?raw=true
 screenshot1: https://github.com/fyne-io/pixeledit/raw/master/Screenshot.png
