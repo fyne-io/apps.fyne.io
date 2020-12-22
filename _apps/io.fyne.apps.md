@@ -11,7 +11,7 @@ category:  utility
 developer: The Fyne Team
 
 git: https://github.com/fyne-io/apps.git
-package: github.com/fyne-io/apps
+package: fyne.io/apps
 version: 
 ---
 
