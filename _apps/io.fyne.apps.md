@@ -5,7 +5,7 @@ home: https://github.com/fyne-io/apps
 icon: https://github.com/fyne-io/apps/blob/master/Icon.png?raw=true
 screenshot1: https://github.com/fyne-io/apps/raw/master/img/screenshot.png
 
-date:      2020-02-22 22:02:00
+date:      2020-12-22 22:02:00
 excerpt:   The app browse and install utility.
 category:  utility
 developer: The Fyne Team
