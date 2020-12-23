@@ -11,7 +11,7 @@ category: graphics
 developer: Palexer
 
 git: https://github.com/Palexer/image-viewer.git
-package: github.com/fyne-io/Palexer/image-viewer/ImageViewer
+package: github.com/Palexer/image-viewer/ImageViewer
 version: 
 ---
 

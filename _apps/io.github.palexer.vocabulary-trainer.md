@@ -11,7 +11,7 @@ category:  education
 developer: Palexer
 
 git: https://github.com/Palexer/vocabulary-trainer.git
-package: github.com/fyne-io/Palexer/vocabulary-trainer/VocabularyTrainer
+package: github.com/Palexer/vocabulary-trainer/VocabularyTrainer
 version: 
 ---
 
