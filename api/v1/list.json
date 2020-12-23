@@ -15,6 +15,7 @@ layout: none
   "summary": "{{ app.excerpt }}",
   "url": "{{ app.url | absolute_url  }}",
 
+  "requires": "{{ app.requires }}",
   "category": "{{ app.category }}",
   "website": "{{ app.home }}",
   "developer": "{{ app.developer }}",

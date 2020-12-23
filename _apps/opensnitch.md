@@ -1,8 +1,9 @@
 ---
 appid: com.github.lucor.opensnitch
+requires: linux
 title: Fyne OpenSnitch
 home: https://github.com/lucor/fyne-opensnitch/
-icon:
+icon: https://github.com/evilsocket/opensnitch/blob/master/ui/opensnitch/res/icon.png?raw=true
 
 screenshot1: https://github.com/lucor/fyne-opensnitch/blob/master/screenshot/ask_rule.png?raw=true
 
