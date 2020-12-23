@@ -2,7 +2,7 @@
 appid: io.github.palexer.image-viewer
 title: Image Viewer
 home: https://palexer.github.io/image-viewer/
-icon: https://raw.githubusercontent.com/Palexer/image-viewer/main/ImageViewer/resources/icon.png
+icon: https://raw.githubusercontent.com/Palexer/image-viewer/main/ImageViewer/data/icon.png
 screenshot1: https://raw.githubusercontent.com/Palexer/image-viewer/main/screenshot.png
 
 date:      2020-12-23 13:35:00
