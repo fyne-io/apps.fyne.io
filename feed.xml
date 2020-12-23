@@ -9,6 +9,9 @@ layout: none
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
     {% for post in site.apps %}
+    {% if post.disabled %}
+      {% continue %}
+    {% endif %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
