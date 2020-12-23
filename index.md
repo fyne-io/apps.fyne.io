@@ -19,6 +19,9 @@ as well as iOS and Android mobile devices.</p>
 
     {% assign applist = site.apps | sort: 'date' | reverse %}
     {% for app in applist %}
+    {% if app.disabled %}
+      {% continue %}
+    {% endif %}
     {% assign app_url = app.url | absolute_url  %}
 
     <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone">

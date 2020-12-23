@@ -1,5 +1,6 @@
 ---
 appid: com.github.potato-arcade.p64
+disabled: true
 title: Potato Arcade
 home: https://github.com/potato-arcade/p64
 icon: https://github.com/potato-arcade/p64/raw/master/potato.jpg?raw=true

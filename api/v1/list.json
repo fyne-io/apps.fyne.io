@@ -5,6 +5,9 @@ layout: none
 {%- assign applist = site.apps | sort: 'title' -%}
 {%- for app in applist -%}
 {%- assign app_url = app.url | absolute_url  -%}
+{% if app.disabled %}
+  {% continue %}
+{% endif %}
 {
   "id": "{{ app.appid }}",
   "name": "{{ app.title }}",
