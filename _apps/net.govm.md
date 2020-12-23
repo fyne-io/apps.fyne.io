@@ -1,8 +1,8 @@
 ---
 appid: net.govm
 title: govm wallet
-home: http://govm.net/
-icon: http://govm.net/img/logo.png
+home: https://govm.net/
+icon: https://govm.net/img/logo.png
 screenshot1: http://govm.net/img/screenshot.png
 
 date:      2020-12-22 21:48:30
