@@ -22,8 +22,11 @@ layout: default
         </ul>
       </div>
 
-      <img id="preview" src="{{ page.icon }}" />
-      <h3>{{ page.title }}</h3>
+      <span class="app {% if page.requires %}requires{% endif %} {{ page.requires | replace ",", " " }}">
+        <img id="preview" src="{{ page.icon }}" />
+        <span class="compatibility">(not compatible)</span>
+        <h3>{{ page.title }}</h3>
+      </span>
 
       <article class="post-content">
         <p>{{ content }}</p>

@@ -1,6 +1,10 @@
 ---
 ---
 
+a, .mdl-button.mdl-button--colored {
+    color: #03a9f4;
+}
+
 .mdl-layout__header {
     background-color: #03a9f4;
 }
@@ -40,3 +44,24 @@ img#preview {
     float: right;
 }
 
+/* app card styles */
+
+.app.incompatible {
+    background-color: #aaa;
+    opacity: 50%;
+}
+
+.app.incompatible a, .app.incompatible h3 {
+    text-decoration: line-through;
+    color: #666;
+}
+
+.app .compatibility {
+    visibility: hidden;
+    float: right;
+    padding: 10pt 5pt;
+}
+
+.app.incompatible .compatibility {
+    visibility: visible;
+}
