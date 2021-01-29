@@ -14,7 +14,7 @@ category:  utility
 developer: Aletheia Ware LLC
 
 git: https://github.com/AletheiaWareLLC/spacefynego.git
-package: aletheiaware.com/spacefynego
+package: aletheiaware.com/spacefynego/cmd
 version: 1.1.2
 ---
 
@@ -23,4 +23,3 @@ Space is a Digital Storage Platform focused on Privacy and Security.
 - End-to-End Encryption ensures your data is Secure and Private.
 - Proof-of-Work Blockchain ensures your data is Indelible and Immutable.
 - Cross-Platform support ensures your data is always where you need it.
-
