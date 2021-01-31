@@ -3,7 +3,7 @@ appid: com.aletheiaware.space
 title: S P A C E
 home: https://github.com/AletheiaWareLLC/spacefynego/
 icon: https://github.com/AletheiaWareLLC/spacefynego/blob/master/ui/data/logo.png?raw=true
-screenshot1: https://space.aletheiaware.com/space-illustration.svg
+screenshot1: https://space.aletheiaware.com/space-illustration.png
 screenshot2: https://space.aletheiaware.com/space.svg
 screenshot3: https://space.aletheiaware.com/space-phone.png
 screenshot4: https://space.aletheiaware.com/space-table.png
