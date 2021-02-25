@@ -13,7 +13,7 @@ disqus_shortname: 'fyne-apps'
 more_vert:
   option1:
     name: Submit App
-    link: mailto:info@fyne.io
+    link: https://developer.fyne.io/submit/
 
 collections:
   apps:
