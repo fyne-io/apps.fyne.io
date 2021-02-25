@@ -9,7 +9,7 @@ screenshot1: https://github.com/fynelabs/dicomgraphics/blob/main/screenshot.png?
 date:      2019-07-13 9:15:00
 excerpt:   A DICOM image viewer and utilities
 category:  medical
-developer: Andy Williams
+developer: Fyne Labs
 
 git: https://github.com/fynelabs/dicomgraphics.git
 package: github.com/fynelabs/dicomgraphics/cmd/dicomviewer
