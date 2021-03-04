@@ -25,7 +25,7 @@ layout: none
     {
       "image": "{{ img.url }}",
       "type": "desktop"
-    },
+    }{%- unless forloop.last %},{% endunless %}
 {%- endfor %}
   ],
   "source": {
