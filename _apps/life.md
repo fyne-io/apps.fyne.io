@@ -15,6 +15,9 @@ developer: The Fyne Team
 git: https://github.com/fyne-io/life.git
 package: github.com/fyne-io/life
 version: 
+
+appleid: 1501362020
+googleid: io.fyne.life
 ---
 
 See how cells evolve over generations and set up simulations of complex behaviour.

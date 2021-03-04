@@ -15,6 +15,8 @@ developer: Andy Williams
 git: https://github.com/andydotxyz/fynegameboy.git
 package: github.com/andydotxyz/fynegameboy
 version: 
+
+googleid: xyz.andy.gameboy
 ---
 
 Run gameboy cartridges on your computer or your mobile!

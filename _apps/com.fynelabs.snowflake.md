@@ -14,6 +14,8 @@ developer: Fyne Labs
 git: https://github.com/fynelabs/snowflake.git
 package: github.com/fynelabs/snowflake
 version: 
+
+googleid: com.fynelabs.snowflake
 ---
 
 A Christmas card gift from FyneLabs to our customers and the Fyne community.

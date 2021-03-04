@@ -15,6 +15,9 @@ developer: Fyne Labs
 git: https://github.com/fynelabs/notes.git
 package: github.com/fynelabs/notes
 version: 
+
+appleid: 1555919586
+#googleid: com.fynelabs.notes
 ---
 
 A simple notes app demonstrating various Fyne features.
