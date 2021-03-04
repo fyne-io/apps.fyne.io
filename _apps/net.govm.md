@@ -3,7 +3,8 @@ appid: net.govm
 title: govm wallet
 home: https://govm.net/
 icon: https://govm.net/img/logo.png
-screenshot1: http://govm.net/img/screenshot.png
+screenshots:
+- url: http://govm.net/img/screenshot.png
 
 date:      2020-12-22 21:48:30
 excerpt:   GUI wallet of blockchain. govm wallet.

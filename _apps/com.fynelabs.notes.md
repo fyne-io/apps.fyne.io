@@ -4,7 +4,8 @@ title: Notes
 home: https://github.com/fynelabs/notes/
 icon: https://github.com/fynelabs/notes/raw/main/Icon.png
 
-screenshot1: https://github.com/fynelabs/notes/blob/main/img/screenshot.png?raw=true
+screenshots:
+- url: https://github.com/fynelabs/notes/blob/main/img/screenshot.png?raw=true
 
 date:      2021-02-25 14:22:00
 excerpt:   A simple notes app using Fyne

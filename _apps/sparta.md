@@ -3,7 +3,8 @@ appid: com.github.jacalz.sparta
 title: Sparta
 home: https://github.com/Jacalz/sparta
 icon: https://raw.githubusercontent.com/Jacalz/sparta/master/internal/assets/icon-512.png
-screenshot1: https://raw.githubusercontent.com/Jacalz/sparta/master/internal/assets/screenshot.png
+screenshots:
+- url: https://raw.githubusercontent.com/Jacalz/sparta/master/internal/assets/screenshot.png
 
 date:      2020-06-26 14:30:00
 excerpt:   The private way to keep track of exercises.

@@ -4,7 +4,8 @@ title: Fyne Settings
 home: https://github.com/fyne-io/fyne/
 icon: https://github.com/fyne-io/fyne/raw/develop/cmd/fyne_settings/Icon.png
 
-screenshot1: https://github.com/fyne-io/fyne/raw/develop/cmd/fyne_settings/screenshot.png
+screenshots:
+- url: https://github.com/fyne-io/fyne/raw/develop/cmd/fyne_settings/screenshot.png
 
 date:      2020-06-07 13:09:23 +0100
 excerpt:   Configuration for all Fyne apps

@@ -3,7 +3,8 @@ appid: com.github.jacalz.wormhole-gui
 title: wormhole-gui
 home: https://github.com/Jacalz/wormhole-gui
 icon: https://raw.githubusercontent.com/Jacalz/wormhole-gui/main/internal/assets/icon/icon-512.png
-screenshot1: https://raw.githubusercontent.com/Jacalz/wormhole-gui/main/internal/assets/screenshot.png
+screenshots:
+- url: https://raw.githubusercontent.com/Jacalz/wormhole-gui/main/internal/assets/screenshot.png
 
 date:      2020-11-09 20:08:00
 excerpt:   Graphical user interface for easy encrypted sharing of files, folders, and text between devices on a local network. 

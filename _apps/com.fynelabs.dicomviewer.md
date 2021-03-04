@@ -4,7 +4,8 @@ title: DICOM Viewer
 home: https://github.com/fynelabs/dicomgraphics/
 icon: https://github.com/fynelabs/dicomgraphics/raw/main/icon.png
 
-screenshot1: https://github.com/fynelabs/dicomgraphics/blob/main/screenshot.png?raw=true
+screenshots:
+- url: https://github.com/fynelabs/dicomgraphics/blob/main/screenshot.png?raw=true
 
 date:      2019-07-13 9:15:00
 excerpt:   A DICOM image viewer and utilities

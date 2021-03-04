@@ -5,7 +5,8 @@ title: Fyne OpenSnitch
 home: https://github.com/lucor/fyne-opensnitch/
 icon: https://github.com/evilsocket/opensnitch/blob/master/ui/opensnitch/res/icon.png?raw=true
 
-screenshot1: https://github.com/lucor/fyne-opensnitch/blob/master/screenshot/ask_rule.png?raw=true
+screenshots:
+- url: https://github.com/lucor/fyne-opensnitch/blob/master/screenshot/ask_rule.png?raw=true
 
 date:      2019-05-13 9:43:42+100
 excerpt:   An OpenSnitch UI in Go using Fyne

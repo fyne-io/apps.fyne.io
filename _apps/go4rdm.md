@@ -4,7 +4,8 @@ title: Go4RDM
 home: https://github.com/gohouse/go4rdm
 icon: https://raw.githubusercontent.com/gohouse/go4rdm/master/assets/logo.png
 
-screenshot1: https://raw.githubusercontent.com/gohouse/go4rdm/master/assets/6.jpg
+screenshots:
+- url: https://raw.githubusercontent.com/gohouse/go4rdm/master/assets/6.jpg
 
 date:      2020-10-13 9:42:23
 excerpt:   A Golang For Redis Desktop Manager

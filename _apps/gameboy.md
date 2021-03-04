@@ -4,7 +4,8 @@ title: FyneGameBoy
 home: https://github.com/andydotxyz/fynegameboy
 icon: https://github.com/andydotxyz/fynegameboy/raw/master/Icon.png
 
-screenshot1: https://github.com/andydotxyz/fynegameboy/blob/master/img/dino.png?raw=true
+screenshots:
+- url: https://github.com/andydotxyz/fynegameboy/blob/master/img/dino.png?raw=true
 
 date:      2019-03-10 22:31:00-000
 excerpt:   A Fyne based interface for desktop and mobile

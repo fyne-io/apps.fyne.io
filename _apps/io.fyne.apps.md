@@ -3,7 +3,8 @@ appid: io.fyne.apps
 title: Fyne Apps Installer
 home: https://github.com/fyne-io/apps
 icon: https://github.com/fyne-io/apps/blob/master/Icon.png?raw=true
-screenshot1: https://github.com/fyne-io/apps/raw/master/img/screenshot.png
+screenshots:
+- url: https://github.com/fyne-io/apps/raw/master/img/screenshot.png
 
 date:      2020-12-22 22:02:00
 excerpt:   The app browse and install utility.

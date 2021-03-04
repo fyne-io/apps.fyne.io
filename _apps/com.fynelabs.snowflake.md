@@ -3,7 +3,8 @@ appid: com.fynelabs.snowflake
 title: Snowflake
 home: https://github.com/fynelabs/snowflake
 icon: https://github.com/fynelabs/snowflake/blob/main/Icon.png?raw=true
-screenshot1: https://github.com/fynelabs/snowflake/raw/main/img/screenshot.png
+screenshots:
+- url: https://github.com/fynelabs/snowflake/raw/main/img/screenshot.png
 
 date:      2020-12-18 13:56:00
 excerpt:   A Koch Snowflake Christmas Scene

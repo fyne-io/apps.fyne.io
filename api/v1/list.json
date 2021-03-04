@@ -21,10 +21,12 @@ layout: none
   "developer": "{{ app.developer }}",
 
   "screenshots": [
+{%- for img in app.screenshots %}
     {
-      "image": "{{ app.screenshot1 }}",
+      "image": "{{ img.url }}",
       "type": "desktop"
-    }
+    },
+{%- endfor %}
   ],
   "source": {
     "git": "{{ app.git }}",

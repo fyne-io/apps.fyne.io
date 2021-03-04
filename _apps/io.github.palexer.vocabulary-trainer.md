@@ -3,7 +3,8 @@ appid: io.github.palexer.vocabulary-trainer
 title: Vocabulary Trainer
 home: https://palexer.github.io/vocabulary-trainer/
 icon: https://raw.githubusercontent.com/Palexer/vocabulary-trainer/master/VocabularyTrainer/resources/icon.png
-screenshot1: https://raw.githubusercontent.com/Palexer/vocabulary-trainer/master/screenshot.png
+screenshots:
+- url: https://raw.githubusercontent.com/Palexer/vocabulary-trainer/master/screenshot.png
 
 date:      2020-12-10 09:24:30
 excerpt:   A vocabulary training assistant

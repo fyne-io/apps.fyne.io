@@ -31,7 +31,9 @@ layout: default
       <article class="post-content">
         <p>{{ content }}</p>
 
-	<img src="{{ page.screenshot1 }}" />
+        {% for img in page.screenshots %}
+        <img src="{{ img.url }}" style="width: auto; max-width: 100%" />
+        {% endfor %}
       </article>
 
       <h3>Installation</h3>

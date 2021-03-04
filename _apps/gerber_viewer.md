@@ -5,7 +5,8 @@ title: Gerber Viewer
 home: https://github.com/gmlewis/go-gerber/
 icon: 
 
-screenshot1: https://github.com/gmlewis/go-gerber/blob/master/examples/hex-bifilar-coil/hex-bifilar-coil-layers.gif?raw=true
+screenshots:
+- url: https://github.com/gmlewis/go-gerber/blob/master/examples/hex-bifilar-coil/hex-bifilar-coil-layers.gif?raw=true
 
 date:      2019-03-14 18:22:50-500
 excerpt:   A viewer for Gerber RS274X files (for PCBs)

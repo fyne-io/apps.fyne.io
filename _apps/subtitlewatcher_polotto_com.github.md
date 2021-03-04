@@ -3,7 +3,8 @@ appid: subtitlewatcher/polotto/com.github
 title: Subtitle watcher
 home: https://github.com/polotto/subtitlewatcher
 icon: https://github.com/polotto/subtitlewatcher/blob/main/icon.png?raw=true
-screenshot1: https://github.com/polotto/subtitlewatcher/blob/main/images/screen1.png?raw=true
+screenshots:
+- url: https://github.com/polotto/subtitlewatcher/blob/main/images/screen1.png?raw=true
 
 date:      2020-12-10 09:19:00
 excerpt:   Automatic subtitle downloader

@@ -2,7 +2,7 @@
 appid: io.github.srijan-sengupta.backup
 title: Backup-Master
 icon: https://raw.githubusercontent.com/Srijan-Sengupta/Backup-Master/master/Icon.png
-screenshot1: 
+screenshots:
 
 date:      2020-12-18 13:51:00
 excerpt:   A friendly way to take backups for your important files
