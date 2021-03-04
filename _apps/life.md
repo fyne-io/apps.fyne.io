@@ -16,7 +16,7 @@ git: https://github.com/fyne-io/life.git
 package: github.com/fyne-io/life
 version: 
 
-appleid: 1501362020
+appleid: 1555055099
 googleid: io.fyne.life
 ---
 
