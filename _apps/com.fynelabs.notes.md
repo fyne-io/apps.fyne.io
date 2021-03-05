@@ -17,7 +17,7 @@ package: github.com/fynelabs/notes
 version: 
 
 appleid: 1555919586
-#googleid: com.fynelabs.notes
+googleid: com.fynelabs.notes
 ---
 
 A simple notes app demonstrating various Fyne features.
