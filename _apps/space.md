@@ -6,7 +6,7 @@ icon: https://github.com/AletheiaWareLLC/spacefynego/blob/master/ui/data/logo.pn
 screenshots:
 - url: https://space.aletheiaware.com/space-illustration.png
 - url: https://space.aletheiaware.com/space-phone.png
-- url: https://space.aletheiaware.com/space-table.png
+- url: https://space.aletheiaware.com/space-tablet.png
 
 date:      2021-01-31 12:00:00
 excerpt:   Secure, Private, Storage.
