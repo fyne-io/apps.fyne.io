@@ -34,7 +34,7 @@
     <nav class="mdl-navigation">
     {% assign pages = site.pages | sort: 'order' %}
     {% for page in pages %}
-      {% if page.title and page.title != "Fyne Apps Support" %}
+      {% if page.title and page.order < 50 %}
       <a class="mdl-navigation__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
       {% endif %}
     {% endfor %}
@@ -46,7 +46,12 @@
     {% endfor %}
 
       <span class="group">Links</span>
-      <a class="mdl-navigation__link" href="/support.html">Support</a>
+    {% assign pages = site.pages | sort: 'order' %}
+    {% for page in pages %}
+      {% if page.title and page.order >= 50 %}
+      <a class="mdl-navigation__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      {% endif %}
+    {% endfor %}
       <a class="mdl-navigation__link" href="https://developer.fyne.io/submit/">List My App</a>
 
     </nav>
