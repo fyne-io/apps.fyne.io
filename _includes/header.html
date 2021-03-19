@@ -32,7 +32,8 @@
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Menu</span>
     <nav class="mdl-navigation">
-    {% for page in site.pages %}
+    {% assign pages = site.pages | sort: 'order' %}
+    {% for page in pages %}
       {% if page.title %}
       <a class="mdl-navigation__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
       {% endif %}
