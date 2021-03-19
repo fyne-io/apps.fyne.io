@@ -8,7 +8,7 @@ screenshots:
 
 date:      2020-06-26 14:30:00
 excerpt:   The private way to keep track of exercises.
-category:  exercising
+category:  sport
 developer: Jacalz
 
 git: https://github.com/Jacalz/sparta.git

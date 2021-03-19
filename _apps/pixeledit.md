@@ -8,7 +8,7 @@ screenshots:
 
 date:      2020-02-19 12:11:00
 excerpt:   A pixel based image editor built using Fyne.
-category:  utility
+category:  graphics
 developer: The Fyne Team
 
 git: https://github.com/fyne-io/pixeledit.git

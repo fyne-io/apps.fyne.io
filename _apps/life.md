@@ -9,7 +9,7 @@ screenshots:
 
 date:      2020-12-21 09:20:00
 excerpt:   A Conway's Game of Life simulation
-category:  utility
+category:  entertainment
 developer: The Fyne Team
 
 git: https://github.com/fyne-io/life.git

@@ -18,6 +18,9 @@ more_vert:
 collections:
   apps:
     output: true
+  categories:
+    output: true
+    permalink: /category/:name
 
 defaults:
   - scope:

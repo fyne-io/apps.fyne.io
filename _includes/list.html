@@ -17,6 +17,7 @@
         <h2 class="mdl-card__title-text"><a href="{{ app_url }}">{{ app.title }}</a></h2>
       </div>
       <div class="mdl-card__supporting-text">
+        <span class="category">{{ app.category }}</span>
         <span>{{ app.date | date: "%b %-d, %Y" }}</span>
         <p>{{ app.excerpt }}</p>
       </div>

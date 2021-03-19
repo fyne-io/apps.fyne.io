@@ -9,7 +9,7 @@ screenshots:
 
 date:      2019-03-10 22:31:00-000
 excerpt:   A Fyne based interface for desktop and mobile
-category:  entertainment
+category:  games
 developer: Andy Williams
 
 git: https://github.com/andydotxyz/fynegameboy.git

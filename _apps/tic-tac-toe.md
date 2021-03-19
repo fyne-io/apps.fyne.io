@@ -8,7 +8,7 @@ screenshots:
 
 date:      2020-02-19 14:42:00
 excerpt:   A simple tic-tac-toe game built using Fyne.
-category:  game
+category:  games
 developer: Jacalz
 
 git: https://github.com/Jacalz/fyne-board-games.git

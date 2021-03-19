@@ -46,6 +46,10 @@ img#preview {
 
 /* app card styles */
 
+.app .category {
+    float: right;
+}
+
 .app.incompatible {
     background-color: #aaa;
     opacity: 50%;
@@ -68,5 +72,13 @@ img#preview {
 
 a.mobilestore {
     text-decoration: none;
+}
+
+/* nav */
+
+nav .group {
+    padding: 16px;
+    font-weight: bold;
+    font-size: large;
 }
 
