@@ -1,5 +1,6 @@
 ---
 appid: com.github.tk103331.gohosts
+requires: linux,windows,darwin
 title: GoHosts
 home: https://github.com/tk103331/gohosts
 icon: https://github.com/tk103331/gohosts/blob/main/logo.png?raw=true
