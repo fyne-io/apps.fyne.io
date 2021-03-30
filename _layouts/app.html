@@ -22,7 +22,7 @@ layout: default
         </ul>
       </div>
 
-      <span class="app {% if page.requires %}requires{% endif %} {{ page.requires | replace ",", " " }}">
+      <span class="app {% if page.requires %}requires {{ page.requires | replace: ",", " " }}{% endif %}">
         <img id="preview" src="{{ page.icon }}" />
         <span class="compatibility">(does not support your operating system)</span>
         <h3>{{ page.title }}</h3>
