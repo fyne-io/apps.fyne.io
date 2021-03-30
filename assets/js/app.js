@@ -25,7 +25,7 @@ $(document).ready(function(){
     if (os == "win32") {
         filter("windows");
     } else if (os == "MacIntel") {
-        filter("macos");
+        filter("darwin");
     } else if (os == "Linux i686" || os == "Linux x86_64" ||
                os == "FreeBSD i386" || os == "FreeBSD amd64") {
         filter("linux");
