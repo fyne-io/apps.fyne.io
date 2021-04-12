@@ -9,7 +9,7 @@ screenshots:
 
 date:      2021-02-25 14:22:00
 excerpt:   A simple notes app using Fyne
-category:  utility
+category:  productivity
 developer: Fyne Labs
 
 git: https://github.com/fynelabs/notes.git
