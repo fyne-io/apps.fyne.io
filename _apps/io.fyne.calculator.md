@@ -17,6 +17,7 @@ package: github.com/fyne-io/calculator
 version: 
 
 appleid: 1568737297
+googleid: io.fyne.calculator
 ---
 
 A simple calculator utility
