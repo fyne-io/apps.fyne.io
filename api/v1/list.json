@@ -10,9 +10,9 @@ layout: none
 {% endif %}
 {
   "id": "{{ app.appid }}",
-  "name": "{{ app.title }}",
+  "name": "{{ app.title | escape }}",
   "icon": "{{ app.icon }}",
-  "summary": "{{ app.excerpt }}",
+  "summary": "{{ app.excerpt | escape }}",
   "url": "{{ app.url | absolute_url  }}",
 
   "requires": "{{ app.requires }}",
