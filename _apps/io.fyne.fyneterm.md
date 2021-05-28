@@ -1,6 +1,6 @@
 ---
 appid: io.fyne.fyneterm
-requires: linux,darwin
+requires: linux,darwin,windows
 
 title: FyneTerm
 home: https://github.com/fyne-io/terminal
@@ -8,6 +8,7 @@ icon: https://github.com/fyne-io/terminal/blob/master/cmd/fyneterm/Icon.png?raw=
 screenshots:
 - url: https://github.com/fyne-io/terminal/raw/master/img/linux.png
 - url: https://github.com/fyne-io/terminal/raw/master/img/macos.png
+- url: https://github.com/fyne-io/terminal/raw/master/img/windows.png
 
 date:      2021-04-08 17:57:00
 excerpt:   A Fyne based terminal emulator
@@ -22,4 +23,5 @@ version:
 Thie Fyne based terminal emulator is a great way to get a full color,
 scalable and smooth font rendering of your console usage.
 
-Build for Linux and macOS with more platforms to follow.
+Currently supports Linux, macOS and Windows with more platforms to follow.
+
