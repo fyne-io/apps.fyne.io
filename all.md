@@ -18,7 +18,7 @@ order:  2
       </div>
     </div>
 
-    {% assign applist = site.apps | sort: 'title' %}
+    {% assign applist = site.apps | sort_natural: 'title' %}
 	{% include list.html applist=applist %}
 
 </div>
