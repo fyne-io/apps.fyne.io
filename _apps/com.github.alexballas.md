@@ -1,7 +1,7 @@
 ---
 appid: com.github.alexballas.go2tv
 requires: windows,linux,darwin
-title: GoShot
+title: Go2TV
 home: https://github.com/alexballas/go2tv
 icon: https://raw.githubusercontent.com/alexballas/go2tv/main/assets/go2tv-red.svg
 screenshots:
