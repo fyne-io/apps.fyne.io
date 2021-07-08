@@ -9,8 +9,12 @@ layout: default
 
       <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
         <div class="mdl-card__supporting-text">
-          <h4>Welcome to Fyne Apps - {{ page.category | capitalize }}</h4>
-          <p>All apps registered with the {{ page.category }} category.</p>
+          {% assign cat = page.category | capitalize %}
+          {% if page.display != nil %}
+            {% assign cat = page.display %}
+          {% endif %}
+          <h4>Welcome to Fyne Apps - {{ cat }}</h4>
+          <p>All apps registered with the {{ cat | downcase }} category.</p>
         </div>
       </div>
     </div>
