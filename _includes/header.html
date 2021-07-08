@@ -42,7 +42,12 @@
       <span class="group">Categories</span>
     {% assign cats = site.categories | sort: 'title' %}
     {% for cat in cats %}
-      <a class="mdl-navigation__link" href="{{ cat.url | prepend: site.baseurl }}">{{ cat.title }}</a>
+      {% assign name = cat.category | capitalize %}
+      {% if cat.display != nil %}
+        {% assign name = cat.display %}
+      {% endif %}
+
+      <a class="mdl-navigation__link" href="{{ cat.url | prepend: site.baseurl }}">{{ name }}</a>
     {% endfor %}
 
       <span class="group">Links</span>
