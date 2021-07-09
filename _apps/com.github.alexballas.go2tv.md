@@ -3,7 +3,7 @@ appid: com.github.alexballas.go2tv
 requires: windows,linux,darwin
 title: Go2TV
 home: https://github.com/alexballas/go2tv
-icon: https://github.com/alexballas/go2tv/blob/main/assets/go2tv-icon.png
+icon: https://github.com/alexballas/go2tv/raw/main/assets/go2tv-icon.png
 screenshots:
 - url: https://i.imgur.com/Bw2uthY.png
 
