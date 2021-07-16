@@ -5,7 +5,7 @@ home: https://gitlab.com/cchuster/speader
 icon: https://i.ibb.co/VYPNRZy/speader.png
 
 screenshots:
-- url: https://ibb.co/m9xQNW1
+- url: https://i.ibb.co/gSns4KH/preview.png
 
 date:      2021-07-16 11:23:00-000
 excerpt:   Displaying text in small segments to increase reading speed and efficiency.
