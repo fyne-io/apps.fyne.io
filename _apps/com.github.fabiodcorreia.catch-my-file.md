@@ -13,7 +13,7 @@ category:  utility
 developer: Fábio Correia
 
 git: https://github.com/fabiodcorreia/catch-my-file
-package: github.com/fabiodcorreia/catch-my-file/cmd/frontend
+package: github.com/fabiodcorreia/catch-my-file
 version:
 
 ---
