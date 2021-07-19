@@ -1,6 +1,6 @@
 ---
 appid: dev.cchuster.speader
-title: One word at a time
+title: Speader
 home: https://gitlab.com/cchuster/speader
 icon: https://i.ibb.co/VYPNRZy/speader.png
 
@@ -8,7 +8,7 @@ screenshots:
 - url: https://i.ibb.co/gSns4KH/preview.png
 
 date:      2021-07-16 11:23:00-000
-excerpt:   Displaying text in small segments to increase reading speed and efficiency.
+excerpt:   One word at a time.
 category:  utility
 developer: Conner C.
 
