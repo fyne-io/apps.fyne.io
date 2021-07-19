@@ -12,8 +12,8 @@ excerpt:   Send and receive files without configuration.
 category:  utility
 developer: Fábio Correia
 
-git: https://gitlab.com/cchuster/speader.git
-package: gitlab.com/cchuster/speader
+git: https://github.com/fabiodcorreia/catch-my-file
+package: github.com/fabiodcorreia/catch-my-file/cmd/frontend
 version:
 
 ---
