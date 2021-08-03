@@ -15,6 +15,8 @@ developer: Andy Williams
 git: https://github.com/andydotxyz/sshterm.git
 package: github.com/andydotxyz/sshterm
 version: 
+
+googleid: xyz.andy.sshterm2
 ---
 
 Connect to remote servers over an SSH connection and run your favourite commands.
