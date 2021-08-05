@@ -2,7 +2,7 @@
 appid: net.synfin.AlpacaScope
 title: AlpacaScope
 home: https://synfin.net
-icon: https://raw.githubusercontent.com/synfinatic/alpacascope/main/Icon.png
+icon: https://raw.githubusercontent.com/synfinatic/alpacascope/main/gui/Icon.png
 screenshots:
 - url: https://user-images.githubusercontent.com/1075352/126884700-13caa5e7-fca7-4fc2-8c1e-33dad1ca353d.png
 
