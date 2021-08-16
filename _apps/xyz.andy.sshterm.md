@@ -5,7 +5,8 @@ home: https://github.com/andydotxyz/sshterm
 icon: https://github.com/andydotxyz/sshterm/raw/main/Icon.png
 
 screenshots:
-- url: https://github.com/andydotxyz/sshterm/blob/main/img/screenshot.png?raw=true
+- url: https://github.com/andydotxyz/sshterm/blob/main/img/screenshot1.png?raw=true
+- url: https://github.com/andydotxyz/sshterm/blob/main/img/screenshot2.png?raw=true
 
 date:      2021-07-26 14:26:00-000
 excerpt:   A remote terminal over SSH using Fyne.
