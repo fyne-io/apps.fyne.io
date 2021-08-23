@@ -17,6 +17,7 @@ git: https://github.com/andydotxyz/sshterm.git
 package: github.com/andydotxyz/sshterm
 version: 
 
+appleid: 1578453574
 googleid: xyz.andy.sshterm2
 ---
 
