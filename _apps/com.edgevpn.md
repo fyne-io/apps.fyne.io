@@ -1,7 +1,7 @@
 ---
 appid: com.edgevpn
 title: EdgeVPN gui
-home: www.mudler.pm
+home: https://www.mudler.pm
 icon: https://user-images.githubusercontent.com/2420543/144679248-1f6e4c10-a558-424c-b6f5-b3695269c906.png
 
 screenshots:

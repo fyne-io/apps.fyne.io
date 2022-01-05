@@ -1,7 +1,7 @@
 ---
 appid: me.ankushjadhav.fynesweeper
 title: fynesweeper
-home: www.ankushjadhav.me
+home: https://www.ankushjadhav.me
 icon: https://raw.githubusercontent.com/AnkushJadhav/fynesweeper/main/assets/png/Icon.png
 screenshots:
 - url: https://raw.githubusercontent.com/AnkushJadhav/fynesweeper/main/assets/png/demo.png
