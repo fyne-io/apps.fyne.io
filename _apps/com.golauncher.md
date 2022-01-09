@@ -14,6 +14,8 @@ excerpt:   Highly extensible, customizable application launcher
 category:  productivity
 developer: Ettore Di Giacinto
 
+requires: linux,freebsd,windows,darwin
+
 git: https://github.com/mudler/golauncher
 package: github.com/mudler/golauncher
 version: 0.1
