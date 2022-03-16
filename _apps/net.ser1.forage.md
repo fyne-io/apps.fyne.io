@@ -5,8 +5,9 @@ home: https://www.ser1.net
 icon: https://hg.sr.ht/~ser/forage/raw/assets/shopping_cart-blue.png
 screenshots:
 - url: https://hg.sr.ht/~ser/forage/raw/assets/AndroidScreenshot.jpg
-excerpt: Forage is a shopping list app for your (self-hosted) Mealie instance
 
+date: 2022-01-30 21:57:00-000
+excerpt: Forage is a shopping list app for your (self-hosted) Mealie instance
 category:  utility
 developer: Sean Russell
 
