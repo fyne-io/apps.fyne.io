@@ -15,6 +15,8 @@ developer: Alex Ballas
 git: https://github.com/alexballas/go2tv.git
 package: github.com/alexballas/go2tv/cmd/go2tv
 version: 1.11.0
+
+googleid: com.alexballas.go2tv
 ---
 
 Cast media files to UPnP/DLNA Media Renderers and Smart TVs
