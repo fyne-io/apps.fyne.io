@@ -44,8 +44,8 @@ fyne get {{ page.package }}</pre>
       <p>Or you can download the code directly from git:</p>
       <code>git clone {{ page.git }}</code>
 	  
-	  {% if page.appleid or page.googleid %}
-	  <h3>Mobile</h3>
+	  {% if page.appleid or page.googleid or page.flathub %}
+	  <h3>Stores</h3>
 	  <p>This app is also available at the following stores:</p>
 	  {% if page.appleid %}
 	  <a href="https://apps.apple.com/app/id{{ page.appleid }}" class="mobilestore">
@@ -55,6 +55,11 @@ fyne get {{ page.package }}</pre>
 	  {% if page.googleid %}
 	  <a href="https://play.google.com/store/apps/details?id={{ page.googleid }}" class="mobilestore">
 		  <img src="/assets/img/playstore.png" style="max-width: 160px">
+	  </a>
+	  {% endif %}
+	  {% if page.flathub %}
+	  <a href="https://flathub.org/apps/details/{{ page.flathub }}" class="mobilestore">
+		  <img src="/assets/img/flathub.png" style="max-width: 160px">
 	  </a>
 	  {% endif %}
 	  {% endif %}

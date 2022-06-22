@@ -17,6 +17,8 @@ developer: Jacalz
 git: https://github.com/Jacalz/rymdport.git
 package: github.com/Jacalz/rymdport/v3
 version: 3.0.2
+
+flathub: io.github.jacalz.rymdport
 ---
 
 Rymdport (formerly wormhole-gui) is a cross-platform application that lets you easily and safely share files, folders, and text between devices.
