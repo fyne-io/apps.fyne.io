@@ -6,7 +6,7 @@ icon: https://github.com/fynelabs/nomad/raw/main/Icon.png
 
 screenshots:
 - url: https://github.com/fynelabs/nomad/blob/main/img/screenshot.png?raw=true
-- url: https://github.com/fynelabs/nomad/blob/main/img/picker?raw=true
+- url: https://github.com/fynelabs/nomad/blob/main/img/picker.png?raw=true
 
 date:      2022-07-22 19:37:00
 excerpt:   A splashy timezone conversion app
