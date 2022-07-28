@@ -16,6 +16,9 @@ developer: Fyne Labs
 git: https://github.com/fynelabs/nomad.git
 package: github.com/fynelabs/nomad
 version: v0.1.0
+
+appleid:  1636474608
+googleid: com.fynelabs.nomad
 ---
 
 Nomad is a time converion app that helps to manage time
