@@ -1,7 +1,7 @@
 ---
 appid: xyz.rescribe.rescribe
 title: Rescribe
-home: https://blog.rescribe.xyz/posts/desktop-tool/
+home: https://rescribe.xyz/rescribe
 icon: https://rescribe.xyz/icon-trans.svg
 
 screenshots:
