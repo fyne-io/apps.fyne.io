@@ -44,24 +44,35 @@ fyne get {{ page.package }}</pre>
       <p>Or you can download the code directly from git:</p>
       <code>git clone {{ page.git }}</code>
 	  
-	  {% if page.appleid or page.googleid or page.flathub %}
+	  {% if page.appleid or page.googleid or page.flathub or page.downloads %}
 	  <h3>Stores</h3>
 	  <p>This app is also available at the following stores:</p>
+	  <div class="stores">
 	  {% if page.appleid %}
-	  <a href="https://apps.apple.com/app/id{{ page.appleid }}" class="mobilestore">
+	  <a href="https://apps.apple.com/app/id{{ page.appleid }}" class="appstore">
 		  <img src="/assets/img/appstore.png" style="max-width: 143px">
 	  </a>
 	  {% endif %}
 	  {% if page.googleid %}
-	  <a href="https://play.google.com/store/apps/details?id={{ page.googleid }}" class="mobilestore">
+	  <a href="https://play.google.com/store/apps/details?id={{ page.googleid }}" class="appstore">
 		  <img src="/assets/img/playstore.png" style="max-width: 160px">
 	  </a>
 	  {% endif %}
 	  {% if page.flathub %}
-	  <a href="https://flathub.org/apps/details/{{ page.flathub }}" class="mobilestore">
+	  <a href="https://flathub.org/apps/details/{{ page.flathub }}" class="appstore">
 		  <img src="/assets/img/flathub.png" style="max-width: 160px">
 	  </a>
 	  {% endif %}
+	  {% if page.downloads %}
+	  <a href="https://geoffrey-artefacts.fynelabs.com/{{ page.downloads.path }}/{{ page.downloads.build }}/" class="download">
+		  <svg xmlns="http://www.w3.org/2000/svg" focusable="false" viewBox="0 0 24 24" color="rgb(255, 255, 255)" style="user-select: none; height: 30px; display: inline-block; fill: rgb(255, 255, 255) ; flex-shrink: 0; pointer-events: none;">
+		  <path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z" style="pointer-events: none;">
+		  </path>
+		  </svg>
+		  <span>Download</span><span class="platform">All Platforms</span>
+	  </a>
+	  {% endif %}
+	  </div>
 	  {% endif %}
 
       <!-- Disqus comments -->

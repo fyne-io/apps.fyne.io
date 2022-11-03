@@ -19,6 +19,11 @@ version: v0.1.0
 
 appleid:  1636474608
 googleid: com.fynelabs.nomad
+
+downloads:
+  path: github/andydotxyz/fynelabs/nomad
+  build: 33
+  platforms: android,darwin/amd64,darwin/arm64,freebsd/amd64,freebsd/arm64,linux/amd64,linux/arm64,windows/amd64
 ---
 
 Nomad is a time converion app that helps to manage time
