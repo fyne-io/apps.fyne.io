@@ -36,16 +36,8 @@ layout: default
         {% endfor %}
       </article>
 
-      <h3>Installation</h3>
-      <p>You can install this directly from the source code using the Fyne 
-      command as follows:</p>
-      <pre>go get fyne.io/fyne/v2/cmd/fyne
-fyne get {{ page.package }}</pre>
-      <p>Or you can download the code directly from git:</p>
-      <code>git clone {{ page.git }}</code>
-	  
 	  {% if page.appleid or page.googleid or page.flathub or page.downloads %}
-	  <h3>Stores</h3>
+	  <h3>Download</h3>
 	  <p>This app is also available at the following stores:</p>
 	  <div class="stores">
 	  {% if page.appleid %}
@@ -74,6 +66,14 @@ fyne get {{ page.package }}</pre>
 	  {% endif %}
 	  </div>
 	  {% endif %}
+
+      <h3>Installation</h3>
+      <p>You can install this directly from the source code using the Fyne 
+      command as follows:</p>
+      <pre>go get fyne.io/fyne/v2/cmd/fyne
+fyne get {{ page.package }}</pre>
+      <p>Or you can download the code directly from git:</p>
+      <code>git clone {{ page.git }}</code>
 
       <!-- Disqus comments -->
       {% if site.disqus %}
