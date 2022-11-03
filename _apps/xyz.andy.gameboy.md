@@ -17,6 +17,11 @@ package: github.com/andydotxyz/fynegameboy
 version: 
 
 googleid: xyz.andy.gameboy
+
+downloads:
+  path: github/andydotxyz/andydotxyz/fynegameboy
+  build: 35
+  platforms: android,darwin/amd64,darwin/arm64,linux/amd64,linux/arm64,windows/amd64
 ---
 
 Run gameboy cartridges on your computer or your mobile!

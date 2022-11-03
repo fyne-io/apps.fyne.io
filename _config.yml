@@ -15,6 +15,9 @@ more_vert:
     name: Submit App
     link: https://developer.fyne.io/submit/
 
+plugins:
+  - jekyll-redirect-from
+
 collections:
   apps:
     output: true
