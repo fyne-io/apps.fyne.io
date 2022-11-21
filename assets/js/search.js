@@ -94,19 +94,27 @@ MIT Licensed
 		currentResultHash = matchingPosts.reduce(function(hash, post) { return post.title + hash; }, '');
 		if (matchingPosts.length && currentResultHash !== lastSearchResultHash) {
 			searchResultsEl.classList.remove('is-hidden');
-			searchResultsEl.innerHTML = matchingPosts.map(function (post) {
-				d = new Date(post.pubDate);
-				return '<li><a href="' + post.link + '">' + post.title + '<span class="super-search__result-date">' + d.toUTCString().replace(/.*(\d{2})\s+(\w{3})\s+(\d{4}).*/,'$2 $1, $3') + '</span></a></li>';
+			searchResultsEl.innerHTML = matchingPosts.map(function (post) {				
+				return '<a class="app-card w-inline-block" href='+post.link+'><img src="'+post.icon+'" loading="lazy" alt="app icon" class="app-icon" <div class="app-card-title"> <div class="subheader">games</div></div><h5>'+post.title+'</h5><div class="label">'+post.description+'</div></a>'
+		
 			}).join('');
 		}
 		lastSearchResultHash = currentResultHash;
 	}
 
+	// <a href="app-details.html" class="app-card w-inline-block"><img src="images/Icon-2.png" loading="lazy" srcset="images/Icon-2-p-500.png 500w, images/Icon-2.png 620w" sizes="100vw" alt="" class="app-icon">
+    //         <div class="app-card-title">
+    //           <div class="subheader">games</div>
+    //           <h5 class="h5">FyneGameBoy</h5>
+    //           <div class="label">A Fyne based interface for desktop and mobile</div>
+    //         </div>
+    //       </a>
 	function init(options) {
 		searchFile = options.searchFile || searchFile;
 		searchEl = document.querySelector(options.searchSelector || '#js-super-search');
 		searchInputEl = document.querySelector(options.inputSelector || '#js-super-search__input');
-		searchResultsEl = document.querySelector(options.resultsSelector || '#js-super-search__results');
+		searchResultsEl = document.getElementById("search-results")// document.querySelector(options.resultsSelector || '#js-super-search__results');
+		console.log(searchResultsEl)
 
 		var xmlhttp=new XMLHttpRequest();
 		xmlhttp.open('GET', searchFile);
