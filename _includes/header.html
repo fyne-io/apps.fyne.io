@@ -1,66 +1,45 @@
-  <header class="mdl-layout__header">
-
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <a href="/" class="mdl-layout-title">{{ site.title }}</a>
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      
-
-      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable is-upgraded">
-        <label class="mdl-button mdl-js-button mdl-button--icon" for="js-search__input">
-          <i class="material-icons" onclick="superSearch.toggle()">search</i>
-        </label>
-
-        <div class="mdl-textfield__expandable-holder" >
-          <input class="mdl-textfield__input super-search__input" type="text" id="js-search__input" />
+<div class="header wf-section">
+  <div class="fy_container">
+    <div class="nav-menu">      
+      <a href="/" class="brand w-nav-brand"><img src="/assets/images/Fyne-Logo-Dark.png" loading="lazy" srcset="/assets/images/Fyne-Logo-Dark-p-500.png 500w, /assets/images/Fyne-Logo-Dark-p-800.png 800w, /assets/images/Fyne-Logo-Dark.png 1470w" sizes="(max-width: 479px) 27vw, (max-width: 767px) 26vw, 129.703125px" alt="" class="image"></a>
+      <div data-w-id="90a0fa0d-d1a4-18cc-6390-13cc41fee22a" class="search"><img src="/assets/images/search.svg" loading="lazy" alt="" class="icon">
+        <div class="w-form">
+          <form id="email-form" name="email-form" data-name="Email Form" method="get"><input type="text" class="text-field w-input" autofocus="true" maxlength="256" name="name-2" data-name="Name 2" placeholder="Search..." data-w-id="90a0fa0d-d1a4-18cc-6390-13cc41fee22e" id="name-2"></form>
+          <div class="w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
         </div>
       </div>
-
-      <button class="mdl-button mdl-js-button mdl-button--icon" id="menu-lower-left">
-        <i class="material-icons">more_vert</i>
-      </button>
-
-      <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="menu-lower-left">
-        {% for option in site.more_vert %}
-        <li><a href="{{ option[1].link }}" class="mdl-menu__item">{{ option[1].name }}</a></li>
-        {% endfor %}
-      </ul>
     </div>
-  </header>
-
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Menu</span>
-    <nav class="mdl-navigation">
-    {% assign pages = site.pages | sort: 'order' %}
-    {% for page in pages %}
-      {% if page.title and page.order < 50 %}
-      <a class="mdl-navigation__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      {% endif %}
-    {% endfor %}
-
-      <span class="group">Categories</span>
-    {% assign cats = site.categories | sort: 'title' %}
-    {% for cat in cats %}
-      {% assign name = cat.category | capitalize %}
-      {% if cat.display != nil %}
-        {% assign name = cat.display %}
-      {% endif %}
-
-      <a class="mdl-navigation__link" href="{{ cat.url | prepend: site.baseurl }}">{{ name }}</a>
-    {% endfor %}
-
-      <span class="group">Links</span>
-      <a class="mdl-navigation__link" href="https://fyne.io/support/">Fyne Support</a>
-    {% assign pages = site.pages | sort: 'order' %}
-    {% for page in pages %}
-      {% if page.title and page.order >= 50 %}
-      <a class="mdl-navigation__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      {% endif %}
-    {% endfor %}
-      <a class="mdl-navigation__link" href="https://developer.fyne.io/submit/">List My App</a>
-
-    </nav>
-
   </div>
-
+  <div class="results-container">
+    <div class="fy_container">
+      <div class="apps-container">
+        <a href="app-details.html" class="app-card w-inline-block"><img src="/assets/images/Icon-2.png" loading="lazy" srcset="/assets/images/Icon-2-p-500.png 500w,/assets/images/Icon-2.png 620w" sizes="100vw" alt="" class="app-icon">
+          <div class="app-card-title">
+            <div class="subheader">games</div>
+            <h5 class="h5">FyneGameBoy</h5>
+            <div class="label">A Fyne based interface for desktop and mobile</div>
+          </div>
+        </a>
+        <a href="app-details.html" class="app-card w-inline-block"><img src="/assets/images/Icon-2.png" loading="lazy" srcset="/assets/images/Icon-2-p-500.png 500w, /assets/images/Icon-2.png 620w" sizes="100vw" alt="" class="app-icon">
+          <div class="app-card-title">
+            <div class="subheader">games</div>
+            <h5 class="h5">FyneGameBoy</h5>
+            <div class="label">A Fyne based interface for desktop and mobile</div>
+          </div>
+        </a>
+        <a href="app-details.html" class="app-card w-inline-block"><img src="/assets/images/Icon-2.png" loading="lazy" srcset="/assets/images/Icon-2-p-500.png 500w, /assets/images/Icon-2.png 620w" sizes="100vw" alt="" class="app-icon">
+          <div class="app-card-title">
+            <div class="subheader">games</div>
+            <h5 class="h5">FyneGameBoy</h5>
+            <div class="label">A Fyne based interface for desktop and mobile</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

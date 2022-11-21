@@ -49,6 +49,7 @@ GEM
     faraday-rack (1.0.0)
     faraday-retry (1.0.3)
     ffi (1.15.5)
+    ffi (1.15.5-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (225)
@@ -231,6 +232,8 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.15.0)
     multipart-post (2.1.1)
+    nokogiri (1.13.9-x64-mingw-ucrt)
+      racc (~> 1.4)
     nokogiri (1.13.9-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.13.9-x86_64-linux)
@@ -275,6 +278,7 @@ GEM
     zeitwerk (2.5.4)
 
 PLATFORMS
+  x64-mingw-ucrt
   x86_64-darwin-20
   x86_64-linux
 

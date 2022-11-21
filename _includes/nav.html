@@ -1,0 +1,42 @@
+<div class="title wf-section">
+    <div class="fy_container w-container">
+      <div class="title-text-container">
+        <h1 class="h1">Apps</h1>
+        <div class="text-large">Just some of the amazing apps created using Fyne.            
+          <a href="https://developer.fyne.io/submit/" class="link-2"><br>Submit yours here</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="filters wf-section">
+    <div class="fy_container">
+      <div class="filter-row">
+        <a href="/" class="tab-button-{% if page.title == 'Newest additions' %}active{% else %}inactive{% endif %} w-button"  >New</a>
+        <a href="/all" class="tab-button-{% if page.title == 'All Apps' %}active{% else %}inactive{% endif %} w-button">All</a>
+        <div data-hover="false" data-delay="0" class="dropdown-2 w-dropdown">
+          <div class="tab-button-inactive w-dropdown-toggle">
+            <div>Categories</div>
+            <div class="dropdown-icon-grey w-embed">
+              <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" stroke-width="3" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <nav class="dropdown-list-2 w-dropdown-list">
+            <a href="#" class="dropdown-link w-dropdown-link">Development</a>
+            <a href="#" class="dropdown-link w-dropdown-link">Education</a>
+            <a href="#" class="dropdown-link w-dropdown-link">Entertainment</a>
+            <a href="#" class="dropdown-link w-dropdown-link">Finance</a>
+            <a href="category-example.html" class="dropdown-link w-dropdown-link">Games</a>
+            <a href="#" class="dropdown-link w-dropdown-link">Graphics</a>
+            <a href="#" class="dropdown-link w-dropdown-link">Medical</a>
+            <a href="#" class="dropdown-link w-dropdown-link">Operating Systems</a>
+            <a href="#" class="dropdown-link w-dropdown-link">Productivity</a>
+            <a href="#" class="dropdown-link w-dropdown-link">Sport</a>
+            <a href="#" class="dropdown-link w-dropdown-link">Utility</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
