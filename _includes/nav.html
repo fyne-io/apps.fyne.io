@@ -12,11 +12,11 @@
   <div class="filters wf-section">
     <div class="fy_container">
       <div class="filter-row">
-        <a href="/" class="tab-button-{% if page.title == 'Newest additions' %}active{% else %}inactive{% endif %} w-button"  >New</a>
-        <a href="/all" class="tab-button-{% if page.title == 'All Apps' %}active{% else %}inactive{% endif %} w-button">All</a>
+        <a href="/" class="tab-button-{% unless page.title == 'Newest additions' %}in{% endunless %}active w-button"  >New</a>
+        <a href="/all" class="tab-button-{% unless page.title == 'All Apps' %}in{% endunless %}active w-button">All</a>
         <div data-hover="false" data-delay="0" class="dropdown-2 w-dropdown">
-          <div class="tab-button-inactive w-dropdown-toggle">
-            <div>Categories</div>
+          <div class="tab-button-{% unless page.category %}in{% endunless %}active w-dropdown-toggle">
+            <div>{% if page.category %} {{page.category | capitalize }} {% else %} Categories {% endif %}</div>
             <div class="dropdown-icon-grey w-embed">
               <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" stroke-width="3" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor">
                 <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -24,17 +24,17 @@
             </div>
           </div>
           <nav class="dropdown-list-2 w-dropdown-list">
-            <a href="#" class="dropdown-link w-dropdown-link">Development</a>
-            <a href="#" class="dropdown-link w-dropdown-link">Education</a>
-            <a href="#" class="dropdown-link w-dropdown-link">Entertainment</a>
-            <a href="#" class="dropdown-link w-dropdown-link">Finance</a>
-            <a href="category-example.html" class="dropdown-link w-dropdown-link">Games</a>
-            <a href="#" class="dropdown-link w-dropdown-link">Graphics</a>
-            <a href="#" class="dropdown-link w-dropdown-link">Medical</a>
-            <a href="#" class="dropdown-link w-dropdown-link">Operating Systems</a>
-            <a href="#" class="dropdown-link w-dropdown-link">Productivity</a>
-            <a href="#" class="dropdown-link w-dropdown-link">Sport</a>
-            <a href="#" class="dropdown-link w-dropdown-link">Utility</a>
+            <a href="/category/development" class="dropdown-link w-dropdown-link">Development</a>
+            <a href="/category/education" class="dropdown-link w-dropdown-link">Education</a>
+            <a href="/category/entertainment" class="dropdown-link w-dropdown-link">Entertainment</a>
+            <a href="/category/finance" class="dropdown-link w-dropdown-link">Finance</a>
+            <a href="/category/games" class="dropdown-link w-dropdown-link">Games</a>
+            <a href="/category/graphics" class="dropdown-link w-dropdown-link">Graphics</a>
+            <a href="/category/medical" class="dropdown-link w-dropdown-link">Medical</a>
+            <a href="/category/operatingsystems" class="dropdown-link w-dropdown-link">Operating Systems</a>
+            <a href="/category/productivity" class="dropdown-link w-dropdown-link">Productivity</a>
+            <a href="/category/sport" class="dropdown-link w-dropdown-link">Sport</a>
+            <a href="/category/utility" class="dropdown-link w-dropdown-link">Utility</a>
           </nav>
         </div>
       </div>

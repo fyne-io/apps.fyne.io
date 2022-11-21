@@ -14,11 +14,10 @@
 
     {% assign app_url = app.url | absolute_url  %}
 
-    
     <a href="{{app.url}}" class="app-card">{% if app.icon %}<img src="{{app.icon}}" loading="lazy" alt="" class="app-icon">{% endif %}
       <div class="app-card-title">
         <div class="subheader">{{app.category}}</div>
-        <h5 class="h5">Pomadorik</h5>
+        <h5 class="h5">{{app.title}}</h5>
         <div class="label">{{app.excerpt}}</div>
       </div>
     </a>
@@ -27,6 +26,3 @@
     </div>
   </div>
 </div>
-
-
-  
