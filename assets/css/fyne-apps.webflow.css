@@ -134,6 +134,12 @@ a {
   grid-row-gap: 4px;
 }
 
+.search-open{
+  display: block;
+  width: 248px;
+  height: 38px;
+}
+
 .icon {
   height: 32px;
 }
