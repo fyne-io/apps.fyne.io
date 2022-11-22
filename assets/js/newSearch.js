@@ -9,5 +9,5 @@ function openSearch (element){
         element.parentElement.classList.remove(s);
         t[0].style.display = "none";
         t[0].style.width = "0";
-    }
+    }    
 }

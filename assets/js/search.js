@@ -9,7 +9,8 @@ MIT Licensed
 		searchResultsEl,
 		currentInputValue = '',
 		lastSearchResultHash,
-		posts = [];
+		posts = [],
+		resultsContainer;
 
 	// Changes XML to JSON
 	// Modified version from here: http://davidwalsh.name/convert-xml-json
@@ -78,6 +79,7 @@ MIT Licensed
 		if (!currentInputValue || currentInputValue.length < 3) {
 			lastSearchResultHash = '';
 			searchResultsEl.classList.add('is-hidden');
+			resultsContainer.style.display = "none";
 			return;
 		}
 		searchResultsEl.style.offsetWidth;
@@ -100,21 +102,18 @@ MIT Licensed
 			}).join('');
 		}
 		lastSearchResultHash = currentResultHash;
+
+		if (searchInputEl.value != '' && matchingPosts.length > 0) {
+			resultsContainer.style.display = "block";
+		}
 	}
 
-	// <a href="app-details.html" class="app-card w-inline-block"><img src="images/Icon-2.png" loading="lazy" srcset="images/Icon-2-p-500.png 500w, images/Icon-2.png 620w" sizes="100vw" alt="" class="app-icon">
-    //         <div class="app-card-title">
-    //           <div class="subheader">games</div>
-    //           <h5 class="h5">FyneGameBoy</h5>
-    //           <div class="label">A Fyne based interface for desktop and mobile</div>
-    //         </div>
-    //       </a>
 	function init(options) {
 		searchFile = options.searchFile || searchFile;
 		searchEl = document.querySelector(options.searchSelector || '#js-super-search');
 		searchInputEl = document.querySelector(options.inputSelector || '#js-super-search__input');
-		searchResultsEl = document.getElementById("search-results")// document.querySelector(options.resultsSelector || '#js-super-search__results');
-		console.log(searchResultsEl)
+		searchResultsEl = document.getElementById("search-results");
+		resultsContainer = document.getElementById("results-container");
 
 		var xmlhttp=new XMLHttpRequest();
 		xmlhttp.open('GET', searchFile);
