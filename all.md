@@ -7,5 +7,5 @@ order:  2
   {% include nav.html %}
   {% assign applist = site.apps | sort_natural: 'title' %}
 	{% include list.html applist=applist %}
-
+  
 </div>

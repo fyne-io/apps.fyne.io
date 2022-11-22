@@ -97,7 +97,7 @@ MIT Licensed
 		if (matchingPosts.length && currentResultHash !== lastSearchResultHash) {
 			searchResultsEl.classList.remove('is-hidden');
 			searchResultsEl.innerHTML = matchingPosts.map(function (post) {				
-				return '<a class="app-card w-inline-block" href='+post.link+'><img src="'+post.icon+'" loading="lazy" alt="app icon" class="app-icon" <div class="app-card-title"> <div class="subheader">games</div></div><h5>'+post.title+'</h5><div class="label">'+post.description+'</div></a>'
+				return '<a class="app-card w-inline-block" href='+post.link+'><img src="'+post.icon+'" loading="lazy" alt="app icon" class="app-icon" <div class="app-card-title"> <div class="subheader">games</div></div><h5 class="h5">'+post.title+'</h5><div class="label">'+post.description+'</div></a>'
 		
 			}).join('');
 		}
