@@ -96,8 +96,8 @@ MIT Licensed
 		currentResultHash = matchingPosts.reduce(function(hash, post) { return post.title + hash; }, '');
 		if (matchingPosts.length && currentResultHash !== lastSearchResultHash) {
 			searchResultsEl.classList.remove('is-hidden');
-			searchResultsEl.innerHTML = matchingPosts.map(function (post) {				
-				return '<a class="app-card w-inline-block" href='+post.link+'><img src="'+post.icon+'" loading="lazy" alt="app icon" class="app-icon" <div class="app-card-title"> <div class="subheader">games</div></div><h5 class="h5">'+post.title+'</h5><div class="label">'+post.description+'</div></a>'
+			searchResultsEl.innerHTML = matchingPosts.map(function (post) {
+				return '<a class="app-card w-inline-block" href='+post.link+'><img src="'+post.icon+'" loading="lazy" alt="app icon" class="app-icon" <div class="app-card-title"> <div class="subheader">games</div></div><h5 class="h5">'+post.title+'</h5><div class="label">'+post.excerpt+'</div></a>'
 		
 			}).join('');
 		}
@@ -149,3 +149,17 @@ MIT Licensed
 	window.superSearch = init;
 
 })();
+
+function openSearch (element){
+    const s = "search-open"
+    const t = element.parentElement.getElementsByClassName("text-field w-input")
+    if (!element.parentElement.classList.contains(s)){
+        element.parentElement.classList.add(s);        
+        t[0].style.display = "block";
+        t[0].style.width = "100%";
+    } else {
+        element.parentElement.classList.remove(s);
+        t[0].style.display = "none";
+        t[0].style.width = "0";
+    }    
+}

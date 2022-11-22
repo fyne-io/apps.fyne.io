@@ -19,6 +19,7 @@ layout: none
         <link>{{ site.url }}/{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}/{{ post.url }}</guid>
         <icon>{{ post.icon }}</icon>
+        <excerpt>{{ post.excerpt }}</excerpt>
       </item>
     {% endfor %}
   </channel>
