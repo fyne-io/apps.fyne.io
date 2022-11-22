@@ -4,7 +4,8 @@ layout: default
 
 <div class="app-detail-title-area wf-section">
   <div class="fy_container w-container">
-    <div class="app-title-container"><img src={{page.icon}} loading="lazy" alt="app icon" class="app-icon">
+    <div class="app-title-container">
+      <img src={{page.icon}} loading="lazy" alt="app icon" class="app-icon" onerror="javascript: hide(this)">
       <div>
         <h1 class="h1">{{page.title}}</h1>
       </div>
@@ -101,3 +102,8 @@ fyne get {{ page.package }}</div>
     </div>
   </div>
 </div>
+<script>
+  function hide(element){
+    element.style.display = "none"
+  }
+</script>

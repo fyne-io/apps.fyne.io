@@ -14,7 +14,8 @@
 
     {% assign app_url = app.url | absolute_url  %}
 
-    <a href="{{app.url}}" class="app-card">{% if app.icon %}<img src="{{app.icon}}" loading="lazy" alt="" class="app-icon">{% endif %}
+    <a href="{{app.url}}" class="app-card">
+      <div class="app-icon" style="{% if app.icon %}background: url({{ app.icon }}) no-repeat center/contain;{% else %}background: url({{ app.screenshot1 }}) center/cover;{% endif %}" loading="lazy" alt=""></div>
       <div class="app-card-title">
         <div class="subheader">{{app.category}}</div>
         <h5 class="h5">{{app.title}}</h5>
