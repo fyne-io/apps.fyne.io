@@ -1,7 +1,7 @@
 ---
 appid: xyz.test.sample_app_donate
 title: Sample App Donate
-home: https://github.com/sample_app_donate/beebui
+home: https://github.com/sample_app_donate/sample_app_donate
 donate: https://url-donate-sample.com
 icon: https://cdn-icons-png.flaticon.com/512/1091/1091169.png
 
