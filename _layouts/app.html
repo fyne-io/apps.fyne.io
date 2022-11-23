@@ -10,6 +10,7 @@ layout: default
         {{ page.date | date: "%b %-d, %Y" }}
         {% if page.categories %} • {% for cat in page.categories %} {{ cat }} {% endfor %} {% endif %}
         {% if page.home %} • <a href="{{ page.home }}">homepage</a>{% endif %}
+	{% if page.donate %} • <a href="{{ page.donate }}">donate</a>{% endif %}
       </div>
       <div class="mdl-card__menu">
         <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="app-share">
