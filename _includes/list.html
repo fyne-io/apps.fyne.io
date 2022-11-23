@@ -3,27 +3,27 @@
     <div class="apps-container">
     {% assign i = 0 %}
     {% for app in include.applist %}
-    {% if app.disabled %}
-      {% continue %}
-    {% endif %}
+      {% if app.disabled %}
+        {% continue %}
+      {% endif %}
 
-	{% assign i = i | plus: 1 %}
-	{% if i > include.limit %}
-	  {% break %}
-	{% endif %}
+      {% assign i = i | plus: 1 %}
+      {% if i > include.limit %}
+        {% break %}
+      {% endif %}
 
-    {% assign app_url = app.url | absolute_url  %}
+      {% assign app_url = app.url | absolute_url  %}
 
-    <a href="{{app.url}}" class="app-card">
-      <div class="app-icon" style="{% if app.icon %}background: url({{ app.icon }}) no-repeat center/contain;{% else %}background: url({{ app.screenshot1 }}) center/cover;{% endif %}" loading="lazy" alt=""></div>
-      <div class="app-card-title">
-        <div class="subheader">{{app.category}}</div>
-        <h5 class="h5">{{app.title}}</h5>
-        <div class="label">{{app.excerpt}}</div>
-      </div>
-    </a>
-    {% endfor %}
+      <a href="{{app.url}}" class="app-card">
+        <div class="app-icon" style="{% if app.icon %}background: url({{ app.icon }}) no-repeat center/contain;{% else %}background: url({{ app.screenshot1 }}) center/cover;{% endif %}" loading="lazy" alt=""></div>
+        <div class="app-card-title">
+          <div class="subheader">{{app.category}}</div>
+          <h5 class="h5">{{app.title}}</h5>
+          <div class="label">{{app.excerpt}}</div>
+        </div>
+      </a>
 
+     {% endfor %}
     </div>
   </div>
 </div>
