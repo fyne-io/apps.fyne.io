@@ -155,7 +155,7 @@ a {
   border-style: none;
   height: 38px;
   width:0px;
-  transition: all .1s ease-out;
+  transition: all .2s ease-out;
 }
 
 .icon {
@@ -976,18 +976,19 @@ a {
   right: 0%;
   bottom: auto;
   z-index: 999;
-  /* display: none; */
   background-color: #fff;
   box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);  
 }
 
 .results-container-closed {  
   top: -430px;
-  transition: top .2s ease-in;
+  visibility: hidden;
+  transition: all .2s ease-in;
 }
 
 .results-container-open {  
   top: 80px;
+  visibility: visible;
   transition: top .2s ease-in;
 }
 

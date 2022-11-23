@@ -80,6 +80,7 @@ MIT Licensed
 			lastSearchResultHash = '';
 			resultsContainer.classList.add("results-container-closed")
 			resultsContainer.classList.remove("results-container-open")
+			
 			return;
 		}
 
@@ -106,6 +107,7 @@ MIT Licensed
 		} else {
 			resultsContainer.classList.add("results-container-closed")
 			resultsContainer.classList.remove("results-container-open")
+			
 		}
 		
 	}
