@@ -58,18 +58,20 @@ MIT Licensed
 		}
 	}
 
-	window.toggleSearch = function toggleSearch() {
-		searchEl.classList.toggle('is-active');
-		if (searchEl.classList.contains('is-active')) {
-			// while opening
-			searchInputEl.value = '';
-		} else {
-			// while closing
-			searchResultsEl.classList.add('is-hidden');
+	window.openSearch = function openSearch (){
+		const t = document.getElementById("js-search__input");
+		t.classList.toggle("search-open");
+		t.classList.toggle("search-close");
+		if (t.classList.contains("search-open")){
+			setTimeout(function () {
+				t.focus();
+			}, 210);
+		} else {		
+			resultsContainer.classList.add("results-container-closed")
+			resultsContainer.classList.remove("results-container-open")
+			t.value = '';
+			t.blur();
 		}
-		setTimeout(function () {
-			searchInputEl.focus();
-		}, 210);
 	}
 
 	function handleInput() {
@@ -133,13 +135,13 @@ MIT Licensed
 		// Toggle on ESC key
 		window.addEventListener('keyup', function onKeyPress(e) {
 			if (e.which === 27) {
-				toggleSearch();
+				openSearch();
 			}
 		});
 		// Open on '/' key
 		window.addEventListener('keypress', function onKeyPress(e) {
-			if (e.which === 47 && !searchEl.classList.contains('is-active')) {
-				toggleSearch();
+			if (e.which === 47 && !searchInputEl.classList.contains('search-open')) {
+				openSearch();
 			}
 		});
 
@@ -148,17 +150,6 @@ MIT Licensed
 		});
 	}
 
-	init.toggle = toggleSearch;
-
 	window.superSearch = init;
 
 })();
-
-function openSearch (){
-    const t = document.getElementById("js-search__input")
-    t.classList.toggle("search-open")
-	t.classList.toggle("search-close")
-	if (t.classList.contains("search-open")){
-		t.focus();
-	}
-}
