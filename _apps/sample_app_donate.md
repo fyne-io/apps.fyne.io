@@ -18,6 +18,8 @@ package: github.com/sample_app_donate/sample_app_donate/cmd/sample_app_donate
 version: 
 ---
 
+Sample app with donate link
+
 The icon for this concept app is licensed through Flaticon license: Free for personal and commercial use with attribution. 
 
 https://www.flaticon.com/free-icon/file_1091169?term=view&page=1&position=17&page=1&position=17&related_id=1091169&origin=search
