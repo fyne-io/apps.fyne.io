@@ -78,11 +78,10 @@ MIT Licensed
 		currentInputValue = (searchInputEl.value + '').toLowerCase();
 		if (!currentInputValue || currentInputValue.length < 3) {
 			lastSearchResultHash = '';
-			searchResultsEl.classList.add('is-hidden');
-			resultsContainer.style.display = "none";
+			resultsContainer.classList.add("results-container-closed")
+			resultsContainer.classList.remove("results-container-open")
 			return;
 		}
-		searchResultsEl.style.offsetWidth;
 
 		var matchingPosts = posts.filter(function (post) {
 			// Search `description` and `content` both to support 1.0 and 2.0 formats.
@@ -90,9 +89,7 @@ MIT Licensed
 				return true;
 			}
 		});
-		if (!matchingPosts.length) {
-			searchResultsEl.classList.add('is-hidden');
-		}
+
 		currentResultHash = matchingPosts.reduce(function(hash, post) { return post.title + hash; }, '');
 		if (matchingPosts.length && currentResultHash !== lastSearchResultHash) {
 			searchResultsEl.classList.remove('is-hidden');
@@ -103,9 +100,14 @@ MIT Licensed
 		}
 		lastSearchResultHash = currentResultHash;
 
-		if (searchInputEl.value != '' && matchingPosts.length > 0) {
-			resultsContainer.style.display = "block";
+		if (searchInputEl.value != '' && matchingPosts.length > 0) {		
+			resultsContainer.classList.add("results-container-open")
+			resultsContainer.classList.remove("results-container-closed")
+		} else {
+			resultsContainer.classList.add("results-container-closed")
+			resultsContainer.classList.remove("results-container-open")
 		}
+		
 	}
 
 	function init(options) {
@@ -150,16 +152,11 @@ MIT Licensed
 
 })();
 
-function openSearch (element){
-    const s = "search-open"
-    const t = element.parentElement.getElementsByClassName("text-field w-input")
-    if (!element.parentElement.classList.contains(s)){
-        element.parentElement.classList.add(s);        
-        t[0].style.display = "block";
-        t[0].style.width = "100%";
-    } else {
-        element.parentElement.classList.remove(s);
-        t[0].style.display = "none";
-        t[0].style.width = "0";
-    }    
+function openSearch (){
+    const t = document.getElementById("js-search__input")
+    t.classList.toggle("search-open")
+	t.classList.toggle("search-close")
+	if (t.classList.contains("search-open")){
+		t.focus();
+	}
 }
