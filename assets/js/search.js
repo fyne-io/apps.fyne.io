@@ -9,7 +9,8 @@ MIT Licensed
 		searchResultsEl,
 		currentInputValue = '',
 		lastSearchResultHash,
-		posts = [];
+		posts = [],
+		resultsContainer;
 
 	// Changes XML to JSON
 	// Modified version from here: http://davidwalsh.name/convert-xml-json
@@ -57,18 +58,20 @@ MIT Licensed
 		}
 	}
 
-	window.toggleSearch = function toggleSearch() {
-		searchEl.classList.toggle('is-active');
-		if (searchEl.classList.contains('is-active')) {
-			// while opening
-			searchInputEl.value = '';
-		} else {
-			// while closing
-			searchResultsEl.classList.add('is-hidden');
+	window.openSearch = function openSearch (){
+		const t = document.getElementById("js-search__input");
+		t.classList.toggle("search-open");
+		t.classList.toggle("search-close");
+		if (t.classList.contains("search-open")){
+			setTimeout(function () {
+				t.focus();
+			}, 210);
+		} else {		
+			resultsContainer.classList.add("results-container-closed")
+			resultsContainer.classList.remove("results-container-open")
+			t.value = '';
+			t.blur();
 		}
-		setTimeout(function () {
-			searchInputEl.focus();
-		}, 210);
 	}
 
 	function handleInput() {
@@ -77,10 +80,11 @@ MIT Licensed
 		currentInputValue = (searchInputEl.value + '').toLowerCase();
 		if (!currentInputValue || currentInputValue.length < 3) {
 			lastSearchResultHash = '';
-			searchResultsEl.classList.add('is-hidden');
+			resultsContainer.classList.add("results-container-closed")
+			resultsContainer.classList.remove("results-container-open")
+			
 			return;
 		}
-		searchResultsEl.style.offsetWidth;
 
 		var matchingPosts = posts.filter(function (post) {
 			// Search `description` and `content` both to support 1.0 and 2.0 formats.
@@ -88,25 +92,34 @@ MIT Licensed
 				return true;
 			}
 		});
-		if (!matchingPosts.length) {
-			searchResultsEl.classList.add('is-hidden');
-		}
+
 		currentResultHash = matchingPosts.reduce(function(hash, post) { return post.title + hash; }, '');
 		if (matchingPosts.length && currentResultHash !== lastSearchResultHash) {
 			searchResultsEl.classList.remove('is-hidden');
 			searchResultsEl.innerHTML = matchingPosts.map(function (post) {
-				d = new Date(post.pubDate);
-				return '<li><a href="' + post.link + '">' + post.title + '<span class="super-search__result-date">' + d.toUTCString().replace(/.*(\d{2})\s+(\w{3})\s+(\d{4}).*/,'$2 $1, $3') + '</span></a></li>';
+				return '<a class="app-card w-inline-block" href='+post.link+'><img src="'+post.icon+'" loading="lazy" alt="app icon" class="app-icon" <div class="app-card-title"> <div class="subheader">games</div></div><h5 class="h5">'+post.title+'</h5><div class="label">'+post.excerpt+'</div></a>'
+		
 			}).join('');
 		}
 		lastSearchResultHash = currentResultHash;
+
+		if (searchInputEl.value != '' && matchingPosts.length > 0) {		
+			resultsContainer.classList.add("results-container-open")
+			resultsContainer.classList.remove("results-container-closed")
+		} else {
+			resultsContainer.classList.add("results-container-closed")
+			resultsContainer.classList.remove("results-container-open")
+			
+		}
+		
 	}
 
 	function init(options) {
 		searchFile = options.searchFile || searchFile;
 		searchEl = document.querySelector(options.searchSelector || '#js-super-search');
 		searchInputEl = document.querySelector(options.inputSelector || '#js-super-search__input');
-		searchResultsEl = document.querySelector(options.resultsSelector || '#js-super-search__results');
+		searchResultsEl = document.getElementById("search-results");
+		resultsContainer = document.getElementById("results-container");
 
 		var xmlhttp=new XMLHttpRequest();
 		xmlhttp.open('GET', searchFile);
@@ -122,13 +135,13 @@ MIT Licensed
 		// Toggle on ESC key
 		window.addEventListener('keyup', function onKeyPress(e) {
 			if (e.which === 27) {
-				toggleSearch();
+				openSearch();
 			}
 		});
 		// Open on '/' key
 		window.addEventListener('keypress', function onKeyPress(e) {
-			if (e.which === 47 && !searchEl.classList.contains('is-active')) {
-				toggleSearch();
+			if (e.which === 47 && !searchInputEl.classList.contains('search-open')) {
+				openSearch();
 			}
 		});
 
@@ -136,8 +149,6 @@ MIT Licensed
 			handleInput();
 		});
 	}
-
-	init.toggle = toggleSearch;
 
 	window.superSearch = init;
 

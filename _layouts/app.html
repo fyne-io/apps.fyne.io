@@ -1,87 +1,105 @@
 ---
 layout: default
 ---
-<div class="post-ribbon"></div>
-<main class="post-main mdl-layout__content">
-  <div class="post-container mdl-grid">
-    <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-    <div class="post-section mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
-      <div class="mdl-color-text--grey-500">
-        {{ page.date | date: "%b %-d, %Y" }}
-        {% if page.categories %} • {% for cat in page.categories %} {{ cat }} {% endfor %} {% endif %}
-        {% if page.home %} • <a href="{{ page.home }}">homepage</a>{% endif %}
-      </div>
-      <div class="mdl-card__menu">
-        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="app-share">
-          <i class="material-icons">share</i>
-        </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="app-share">
-          <li><a href="https://www.facebook.com/dialog/share?app_id={{site.facebook_app_id}}&display=page&href={{ page.url | absolute_url }}&redirect_uri={{ site.baseurl }}" class="mdl-menu__item">Facebook</a></li>
-          <li><a href="https://twitter.com/share?url={{ page.url | absolute_url }}&text={{ app.title }}&via={{ site.twitter_username }}" class="mdl-menu__item">Twitter</a></li>
-          <li><a href="https://plus.google.com/share?url={{ page.url | absolute_url }}" class="mdl-menu__item">Google+</a></li>
-        </ul>
-      </div>
 
-      <span class="app {% if page.requires %}requires {{ page.requires | replace: ",", " " }}{% endif %}">
-        <img id="preview" src="{{ page.icon }}" />
-        <span class="compatibility">(does not support your operating system)</span>
-        <h3>{{ page.title }}</h3>
-      </span>
-
-      <article class="post-content">
-        <p>{{ content }}</p>
-
-        {% for img in page.screenshots %}
-        <img src="{{ img.url }}" style="width: auto; max-width: 100%" />
-        {% endfor %}
-      </article>
-
-	  {% if page.appleid or page.googleid or page.flathub or page.downloads %}
-	  <h3>Download</h3>
-	  <p>This app is also available at the following stores:</p>
-	  <div class="stores">
-	  {% if page.appleid %}
-	  <a href="https://apps.apple.com/app/id{{ page.appleid }}" class="appstore">
-		  <img src="/assets/img/appstore.png" style="max-width: 143px">
-	  </a>
-	  {% endif %}
-	  {% if page.googleid %}
-	  <a href="https://play.google.com/store/apps/details?id={{ page.googleid }}" class="appstore">
-		  <img src="/assets/img/playstore.png" style="max-width: 160px">
-	  </a>
-	  {% endif %}
-	  {% if page.flathub %}
-	  <a href="https://flathub.org/apps/details/{{ page.flathub }}" class="appstore">
-		  <img src="/assets/img/flathub.png" style="max-width: 160px">
-	  </a>
-	  {% endif %}
-	  {% if page.downloads %}
-	  <a href="https://geoffrey-artefacts.fynelabs.com/{{ page.downloads.path }}/{{ page.downloads.build }}/" class="download">
-		  <svg xmlns="http://www.w3.org/2000/svg" focusable="false" viewBox="0 0 24 24" color="rgb(255, 255, 255)" style="user-select: none; height: 30px; display: inline-block; fill: rgb(255, 255, 255) ; flex-shrink: 0; pointer-events: none;">
-		  <path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z" style="pointer-events: none;">
-		  </path>
-		  </svg>
-		  <span>Download</span><span class="platform">All Platforms</span>
-	  </a>
-	  {% endif %}
-	  </div>
-	  {% endif %}
-
-      <h3>Installation</h3>
-      <p>You can install this directly from the source code using the Fyne 
-      command as follows:</p>
-      <pre>go get fyne.io/fyne/v2/cmd/fyne
-fyne get {{ page.package }}</pre>
-      <p>Or you can download the code directly from git:</p>
-      <code>git clone {{ page.git }}</code>
-
-      <!-- Disqus comments -->
-      {% if site.disqus %}
+<div class="app-detail-title-area wf-section">
+  <div class="fy_container w-container">
+    <div class="app-title-container">
+      <img src={{page.icon}} loading="lazy" alt="app icon" class="app-icon" onerror="javascript: hide(this)">
       <div>
-        <h3>Comments</h3>
-        {% include disqus.html %}
+        <h1 class="h1">{{page.title}}</h1>
       </div>
-      {% endif %}
     </div>
   </div>
-</main>
+</div>
+<div class="meta wf-section">
+  <div class="fy_container">
+    <div class="meta-row">
+      <div class="div-block-3">
+        <h5 class="h6">Developer</h5>
+        <div class="label">{{page.developer}}</div>
+      </div>
+    </div>
+    <div class="meta-row">
+      <div class="div-block-3">
+        <h5 class="h6">About</h5>
+        <div class="label">{{ content }}</div>
+      </div>
+    </div>
+    <div class="meta-row">
+      <div class="div-block-3">
+        {% if page.appleid or page.googleid or page.flathub or page.downloads %}
+        <h5 class="h6">Stores</h5>
+        <h3>Download</h3>
+        <p>This app is also available at the following stores:</p>
+        <div class="stores">
+        {% if page.appleid %}
+        <a href="https://apps.apple.com/app/id{{ page.appleid }}" class="appstore">
+          <img src="/assets/images/appstore.png" style="max-width: 143px">
+        </a>
+        {% endif %}
+        {% if page.googleid %}
+        <a href="https://play.google.com/store/apps/details?id={{ page.googleid }}" class="appstore">
+          <img src="/assets/images/playstore.png" style="max-width: 160px">
+        </a>
+        {% endif %}
+        {% if page.flathub %}
+        <a href="https://flathub.org/apps/details/{{ page.flathub }}" class="appstore">
+          <img src="/assets/images/flathub.png" style="max-width: 160px">
+        </a>
+        {% endif %}
+        {% if page.downloads %}
+        <a href="https://geoffrey-artefacts.fynelabs.com/{{ page.downloads.path }}/{{ page.downloads.build }}/" class="appstore"
+        style=" background-color: black;
+        color: white;
+        border-radius: 5pt;
+        padding: 8pt 6pt;
+        font-size: 16pt;
+        font-weight: 500;
+        position: relative;
+        top: 3px;">
+          <svg xmlns="http://www.w3.org/2000/svg" focusable="false" viewBox="0 0 24 24" color="rgb(255, 255, 255)" style="user-select: none;          
+          height: 30px;
+          display: inline-block;
+          fill: rgb(255, 255, 255);
+          flex-shrink: 0;
+          pointer-events: none;
+          vertical-align: middle;">
+          <path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z" style="pointer-events: none;">
+          </path>
+          </svg>
+          <span style="top: 4pt; position: relative;">Download</span><span style="font-size: 8pt;
+          font-weight: normal;
+          position: absolute;
+          right: 7pt;
+          top: 1.5pt;" class="platform">All Platforms</span>
+        </a>
+        {% endif %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="screenshots wf-section">
+  {% for img in page.screenshots %}  
+  <div class="fy_container"><img src={{img.url}} loading="lazy" alt="app screenshot" class="screenshot"></div>
+  {% endfor %}  
+</div>
+<div class="app-details-body wf-section">
+  <div class="fy_container">
+    <div class="app-detail-section">
+      <h2 class="h4">Installation</h2>
+      <div class="label">You can install this directly from the source code using the Fyne command as follows:</div>
+      <div class="code" style="white-space: pre-wrap; word-break: break-word;">go get fyne.io/fyne/v2/cmd/fyne &#8203;
+fyne get {{ page.package }}</div>
+      <div class="label">Or you can download the code directly from git:</div>
+      <div class="code">git clone {{ page.git }}</div>
+    </div>
+  </div>
+</div>
+<script>
+  function hide(element){
+    element.style.display = "none"
+  }
+</script>

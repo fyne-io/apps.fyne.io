@@ -1,0 +1,41 @@
+<div class="title wf-section">
+    <div class="fy_container w-container">
+      <div class="title-text-container">
+        <h1 class="h1">Apps</h1>
+        <div class="text-large">Just some of the amazing apps created using Fyne.            
+          <a href="https://developer.fyne.io/submit/" class="link-2"><br>Submit yours here</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="filters wf-section">
+    <div class="fy_container">
+      <div class="filter-row">
+        <a href="/" class="tab-button-{% unless page.title == 'Newest additions' %}in{% endunless %}active w-button"  >New</a>
+        <a href="/all" class="tab-button-{% unless page.title == 'All Apps' %}in{% endunless %}active w-button">All</a>
+        <div data-hover="false" data-delay="0" class="dropdown-2 w-dropdown">
+          <div class="tab-button-{% unless page.category %}in{% endunless %}active w-dropdown-toggle">            
+            <div>{% if page.category %} {% if page.title %} {{page.title}} {% else %} {{page.category | capitalize }} {% endif %} {% else %} Categories {% endif %}</div>
+            <div class="dropdown-icon-grey w-embed">
+              <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" stroke-width="3" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <nav class="dropdown-list-2 w-dropdown-list">
+            {% assign cats = site.categories | sort: 'title' %}
+            {% for cat in cats %}
+              {% assign name = cat.category | capitalize %}
+              {% if cat.title != nil %}
+                {% assign name = cat.title %}
+              {% endif %}        
+              <a class="dropdown-link w-dropdown-link" href="{{ cat.url | prepend: site.baseurl }}">{{ name }}</a>
+            {% endfor %}
+            <a class="dropdown-link w-dropdown-link" href="/appstore.html">Apple AppStore</a>
+            <a class="dropdown-link w-dropdown-link" href="/flathub.html">Flathub</a>
+            <a class="dropdown-link w-dropdown-link" href="/playstore.html">Google Play</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
