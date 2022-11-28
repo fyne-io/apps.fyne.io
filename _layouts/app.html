@@ -30,8 +30,8 @@ layout: default
       <div class="div-block-3">
         {% if page.appleid or page.googleid or page.flathub or page.downloads %}
         <h5 class="h6">Stores</h5>
-        <h3>Download</h3>
-        <p>This app is also available at the following stores:</p>
+        <div class="label">This app is also available to install from the following stores:</div>
+        <br />
         <div class="stores">
         {% if page.appleid %}
         <a href="https://apps.apple.com/app/id{{ page.appleid }}" class="appstore">
