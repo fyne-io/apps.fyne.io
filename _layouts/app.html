@@ -29,7 +29,7 @@ layout: default
      <div class="meta-row">
       <div class="div-block-3">
         <h5 class="h6">Donate</h5>
-        <div class="label">{{page.donate}}</div>
+        {% if page.donate %} • <a href="{{ page.donate }}">donate</a>{% endif %}
       </div>
     </div>
     <div class="meta-row">
