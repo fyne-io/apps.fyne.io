@@ -26,6 +26,13 @@ layout: default
         <div class="label">{{ content }}</div>
       </div>
     </div>
+    {% if page.donate %}
+     <div class="meta-row">
+      <div class="div-block-3">
+        <a class="h6" href="{{ page.donate }}">Donate</a>
+      </div>
+    </div>
+    {% endif %}
     <div class="meta-row">
       <div class="div-block-3">
         {% if page.appleid or page.googleid or page.flathub or page.downloads %}
