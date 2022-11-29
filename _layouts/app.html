@@ -26,12 +26,13 @@ layout: default
         <div class="label">{{ content }}</div>
       </div>
     </div>
+    {% if page.donate %}
      <div class="meta-row">
       <div class="div-block-3">
-        <h5 class="h6">Donate</h5>
-        {% if page.donate %} • <a href="{{ page.donate }}">donate</a>{% endif %}
+        <a class="h6" href="{{ page.donate }}">Donate</a>
       </div>
     </div>
+    {% endif %}
     <div class="meta-row">
       <div class="div-block-3">
         {% if page.appleid or page.googleid or page.flathub or page.downloads %}
