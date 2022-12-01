@@ -26,7 +26,7 @@ downloads:
   platforms: android,darwin/amd64,darwin/arm64,freebsd/amd64,freebsd/arm64,linux/amd64,linux/arm64,windows/amd64
 ---
 
-Nomad is a time converion app that helps to manage time
+Nomad is a time conversion app that helps to manage time
 across multiple timezones and locations.
 It takes a graphical approach to illustrating locations using Unsplash images loaded dynamically.
 
