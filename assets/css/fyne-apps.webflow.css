@@ -1,4 +1,4 @@
-a {
+/ {
   color: #006cff;
   font-weight: 400;
   text-decoration: none;
@@ -899,6 +899,7 @@ a {
   border-width: 1px;
   border-color: #dbdbe5;
   border-radius: 8px;
+  margin-bottom: 16px;
 }
 
 .div-block-4 {
