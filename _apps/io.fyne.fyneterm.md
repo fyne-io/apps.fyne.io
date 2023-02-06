@@ -4,7 +4,7 @@ requires: linux,darwin,windows
 
 title: FyneTerm
 home: https://github.com/fyne-io/terminal
-icon: https://github.com/fyne-io/terminal/blob/master/cmd/fyneterm/Icon.png?raw=true
+icon: https://github.com/fyne-io/terminal/blob/master/cmd/fyneterm/data/Icon.png?raw=true
 screenshots:
 - url: https://github.com/fyne-io/terminal/raw/master/img/linux.png
 - url: https://github.com/fyne-io/terminal/raw/master/img/macos.png
