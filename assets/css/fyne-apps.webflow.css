@@ -348,7 +348,8 @@
   background-color: #fff;
   -webkit-transition: box-shadow 300ms ease;
   transition: box-shadow 300ms ease;
-}
+  text-decoration: none;
+} 
 
 .app-card:hover {
   box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
@@ -793,7 +794,7 @@
   grid-row-gap: 48px;
 }
 
-.footer-section .label {
+.footer-section .label a {
   color: whitesmoke;
 }
 
@@ -1236,7 +1237,6 @@
 
   .app-card {
     padding: 12px;
-    text-decoration: none;
   }
 
   .container-2 {
