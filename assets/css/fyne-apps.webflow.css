@@ -793,6 +793,10 @@
   grid-row-gap: 48px;
 }
 
+.footer-section .label {
+  color: whitesmoke;
+}
+
 .html-embed {
   height: 24px;
   color: #006cff;
@@ -1232,6 +1236,7 @@
 
   .app-card {
     padding: 12px;
+    text-decoration: none;
   }
 
   .container-2 {
