@@ -1,7 +1,7 @@
 ---
-appid: dev.cchuster.speader
+appid: com.connerchu.speader
 title: Speader
-home: https://gitlab.com/cchuster/speader
+home: https://github.com/cchuster/Speader
 icon: https://i.ibb.co/VYPNRZy/speader.png
 
 screenshots:
@@ -12,8 +12,8 @@ excerpt:   One word at a time.
 category:  utility
 developer: Conner C.
 
-git: https://gitlab.com/cchuster/speader.git
-package: gitlab.com/cchuster/speader
+git: https://github.com/cchuster/Speader.git
+package: github.com/cchuster/Speader
 version: v1.0
 
 ---
