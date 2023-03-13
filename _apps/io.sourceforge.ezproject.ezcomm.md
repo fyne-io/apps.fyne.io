@@ -14,7 +14,7 @@ category:  utility
 developer: Allen Tse
 
 git: https://gitlab.com/bon-ami/ezcomm.git
-package: gitlab.com/bon-ami/ezcomm/cmd
+package: gitlab.com/bon-ami/ezcomm/guiFyne
 version: 6.0.0
 ---
 
