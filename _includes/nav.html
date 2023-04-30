@@ -11,8 +11,8 @@
   <div class="filters wf-section">
     <div class="fy_container">
       <div class="filter-row">
-        <a href="/" class="tab-button-{% unless page.title == 'Newest additions' %}in{% endunless %}active w-button"  >New</a>
-        <a href="/all" class="tab-button-{% unless page.title == 'All Apps' %}in{% endunless %}active w-button">All</a>
+        <a href="/" class="tab-button-{% unless page.title == 'Newest additions' %}in{% endunless %}active w-button">New (12)</a>
+        <a href="/all" class="tab-button-{% unless page.title == 'All Apps' %}in{% endunless %}active w-button">All ({{ site.apps | size }})</a>
         <div data-hover="false" data-delay="0" class="dropdown-2 w-dropdown">
           <div class="tab-button-{% unless page.category %}in{% endunless %}active w-dropdown-toggle">            
             <div>{% if page.category %} {% if page.title %} {{page.title}} {% else %} {{page.category | capitalize }} {% endif %} {% else %} Categories {% endif %}</div>
@@ -29,7 +29,8 @@
               {% if cat.title != nil %}
                 {% assign name = cat.title %}
               {% endif %}        
-              <a class="dropdown-link w-dropdown-link" href="{{ cat.url | prepend: site.baseurl }}">{{ name }}</a>
+              {% assign applist = site.apps | where: 'category', cat.category %}
+              <a class="dropdown-link w-dropdown-link" href="{{ cat.url | prepend: site.baseurl }}">{{ name }}  ({{ applist | size }})</a>
             {% endfor %}
             <a class="dropdown-link w-dropdown-link" href="/appstore.html">Apple AppStore</a>
             <a class="dropdown-link w-dropdown-link" href="/flathub.html">Flathub</a>

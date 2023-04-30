@@ -16,6 +16,6 @@ order:  1
     border-radius: 8px;
     padding: 10pt;
     width: 100%;
-    text-align: center;">All Apps</a>
+    text-align: center;">All Apps ({{ applist | size }})</a>
   </div>
 </div>
