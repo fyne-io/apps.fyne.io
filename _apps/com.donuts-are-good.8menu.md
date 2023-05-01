@@ -7,7 +7,7 @@ icon: https://user-images.githubusercontent.com/96031819/233737316-83de6c59-ac99
 screenshots:
 - url: https://user-images.githubusercontent.com/96031819/233736410-bae5e590-b91e-422c-9aa9-6d5b428013d8.gif
 
-date:      2023-05-01 11:24:00+1000
+date:      2023-05-01 11:24:00+100
 excerpt:   8menu is a tool written in go to mimic the basic functionality of plan9's 9menu
 category:  utility
 developer: puggy pug
