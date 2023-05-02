@@ -15,6 +15,11 @@ developer: Andy Williams
 git: https://github.com/andydotxyz/slydes.git
 package: github.com/andydotxyz/slydes
 version: 
+
+downloads:
+  path: github/andydotxyz/andydotxyz/slydes
+  build: 280
+  platforms: android,darwin/amd64,darwin/arm64,linux/amd64,linux/arm64,windows/amd64
 ---
 
 This simple slideshow app uses markdown to descibe a full presentation in a single file.
