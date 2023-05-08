@@ -16,7 +16,12 @@ developer: Jacalz
 
 git: https://github.com/Jacalz/rymdport.git
 package: github.com/Jacalz/rymdport/v3
-version: 3.0.2
+version: 3.3.5
+
+downloads:
+  path: github/Jacalz/Jacalz/rymdport
+  build: 283
+  platforms: darwin/amd64,darwin/arm64,linux/amd64,linux/arm64,freebsd/amd64,freebsd/arm64,windows/amd64
 
 flathub: io.github.jacalz.rymdport
 ---
@@ -25,3 +30,4 @@ Rymdport (formerly wormhole-gui) is a cross-platform application that lets you e
 The data is sent securely with end-to-end encryption using the same protocol as [magic-wormhole](https://github.com/magic-wormhole/magic-wormhole). This means that Rymdport can talk not only to itself, but also to other wormhole clients.
 
 The transfers are implemented using [wormhole-william](https://github.com/psanford/wormhole-william), a native [Go](https://go.dev/) implementation of magic-wormhole. As a result, Rymdport compiles into a native binary with no runtime dependencies while also outperforming the reference implementation of magic-wormhole.
+
