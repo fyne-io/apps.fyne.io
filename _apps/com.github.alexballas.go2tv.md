@@ -3,9 +3,9 @@ appid: com.github.alexballas.go2tv
 requires: windows,linux,darwin,android
 title: Go2TV
 home: https://github.com/alexballas/go2tv
-icon: https://github.com/alexballas/go2tv/raw/main/assets/go2tv-icon.png
+icon: https://raw.githubusercontent.com/alexballas/go2tv/main/assets/go2tv-icon-desktop.png
 screenshots:
-- url: https://i.imgur.com/0zcre1d.png
+- url: https://i.imgur.com/Pw44BYD.png
 
 date:      2022-04-29 00:00:00
 excerpt:   Cast your media files to UPnP/DLNA MediaRenderer
