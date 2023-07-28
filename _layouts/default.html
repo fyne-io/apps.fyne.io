@@ -4,13 +4,14 @@
   {% include head.html %}
 
   <body>
+    {% include globalnav.html %}
 
     <!-- Start Layout -->
     {% if site.header_type == 'drawer' %}
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-drawer">      
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-drawer" style="padding-top: 70px;">
       {% include header_fixed.html %}
     {% else %}
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">      
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" style="padding-top: 70px;">
       {% include header.html %}
     {% endif %}
 
