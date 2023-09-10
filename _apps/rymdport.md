@@ -3,7 +3,7 @@ appid: io.github.jacalz.rymdport
 requires: windows,linux,darwin,freebsd
 title: Rymdport
 home: https://github.com/Jacalz/rymdport
-icon: https://raw.githubusercontent.com/Jacalz/rymdport/main/internal/assets/icon/icon-512.png
+icon: https://raw.githubusercontent.com/Jacalz/rymdport/main/internal/assets/icons/icon-512.png
 
 screenshots:
 - url: https://raw.githubusercontent.com/Jacalz/rymdport/main/internal/assets/screenshot1.png
@@ -16,11 +16,11 @@ developer: Jacalz
 
 git: https://github.com/Jacalz/rymdport.git
 package: github.com/Jacalz/rymdport/v3
-version: 3.3.5
+version: 3.5.0
 
 downloads:
   path: github/Jacalz/Jacalz/rymdport
-  build: 283
+  build: 352
   platforms: darwin/amd64,darwin/arm64,linux/amd64,linux/arm64,freebsd/amd64,freebsd/arm64,windows/amd64
 
 flathub: io.github.jacalz.rymdport
