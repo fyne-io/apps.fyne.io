@@ -2,7 +2,7 @@
 layout: default
 title:  Flathub
 order:  94
-category: Flathub
+store: Flathub
 ---
 {% include nav.html %}
 <div>

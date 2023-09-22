@@ -32,9 +32,36 @@
               {% assign applist = site.apps | where: 'category', cat.category %}
               <a class="dropdown-link w-dropdown-link" href="{{ cat.url | prepend: site.baseurl }}">{{ name }}  ({{ applist | size }})</a>
             {% endfor %}
-            <a class="dropdown-link w-dropdown-link" href="/appstore.html">Apple AppStore</a>
-            <a class="dropdown-link w-dropdown-link" href="/flathub.html">Flathub</a>
-            <a class="dropdown-link w-dropdown-link" href="/playstore.html">Google Play</a>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" class="dropdown-2 w-dropdown">
+          <div class="tab-button-{% unless page.store %}in{% endunless %}active w-dropdown-toggle">            
+            <div>{% if page.store %} {% if page.title %} {{page.title}} {% else %} {{page.store | capitalize }} {% endif %} {% else %} App Stores {% endif %}</div>
+            <div class="dropdown-icon-grey w-embed">
+              <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" stroke-width="3" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <nav class="dropdown-list-2 w-dropdown-list">
+            {% assign apple = ''|split:''%}
+            {% assign google = ''|split:''%}
+            {% assign flathub = ''|split:''%}
+            {% for app in site.apps %}
+              {% if app.appleid %}
+                {% assign apple = apple | push: app %}
+              {% endif %}
+              {% if app.googleid %}
+                {% assign google = google | push: app %}
+              {% endif %}
+              {% if app.flathub %}
+                {% assign flathub = flathub | push: app %}
+              {% endif %}
+           {% endfor %}
+
+            <a class="dropdown-link w-dropdown-link" href="/appstore.html">Apple AppStore ({{ apple | size }})</a>
+            <a class="dropdown-link w-dropdown-link" href="/flathub.html">Flathub ({{ flathub | size }})</a>
+            <a class="dropdown-link w-dropdown-link" href="/playstore.html">Google Play ({{ google | size }})</a>
           </nav>
         </div>
       </div>

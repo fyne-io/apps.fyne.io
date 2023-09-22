@@ -2,7 +2,7 @@
 layout: default
 title:  Apple AppStore
 order:  91
-category: Apple AppStore
+store: Apple AppStore
 ---
 
 {% include nav.html %}

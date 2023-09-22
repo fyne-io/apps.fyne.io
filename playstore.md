@@ -2,7 +2,7 @@
 layout: default
 title:  Google Play
 order:  92
-category: Google Play
+store: Google Play
 ---
 {% include nav.html %}
 <div>
