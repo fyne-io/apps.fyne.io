@@ -1289,8 +1289,7 @@
   }
 
   .dropdown-list-2 {
-    position: fixed;
-    right: 0px;
+    right: 0;
     display: none;
   }
 
