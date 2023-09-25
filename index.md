@@ -4,21 +4,17 @@ title:  Newest additions
 order:  1
 
 featured: 
-  - link: /apps/com.fynelabs.nomad.html
+  - id: com.fynelabs.nomad
     image: /assets/images/carousel/nomad.PNG
-  - link: /apps/rymdport.html
-    icon: https://raw.githubusercontent.com/Jacalz/rymdport/main/internal/assets/icons/icon-512.png
+  - id: io.github.jacalz.rymdport
     color: "#1e3c6d"
-    name: Rymdport
     name-color: "#ffffff"
-  - link: /apps/me.ankushjadhav.fynesweeper.html
+  - id: me.ankushjadhav.fynesweeper
     image: /assets/images/carousel/fynesweeper.png
-  - link: /apps/com.pomadorik.html
-    icon: https://github.com/Nikeweke/pomadorik/blob/master/icon/app-icon.png?raw=true
+  - id: com.pomadorik
     color: "#0a7b0b"
-    name: Pomadorik
     name-color: "#ff5f3a"
-  - link: /apps/com.github.alexballas.go2tv.html
+  - id: com.github.alexballas.go2tv
     image: /assets/images/carousel/go2tv.png
 
 ---

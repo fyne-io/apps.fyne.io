@@ -9,7 +9,7 @@ screenshots:
 - url: https://github.com/Nikeweke/pomadorik/blob/master/screenshots/Screenshot_2.png?raw=true
 
 date:      2022-07-15 16:31:00
-excerpt:   Pomadorik
+excerpt:   Pomodoro timer with 3 timers and system tray icon
 category:  productivity
 developer: Nikko Voichich
 

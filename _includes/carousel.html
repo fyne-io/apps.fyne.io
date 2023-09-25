@@ -28,19 +28,23 @@
         <div class="carousel__track">
           <ul>
             {% for item in page.featured %}
-              {% if item.image | blank %}
+            {% if item.image | blank | not %}
             <li class="carousel__slide" style="background-image: url('{{ item.image }}');">
-              <a href="{{ item.link }}">&nbsp;</a></li>
-              {% else %}
+              <a href="/apps/{{ item.id }}.html">&nbsp;</a></li>
+            {% else %}
+            {% assign appitems = site.apps | where:"appid", item.id %}
+{% assign appitem = appitems[0] %}
+
             <li class="carousel__slide" style="background-color: {{ item.color }};">
-              <a href="{{ item.link }}">
-                <img class="icon" src="{{ item.icon }}" />
+              <a href="/apps/{{ item.id }}.html">
+                <img class="icon" src="{{ appitem.icon }}" />
                 <p style="color: {{ item.name-color }}">
-                  {{ item.name }}
+                  {{ appitem.title }}<br />
+                  <span class="description">{{ appitem.excerpt }}</span>
                 </p>
               </a>
             </li>
-              {% endif %}
+            {% endif %}
             {% endfor %}
           </ul>
         </div>
@@ -187,6 +191,10 @@
 .carousel__slide p {
   font-size: 18pt;
   font-weight: bold;
+}
+.carousel__slide p .description {
+  font-size: 60%;
+  font-weight: normal;
 }
 .carousel__slide .overlay {height: 100%;}
 .carousel--thumb .carousel__indicator {
