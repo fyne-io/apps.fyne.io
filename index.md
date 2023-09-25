@@ -5,7 +5,7 @@ order:  1
 
 featured: 
   - link: /apps/com.fynelabs.nomad.html
-    image: /assets/images/carousel/nomad.png
+    image: /assets/images/carousel/nomad.PNG
   - link: /apps/rymdport.html
     icon: https://raw.githubusercontent.com/Jacalz/rymdport/main/internal/assets/icons/icon-512.png
     color: "#1e3c6d"
