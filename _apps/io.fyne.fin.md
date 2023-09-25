@@ -10,7 +10,7 @@ screenshots:
 
 date:      2021-07-08 08:52:00
 excerpt:   A Fyne login manager for linux desktop computers
-category:  operatingsystems
+category:  system
 developer: The Fyne Team
 
 git: https://github.com/fyne-io/fin.git

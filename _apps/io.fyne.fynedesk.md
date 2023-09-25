@@ -11,7 +11,7 @@ screenshots:
 
 date:      2021-07-08 08:50:00
 excerpt:   A full desktop environment for Linux/Unix using Fyne
-category:  operatingsystems
+category:  system
 developer: The Fyne Team
 
 git: https://github.com/fyne-io/fynedesk.git
