@@ -333,6 +333,21 @@
   grid-template-rows: auto auto;
 }
 
+.featured-card {
+  margin-bottom: 16px;
+}
+
+.featured-card li {
+  border-radius: 8px;
+}
+
+.featured-card, .app-card {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e6e6eb;
+  border-radius: 8px;
+}
+
 .app-card {
   display: -webkit-box;
   display: -webkit-flex;
@@ -346,10 +361,6 @@
   flex-direction: column;
   grid-column-gap: 24px;
   grid-row-gap: 24px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #e6e6eb;
-  border-radius: 8px;
   background-color: #fff;
   -webkit-transition: box-shadow 300ms ease;
   transition: box-shadow 300ms ease;
