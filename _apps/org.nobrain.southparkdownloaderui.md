@@ -17,6 +17,11 @@ developer: Darwin Schuppan
 git: https://github.com/xypwn/southpark-downloader-ui
 package: github.com/xypwn/southpark-downloader-ui/cmd/southpark-downloader-ui
 version: v001
+
+downloads:
+  path: github/andydotxyz/xypwn/southpark-downloader-ui/cmd/southpark-downloader-ui
+  build: 386
+  platforms: darwin/amd64,darwin/arm64,linux/amd64,windows/amd64
 ---
 
 Fully self-contained South Park downloader using official sources
