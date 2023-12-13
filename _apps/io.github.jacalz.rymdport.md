@@ -10,6 +10,7 @@ screenshots:
 - url: https://raw.githubusercontent.com/Jacalz/rymdport/main/internal/assets/screenshot2.png
 
 date:      2022-03-06 11:27:00-000
+updated:   2023-10-10 09:01:00-000
 excerpt:   Cross-platform application for easy encrypted file, folder, and text sharing between devices.
 category:  utility
 developer: Jacalz

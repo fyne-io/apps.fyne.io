@@ -38,6 +38,26 @@ featured:
   {% assign applist = site.apps | sort: 'date' | reverse %}
 	{% include list.html applist=applist limit=9 %}  
 
+{% assign seconds = site.updated_days | times: 24 | times: 60 | times: 60 %}
+{% assign since = 'now' | date: '%s' | minus: seconds %}
+{% assign list = '' | split: ',' %}
+    
+{% for app in site.apps %}
+  {% assign last = app.updated | date: '%s' | plus: 0 %}
+  {% if last > since %}
+    {% assign list = list | push: app %}
+  {% endif %}
+{% endfor %}
+
+  <div class="wf-section">
+    <div class="fy_container">
+      <h3>Recently Updated ({{ list | size }})</h3>
+    </div>
+  </div>
+
+	{% include list.html applist=list %}  
+
+
   <div class="fy_container">
     <a href="/all.html" class="w-button" style="
     font-family: Poppins, sans-serif;

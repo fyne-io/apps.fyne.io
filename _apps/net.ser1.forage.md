@@ -7,6 +7,7 @@ screenshots:
 - url: https://hg.sr.ht/~ser/forage/raw/assets/AndroidScreenshot.png
 
 date: 2022-01-30 21:57:00-000
+updated: 2022-03-21 13:20:24-000
 excerpt: Forage is a shopping list app for your (self-hosted) Mealie instance
 category:  utility
 developer: Sean Russell

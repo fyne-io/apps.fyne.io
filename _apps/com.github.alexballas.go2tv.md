@@ -8,6 +8,7 @@ screenshots:
 - url: https://i.imgur.com/Pw44BYD.png
 
 date:      2022-04-29 00:00:00
+updated:   2023-06-23 09:02:00
 excerpt:   Cast your media files to UPnP/DLNA MediaRenderer
 category:  utility
 developer: Alex Ballas

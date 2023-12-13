@@ -8,6 +8,7 @@ screenshots:
 - url: https://i.ibb.co/gSns4KH/preview.png
 
 date:      2021-07-16 11:23:00-000
+updated:   2023-02-14 09:04:00-000
 excerpt:   One word at a time.
 category:  utility
 developer: Conner C.
