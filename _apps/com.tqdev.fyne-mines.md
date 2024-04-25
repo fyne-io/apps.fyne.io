@@ -2,7 +2,7 @@
 appid: com.tqdev.fyne-mines
 title: Fyne Mines
 home: https://tqdev.com
-icon: https://github.com/mevdschee/fyne-mines/raw/main/minesicon.png
+icon: https://github.com/mevdschee/fyne-mines/raw/main/minesicon_large.png
 
 screenshots:
 - url: https://github.com/mevdschee/fyne-mines/raw/main/screenshot2.png
