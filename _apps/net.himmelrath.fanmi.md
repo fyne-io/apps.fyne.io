@@ -13,7 +13,7 @@ category:  utility
 developer: Jens Himmelrath
 
 git: https://github.com/sirion/fanmi
-package: github.com/sirion/fanmi
+package: github.com/sirion/fanmi/app
 version: 0.2
 ---
 
