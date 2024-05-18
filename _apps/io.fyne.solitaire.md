@@ -16,6 +16,9 @@ developer: The Fyne Team
 git: https://github.com/fyne-io/solitaire.git
 package: github.com/fyne-io/solitaire
 version: 
+
+appleid: 6502289656
+googleid: io.fyne.example.solitaire
 ---
 
 A simple 3-card draw solitaire game.
