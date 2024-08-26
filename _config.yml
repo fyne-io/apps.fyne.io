@@ -6,7 +6,7 @@ remote_theme: gdgmanagua/jekyll-mdl
 
 header_type: default
 post_type: highlight
-updated_days: 90
+updated_days: 180
 
 disqus: true
 disqus_shortname: 'fyne-apps'

@@ -42,7 +42,8 @@ featured:
 {% assign since = 'now' | date: '%s' | minus: seconds %}
 {% assign list = '' | split: ',' %}
     
-{% for app in site.apps %}
+{% assign applist = site.apps | sort: 'updated' | reverse %}
+{% for app in applist %}
   {% assign last = app.updated | date: '%s' | plus: 0 %}
   {% if last > since %}
     {% assign list = list | push: app %}
@@ -55,7 +56,7 @@ featured:
     </div>
   </div>
 
-	{% include list.html applist=list %}  
+	{% include list.html applist=list limit=3 %}  
 
 
   <div class="fy_container">
