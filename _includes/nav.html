@@ -47,6 +47,7 @@
             {% assign apple = ''|split:''%}
             {% assign google = ''|split:''%}
             {% assign flathub = ''|split:''%}
+            {% assign appimage = ''|split:''%}
             {% for app in site.apps %}
               {% if app.appleid %}
                 {% assign apple = apple | push: app %}
@@ -57,11 +58,15 @@
               {% if app.flathub %}
                 {% assign flathub = flathub | push: app %}
               {% endif %}
+              {% if app.appimage %}
+                {% assign appimage = appimage | push: app %}
+              {% endif %}
            {% endfor %}
 
             <a class="dropdown-link w-dropdown-link" href="/appstore.html">Apple AppStore ({{ apple | size }})</a>
-            <a class="dropdown-link w-dropdown-link" href="/flathub.html">Flathub ({{ flathub | size }})</a>
             <a class="dropdown-link w-dropdown-link" href="/playstore.html">Google Play ({{ google | size }})</a>
+            <a class="dropdown-link w-dropdown-link" href="/flathub.html">Flathub ({{ flathub | size }})</a>
+            <a class="dropdown-link w-dropdown-link" href="/appimage.html">Appimage ({{ appimage | size }})</a>
           </nav>
         </div>
       </div>

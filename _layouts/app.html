@@ -35,24 +35,29 @@ layout: default
     {% endif %}
     <div class="meta-row">
       <div class="div-block-3">
-        {% if page.appleid or page.googleid or page.flathub or page.downloads %}
+        {% if page.appleid or page.googleid or page.flathub or page.appimage or page.downloads %}
         <h5 class="h6">Stores</h5>
         <div class="label">This app is also available to install from the following stores:</div>
         <br />
         <div class="stores">
         {% if page.appleid %}
-        <a href="https://apps.apple.com/app/id{{ page.appleid }}" class="appstore">
+        <a href="https://apps.apple.com/app/id{{ page.appleid }}" class="appstore" "Apple App Store">
           <img src="/assets/images/appstore.png" style="max-width: 143px">
         </a>
         {% endif %}
         {% if page.googleid %}
-        <a href="https://play.google.com/store/apps/details?id={{ page.googleid }}" class="appstore">
+        <a href="https://play.google.com/store/apps/details?id={{ page.googleid }}" class="appstore" "Play Store">
           <img src="/assets/images/playstore.png" style="max-width: 160px">
         </a>
         {% endif %}
         {% if page.flathub %}
-        <a href="https://flathub.org/apps/details/{{ page.flathub }}" class="appstore">
+        <a href="https://flathub.org/apps/details/{{ page.flathub }}" class="appstore" title="Flathub">
           <img src="/assets/images/flathub.png" style="max-width: 160px">
+        </a>
+        {% endif %}
+        {% if page.appimage %}
+        <a href="https://appimage.github.io/{{ page.appimage }}/" class="appstore" title="AppImage">
+          <img src="/assets/images/appimage.png" style="max-width: 54px">
         </a>
         {% endif %}
         {% if page.downloads %}
