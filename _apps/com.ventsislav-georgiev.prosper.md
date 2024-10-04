@@ -2,8 +2,8 @@
 appid: com.ventsislav-georgiev.prosper
 requires: darwin,linux,windows
 title: Prosper
-home: com.ventsislav-georgiev.prosper
-icon: https://raw.githubusercontent.com/ventsislav-georgiev/prosper/main/icon.png
+home: https://github.com/ventsislav-georgiev/prosper 
+icon: https://raw.githubusercontent.com/ventsislav-georgiev/prosper/main/Icon.png
 
 screenshots:
 - url: https://user-images.githubusercontent.com/5616486/147394501-8d2f5a72-b3b7-44c0-bbea-7537fdece378.gif

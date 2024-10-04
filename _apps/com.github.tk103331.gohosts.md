@@ -5,7 +5,7 @@ title: GoHosts
 home: https://github.com/tk103331/gohosts
 icon: https://github.com/tk103331/gohosts/blob/main/logo.png?raw=true
 screenshots:
-- url: https://github.com/tk103331/gohosts/blob/main/snapshot.jpeg?raw=true
+- url: https://github.com/tk103331/gohosts/blob/main/screenshot.jpeg?raw=true
 
 date:      2021-03-28 16:39:00
 excerpt:   A system hosts file editing tool.

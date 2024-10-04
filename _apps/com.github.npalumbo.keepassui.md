@@ -5,7 +5,7 @@ home: https://github.com/npalumbo/
 icon: https://lh3.googleusercontent.com/rpxp6uOKMz2c_cVADwRX7D7x1EsvWyYGIF_I9ojsYKxsoDf-W2GQcZG5iNBf79zwJQ
 
 screenshots:
-- url: https://play-lh.googleusercontent.com/vedNoMBPRdu0f76viM7KnibwyXNca3fS_vlXFMbrDntF4iqeuqiGjJAR8QXAl1BK94GO=w5120-h2880-rw
+- url: https://play-lh.googleusercontent.com/vedNoMBPRdu0f76viM7KnibwyXNca3fS_vlXFMbrDntF4iqeuqiGjJAR8QXAl1BK94GO=w5120-h2880-rw?ext.png
 
 date:      2024-04-21 12:04:00+100
 excerpt:   A password manager port of Keepass

@@ -2,10 +2,10 @@
 appid: dev.anhcraft.ytbdownloader
 title: YTB Downloader
 home: https://github.com/anhcraft/ytb-downloader
-icon: https://i.imgur.com/pZxIeQi.png
+icon: https://github.com/anhcraft/ytb-downloader/blob/main/assets/ytb.png?raw=true
 
 screenshots:
-- url: https://i.imgur.com/vJOuWBb.png
+- url: https://camo.githubusercontent.com/4b1a685c50d591babb2b916575065812bac26693bd42b3381402bc3465f8939f/68747470733a2f2f692e696d6775722e636f6d2f764a4f755742622e706e67
 
 date:      2023-12-6 15:13:00+400
 excerpt:   A simple GUI for yt-dlp

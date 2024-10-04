@@ -2,12 +2,12 @@
 appid: top.reminisce.pasecret
 title: Pasecret
 home: https://github.com/BlueSkyCaps/pasecret
-icon: http://sto.reminisce.top/OTHER/apps/pasecret/logo.png
+icon: https://github.com/BlueSkyCaps/pasecret/blob/master/assets/logo.png?raw=true
 
 screenshots:
-- url: http://sto.reminisce.top/OTHER/apps/pasecret/gitshow6.png
-- url: http://sto.reminisce.top/OTHER/apps/pasecret/gitshow4.png
-- url: http://sto.reminisce.top/OTHER/apps/pasecret/gitshow7.jpg
+- url: https://github.com/BlueSkyCaps/pasecret/raw/master/assets/readme/gitshow6.jpeg
+- url: https://github.com/BlueSkyCaps/pasecret/raw/master/assets/readme/gitshow4.jpeg
+- url: https://github.com/BlueSkyCaps/pasecret/raw/master/assets/readme/gitshow7.jpeg
 
 date:      2023-08-12 14:26:00+800
 excerpt:   Pasecret is an account password manager that can run on multiple platforms.

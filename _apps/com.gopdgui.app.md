@@ -5,7 +5,7 @@ home: https://github.com/ManuelReschke
 icon: https://github.com/ManuelReschke/go-pd-gui/blob/main/assets/go-pd-gui-app-icon.png?raw=true
 
 screenshots:
-- url: https://github.com/ManuelReschke/go-pd-gui/raw/main/assets/go-pd-gui-example-upload.gif
+- url: https://github.com/ManuelReschke/go-pd-gui/raw/main/assets/go-pd-gui-preview.gif
 - url: https://github.com/ManuelReschke/go-pd-gui/raw/main/assets/go-pd-gui-icon.png
 
 date:      2022-07-04 11:18:00
