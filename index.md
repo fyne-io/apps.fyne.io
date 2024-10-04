@@ -2,21 +2,6 @@
 layout: default
 title:  Newest additions
 order:  1
-
-featured: 
-  - id: com.fynelabs.nomad
-    image: /assets/images/carousel/nomad.PNG
-  - id: io.github.jacalz.rymdport
-    color: "#1e3c6d"
-    name-color: "#ffffff"
-  - id: me.ankushjadhav.fynesweeper
-    image: /assets/images/carousel/fynesweeper.png
-  - id: com.pomadorik
-    color: "#0a7b0b"
-    name-color: "#ff5f3a"
-  - id: com.github.alexballas.go2tv
-    image: /assets/images/carousel/go2tv.png
-
 ---
 <div> 
   {% include nav.html %}

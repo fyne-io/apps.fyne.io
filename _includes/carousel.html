@@ -4,7 +4,7 @@
 {% assign letters = letterstring | split: ',' %}
 <div class="carousel__holder">
     <div id="featured" class="carousel">
-        {% for item in page.featured %}
+        {% for item in site.data.featured %}
           <input class="carousel__activator" type="radio" name="featured" id="{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
         {% endfor %}
         {% for item in page.featured %}
@@ -27,7 +27,7 @@
         {% endfor %}
         <div class="carousel__track">
           <ul>
-            {% for item in page.featured %}
+            {% for item in site.data.featured %}
             {% if item.image | blank | not %}
             <li class="carousel__slide" style="background-image: url('{{ item.image }}');">
               <a href="/apps/{{ item.id }}.html">&nbsp;</a></li>
@@ -49,7 +49,7 @@
           </ul>
         </div>
         <div class="carousel__indicators">
-            {% for item in page.featured %}
+            {% for item in site.data.featured %}
               <label class="carousel__indicator" for="{{ letters[forloop.index0] }}"></label>
             {% endfor %}
         </div>
@@ -70,7 +70,7 @@
 .carousel__activator {
   display: none;
 }
-{% for item in page.featured %}
+{% for item in site.data.featured %}
 .carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__track {
   -webkit-transform: translateX(-{{ forloop.index0 }}00%);
           transform: translateX(-{{ forloop.index0 }}00%);
@@ -162,7 +162,7 @@
   right: 0;
   opacity: 1;
 }
-{% for item in page.featured %}
+{% for item in site.data.featured %}
 .carousel__track .carousel__slide:nth-of-type({{ forloop.index }}) {
   -webkit-transform: translateX({{ forloop.index0 }}00%);
           transform: translateX({{ forloop.index0 }}00%);
@@ -204,7 +204,7 @@
 .carousel__indicator {
   background-color: #fafafa;
 }
-{% for item in page.featured %}
+{% for item in site.data.featured %}
 .carousel__slide:nth-of-type({{ forloop.index }}),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type({{ forloop.index }}) {
   background-size: cover;

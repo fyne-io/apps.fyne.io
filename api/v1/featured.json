@@ -1,0 +1,21 @@
+---
+layout: none
+---
+[
+{% for item in site.data.featured %}
+{%- assign apps = site.apps | where:"appid", item.id %}
+{%- assign app = apps[0] -%}
+{
+  "id": "{{ item.id }}",
+  "description": "{{ app.excerpt }}",
+  {%- if item.image %}
+  "image": "{{ item.image }}",
+  {%- else %}
+  "background": "{{ item.color }}",
+  "icon": "{{app.icon }}",
+  "color": "{{ item.name-color }}"
+  {%- endif %}
+}
+  {%- unless forloop.last -%},{%- endunless -%}
+  {%- endfor %}
+]
