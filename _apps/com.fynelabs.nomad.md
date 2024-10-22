@@ -9,20 +9,21 @@ screenshots:
 - url: https://github.com/fynelabs/nomad/blob/main/img/picker.png?raw=true
 
 date:      2022-07-22 19:37:00
+updated:   2024-10-22 15:29:00+100
 excerpt:   A splashy timezone conversion app
 category:  utility
 developer: Fyne Labs
 
 git: https://github.com/fynelabs/nomad.git
 package: github.com/fynelabs/nomad
-version: v0.1.0
+version: v0.2.1
 
 appleid:  1636474608
 googleid: com.fynelabs.nomad
 
 downloads:
   path: github/andydotxyz/fynelabs/nomad
-  build: 33
+  build: 554
   platforms: android,darwin/amd64,darwin/arm64,freebsd/amd64,freebsd/arm64,linux/amd64,linux/arm64,windows/amd64
 ---
 
