@@ -13,7 +13,7 @@ category:  utility
 developer: Roman, Romadin
 
 git: https://github.com/romanitalian/fyne-weather
-package: github.com/romanitalian/fyne-weather/cmd
+package: github.com/romanitalian/fyne-weather
 version: v0.0.1
 
 
