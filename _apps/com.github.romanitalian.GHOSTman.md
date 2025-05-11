@@ -9,7 +9,7 @@ screenshots:
 - url: https://raw.githubusercontent.com/romanitalian/GHOSTman/refs/heads/main/docs/screenshot-GHOSTman-v1.0.0-theme-dark.png
 
 date:      2025-05-10 14:36:49+000
-excerpt:   A GUI application for executing HTTP commands, built with Go and Fyne framework. This tool provides a user-friendly interface for managing and executing HTTP requests defined in Postman Collection format.
+excerpt:   A GUI application for executing HTTP commands
 category:  utility
 developer: Roman, Romadin
 

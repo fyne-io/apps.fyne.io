@@ -8,7 +8,7 @@ screenshots:
 - url: https://raw.githubusercontent.com/romanitalian/fyne-weather/refs/heads/main/docs/screenshots/example-1.png
 
 date:      2025-05-04 20:50:47+100
-excerpt:   A simple desktop weather application built with Go and Fyne framework. The app shows current weather conditions for any city and displays local time.
+excerpt:   A simple desktop weather application 
 category:  utility
 developer: Roman, Romadin
 
