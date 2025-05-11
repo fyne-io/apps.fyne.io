@@ -7,7 +7,7 @@
         {% for item in site.data.featured %}
           <input class="carousel__activator" type="radio" name="featured" id="{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
         {% endfor %}
-        {% for item in page.featured %}
+        {% for item in site.data.featured %}
           {% if forloop.index == forloop.length %}
             {% assign nextindex = 0 %}
           {% else %}
