@@ -2,12 +2,12 @@
 appid: com.scsi.edlin
 title: EDLIN
 home: https://github.com/shofster/edlin
-icon: https://github.com/shofster/edlin/blob/master/images/typewriter.png?raw=true
+icon: https://github.com/shofster/edlin/typewriter.png
 
 screenshots:
-- url: https://github.com/shofster/edlin/blob/master/images/edlin-main.jpg?raw=true
-- url: https://github.com/shofster/edlin/blob/master/images/edlin-edit.jpg?raw=true
-- url: https://github.com/shofster/edlin/blob/master/images/edlin-search.jpg?raw=true
+- url: https://github.com/shofster/edlin/tree/master/images/edlin-main.jpg
+- url: https://github.com/shofster/edlin/tree/master/images/edlin-edit.jpg
+- url: https://github.com/shofster/edlin/tree/master/images/edlin-search.jpg
 
 
 date:      2025-04-15 16:59:44
