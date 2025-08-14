@@ -1,5 +1,5 @@
-  - id: com.fynelabs.nomad
-    image: /assets/images/carousel/nomad.PNG
+  - id: divide.and.conquer.ago.launcher
+    image: /assets/images/carousel/divideandconquer.png
   - id: io.github.jacalz.rymdport
     color: "#1e3c6d"
     name-color: "#ffffff"
