@@ -1,13 +1,13 @@
-  - id: divide.and.conquer.ago.launcher
-    image: /assets/images/carousel/divideandconquer.png
+  - id: com.github.dweymouth.supersonic
+    image: /assets/images/carousel/supersonic.png
   - id: io.github.jacalz.rymdport
     color: "#1e3c6d"
     name-color: "#ffffff"
-  - id: me.ankushjadhav.fynesweeper
-    image: /assets/images/carousel/fynesweeper.png
-  - id: com.pomadorik
+  - id: divide.and.conquer.ago.launcher
+    image: /assets/images/carousel/divideandconquer.png
+  - id: xyz.andy.fomato
     color: "#0a7b0b"
     name-color: "#ff5f3a"
-  - id: com.github.alexballas.go2tv
-    image: /assets/images/carousel/go2tv.png
-
+  - id: me.ankushjadhav.fynesweeper
+    image: /assets/images/carousel/fynesweeper.png
+ 

@@ -1,5 +1,5 @@
 ---
-appid: TFLanHttpDesktop.2025.0826
+appid: com.github.mangenotwork.TFLanHttpDesktop
 title: TFLanHttpDesktop
 home: https://github.com/mangenotwork
 icon: https://github.com/mangenotwork/TFLanHttpDesktop/blob/main/icon.png?raw=true

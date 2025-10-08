@@ -35,11 +35,11 @@ layout: default
     {% endif %}
     <div class="meta-row">
       <div class="div-block-3">
-        {% if page.appleid or page.googleid or page.flathub or page.appimage or page.downloads %}
+        {% if page.appleid or page.googleid or page.flathub or page.appimage or page.downloads or page.other %}
         <h5 class="h6">Stores</h5>
         <div class="label">This app is also available to install from the following stores:</div>
         <br />
-        <div class="stores">
+        <div class="stores" style="padding-top: 10pt;">
         {% if page.appleid %}
         <a href="https://apps.apple.com/app/id{{ page.appleid }}" class="appstore" "Apple App Store">
           <img src="/assets/images/appstore.png" style="max-width: 143px">
@@ -86,6 +86,34 @@ layout: default
           position: absolute;
           right: 7pt;
           top: 1.5pt;" class="platform">All Platforms</span>
+        </a>
+        {% endif %}
+        {% if page.other %}
+        <a href="{{ page.other }}" class="appstore"
+        style=" background-color: black;
+        color: white;
+        border-radius: 5pt;
+        text-decoration: none;
+        padding: 8pt 6pt;
+        font-size: 16pt;
+        font-weight: 500;
+        position: relative;
+        top: 3px;">
+          <svg xmlns="http://www.w3.org/2000/svg" focusable="false" viewBox="0 0 24 24" color="rgb(255, 255, 255)" style="user-select: none;          
+          height: 30px;
+          display: inline-block;
+          fill: rgb(255, 255, 255);
+          flex-shrink: 0;
+          pointer-events: none;
+          vertical-align: middle;">
+          <path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z" style="pointer-events: none;">
+          </path>
+          </svg>
+          <span style="top: 4pt; position: relative;">Download</span><span style="font-size: 8pt;
+          font-weight: normal;
+          position: absolute;
+          right: 7pt;
+          top: 1.5pt;" class="platform">External host</span>
         </a>
         {% endif %}
         </div>

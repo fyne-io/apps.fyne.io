@@ -17,7 +17,7 @@ package: github.com/Sarwarhridoy4/FyClip---Advanced-Clipboard-Manager
 version: 1.1.0
 
 
-
+other: https://github.com/Sarwarhridoy4/FyClip---Advanced-Clipboard-Manager/releases/tag/1.3.0
 ---
 
 A powerful, cross-platform clipboard manager built with Go and Fyne that automatically tracks your clipboard history, provides instant search, and persists data between sessions. Now with image support and pinning for favorite items.
