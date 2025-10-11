@@ -10,7 +10,7 @@ screenshots:
 date:      2025-10-09 12:41:15
 excerpt:   Quickly compress and convert your videos with customizable bitrate, multiple formats, and powerful H.264/HEVC encoding.
 category:  utility
-developer: Orkun, Karaduman
+developer: Orkun Karaduman
 
 git: 
 package: 

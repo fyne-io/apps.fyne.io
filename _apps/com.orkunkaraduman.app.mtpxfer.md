@@ -10,7 +10,7 @@ screenshots:
 date:      2025-10-09 13:58:56
 excerpt:   Seamless file transfers between your Mac and mobile devices over USB.
 category:  utility
-developer: Orkun, Karaduman
+developer: Orkun Karaduman
 
 git: 
 package: 

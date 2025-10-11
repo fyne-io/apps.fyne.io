@@ -13,7 +13,7 @@ screenshots:
 date:      2025-08-06 19:46:02
 excerpt:   Major update with significant new features and improvements
 category:  education
-developer: Iliias, Baiyshev
+developer: Iliias Baiyshev
 
 git: https://github.com/Iliiasik/Blockchain
 package: github.com/Iliiasik/Blockchain

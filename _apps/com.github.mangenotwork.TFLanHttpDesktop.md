@@ -13,7 +13,7 @@ screenshots:
 date:      2025-09-10 09:34:20
 excerpt:   Transfer Files from LAN Http Desktop
 category:  development
-developer: li, man
+developer: li man
 
 git: https://github.com/mangenotwork/TFLanHttpDesktop
 package: github.com/mangenotwork/TFLanHttpDesktop

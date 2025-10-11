@@ -10,7 +10,7 @@ screenshots:
 date:      2025-09-14 08:43:10
 excerpt:   About A powerful, cross-platform clipboard manager built with Go and Fyne.
 category:  utility
-developer: Sarwar, Hossain
+developer: Sarwar Hossain
 
 git: https://github.com/Sarwarhridoy4/FyClip---Advanced-Clipboard-Manager
 package: github.com/Sarwarhridoy4/FyClip---Advanced-Clipboard-Manager

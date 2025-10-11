@@ -11,7 +11,7 @@ screenshots:
 date:      2025-04-27 08:25:30
 excerpt:   Edit game saves to improve your gaming experience.
 category:  games
-developer: Eugene, Tishin
+developer: Eugene Tishin
 
 git: https://github.com/imsgit/chaos-gate-unlocker
 package: github.com/imsgit/chaos-gate-unlocker

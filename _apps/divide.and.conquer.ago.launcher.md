@@ -13,7 +13,7 @@ screenshots:
 date:      2025-08-13 19:11:01
 excerpt:   Game Launcher
 category:  games
-developer: Eddie, Eldridge
+developer: Eddie Eldridge
 
 git: https://github.com/Divide-and-Conquer-AGO/ago-launcher
 package: github.com/Divide-and-Conquer-AGO/ago-launcher

@@ -13,7 +13,7 @@ screenshots:
 date:      2025-07-26 17:06:00
 excerpt:   SOCKS5, smtp
 category:  utility
-developer: Stefan, Claas
+developer: Stefan Claas
 
 git: https://github.com/Ch1ffr3punk/mmg
 package: github.com/Ch1ffr3punk/mmg

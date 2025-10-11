@@ -13,7 +13,7 @@ screenshots:
 date:      2025-05-25 20:32:47+100
 excerpt:   SLIDER - a desktop slideshow of local JPEG and PNG files
 category:  entertainment
-developer: bob, shofner
+developer: bob shofner
 
 git: https://github.com/shofster/slider
 package: github.com/shofster/slider

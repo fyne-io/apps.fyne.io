@@ -10,7 +10,7 @@ screenshots:
 date:      2025-09-02 22:44:23
 excerpt:   About yubicrypt - An easy to use public key encryption program for your YubiKey.
 category:  utility
-developer: Stefan, Claas
+developer: Stefan Claas
 
 git: https://github.com/Ch1ffr3punk/yubicrypt
 package: github.com/Ch1ffr3punk/yubicrypt

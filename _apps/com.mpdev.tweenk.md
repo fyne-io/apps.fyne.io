@@ -11,7 +11,7 @@ screenshots:
 date:      2025-03-27 21:19:37
 excerpt:   Tweenk is an encrypted note taking app written in Golang.
 category:  productivity
-developer: Maciej, Piątek
+developer: Maciej Piątek
 
 git: https://github.com/maciej-piatek/TWEENK
 package: github.com/maciej-piatek/TWEENK

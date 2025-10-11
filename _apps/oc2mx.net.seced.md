@@ -10,7 +10,7 @@ screenshots:
 date:      2025-08-23 12:10:48
 excerpt:   seced - A barebones secure GUI Editor which always saves your files encrypted.
 category:  utility
-developer: Stefan, Claas
+developer: Stefan Claas
 
 git: https://github.com/Ch1ffr3punk/seced
 package: github.com/Ch1ffr3punk/seced

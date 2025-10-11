@@ -10,7 +10,7 @@ screenshots:
 date:      2025-09-24 15:19:25
 excerpt:   Remove EXIF metadata from your photos to protect your privacy. Simple drag-and-drop interface with both GUI and command-line options.
 category:  utility
-developer: Alessandro, Frank
+developer: Alessandro Frank
 
 git: https://github.com/Iridium-Works-GmbH/iridium-exif-cleaner
 package: github.com/Iridium-Works-GmbH/iridium-exif-cleaner

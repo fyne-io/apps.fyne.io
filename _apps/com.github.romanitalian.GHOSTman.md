@@ -11,7 +11,7 @@ screenshots:
 date:      2025-05-10 14:36:49+000
 excerpt:   A GUI application for executing HTTP commands
 category:  utility
-developer: Roman, Romadin
+developer: Roman Romadin
 
 git: https://github.com/romanitalian/GHOSTman
 package: github.com/romanitalian/GHOSTman

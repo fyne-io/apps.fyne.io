@@ -11,7 +11,7 @@ screenshots:
 date:      2021-10-25 09:35:00
 excerpt:   An app to make a fast, searchable, in memory set of lists
 category:  productivity
-developer: Nicholas, VanCise
+developer: Nicholas VanCise
 
 git: https://github.com/thenick775/thelist.git
 package: github.com/thenick775/thelist/src

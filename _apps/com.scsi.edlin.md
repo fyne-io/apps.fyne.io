@@ -13,7 +13,7 @@ screenshots:
 date:      2025-04-15 16:59:44
 excerpt:   EDLIN is a text editor.
 category:  development
-developer: Bob, shofner
+developer: Bob shofner
 
 git: https://github.com/shofster/edlin
 package: github.com/shofster/edlin

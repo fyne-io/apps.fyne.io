@@ -13,7 +13,7 @@ screenshots:
 date:      2025-10-04 08:15:23
 excerpt:   Lightweight cross‑platform desktop app to download YouTube videos and playlists
 category:  utility
-developer: Roman, Romadin
+developer: Roman Romadin
 
 git: https://github.com/ytget/yt-downloader
 package: github.com/ytget/yt-downloader

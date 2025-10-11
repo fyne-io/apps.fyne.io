@@ -10,7 +10,7 @@ screenshots:
 date:      2025-07-03 16:39:22
 excerpt:   Mouse anti double click utility
 category:  utility
-developer: Azizul, Hakim
+developer: Azizul Hakim
 
 git: https://github.com/AHS12/click-guardian
 package: github.com/AHS12/click-guardian

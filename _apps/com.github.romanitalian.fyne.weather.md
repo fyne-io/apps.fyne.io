@@ -10,7 +10,7 @@ screenshots:
 date:      2025-05-04 20:50:47+100
 excerpt:   A simple desktop weather application 
 category:  utility
-developer: Roman, Romadin
+developer: Roman Romadin
 
 git: https://github.com/romanitalian/fyne-weather
 package: github.com/romanitalian/fyne-weather

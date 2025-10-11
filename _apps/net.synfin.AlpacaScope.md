@@ -9,7 +9,7 @@ screenshots:
 date:      2021-07-25 04:17:00
 excerpt:   AlpacaScope
 category:  utility
-developer: Aaron, Turner
+developer: Aaron Turner
 
 git: https://github.com/synfinatic/alpacascope.git
 package: github.com/synfinatic/alpacascope/gui

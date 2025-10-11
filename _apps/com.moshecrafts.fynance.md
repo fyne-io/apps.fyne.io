@@ -13,7 +13,7 @@ screenshots:
 date:      2025-07-07 12:23:30
 excerpt:   Track your monthly expenses
 category:  finance
-developer: Clinton, Moshe
+developer: Clinton Moshe
 
 git: https://github.com/clinton-mwachia/Fynance
 package: github.com/clinton-mwachia/Fynance

@@ -13,7 +13,7 @@ screenshots:
 date:      2025-06-07 13:52:30+100
 excerpt:   A macOS DMG package builder with a native GUI and CLI support.
 category:  utility
-developer: Tiago, Melo
+developer: Tiago Melo
 
 git: github.com/tiagomelo/macos-dmg-creator
 package: om/tiagomelo/macos-dmg-creator

@@ -10,7 +10,7 @@ screenshots:
 date:      2025-04-30 00:45:12+100
 excerpt:   A simple game of craps. Just roll the dice and place pass line bets.
 category:  games
-developer: Joe, Bologna
+developer: Joe Bologna
 
 git: https://github.com/joebologna/craps
 package: github.com/joebologna/craps

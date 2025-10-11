@@ -10,7 +10,7 @@ screenshots:
 date:      2025-05-24 15:17:40+100
 excerpt:   FMAN is a dual panel file manager
 category:  utility
-developer: Bob, Shofner
+developer: Bob Shofner
 
 git: https://github.com/shofster/fman
 package: github.com/shofster/fman

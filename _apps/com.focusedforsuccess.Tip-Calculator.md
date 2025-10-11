@@ -10,7 +10,7 @@ screenshots:
 date:      2025-04-30 00:48:24+100
 excerpt:   A no-nonsense tip calculator that can also split the bill.
 category:  productivity
-developer: Joe, Bologna
+developer: Joe Bologna
 
 git: https://github.com/joebologna/tip
 package: github.com/joebologna/tip

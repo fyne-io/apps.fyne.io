@@ -11,7 +11,7 @@ screenshots:
 date:      2025-10-07 15:57:57
 excerpt:   A lightweight and full-featured desktop client for self-hosted music servers
 category:  entertainment
-developer: Drew, Weymouth
+developer: Drew Weymouth
 
 git: https://github.com/dweymouth/supersonic
 package: github.com/dweymouth/supersonic

@@ -10,7 +10,7 @@ screenshots:
 date:      2025-06-12 04:34:37+100
 excerpt:   Use fyne to manage k8s cluster
 category:  development
-developer: wang, yazhou
+developer: wang yazhou
 
 git: https://github.com/andrewbytecoder/k9fyne
 package: github.com/andrewbytecoder/k9fyne

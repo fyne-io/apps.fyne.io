@@ -11,7 +11,7 @@ screenshots:
 date:      2025-08-23 12:08:19
 excerpt:   wipe - Delete a file securely.
 category:  utility
-developer: Stefan, Claas
+developer: Stefan Claas
 
 git: https://github.com/Ch1ffr3punk/wipe
 package: github.com/Ch1ffr3punk/wipe

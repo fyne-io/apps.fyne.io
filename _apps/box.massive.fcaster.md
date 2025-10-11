@@ -11,7 +11,7 @@ screenshots:
 date:      2025-08-16 14:28:22
 excerpt:   A cross-platform app to cast media to a FCast receiver
 category:  utility
-developer: Matteo, Bendotti
+developer: Matteo Bendotti
 
 git: https://git.massive.box/massivebox/fcaster
 package: git.massive.box/massivebox/fcaster
