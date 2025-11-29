@@ -2,7 +2,7 @@
 appid: owu.github.io
 title: Share Sniffer
 home: https://github.com/owu
-icon: github.com/owu/share-sniffer/blob/main/logo.png?raw=true
+icon: https://github.com/owu/share-sniffer/blob/main/logo.png?raw=true
 
 screenshots:
 - url: https://github.com/owu/share-sniffer/blob/unstable/screenshot/about.png?raw=true
