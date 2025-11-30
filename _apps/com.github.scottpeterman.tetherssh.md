@@ -16,7 +16,7 @@ category:  operating systems
 developer: Scott Peterman
 
 git: https://github.com/scottpeterman/tetherssh
-package: github.com/scottpeterman/tetherssh
+package: github.com/scottpeterman/tetherssh/cli
 version: 0.2.0
 
 
