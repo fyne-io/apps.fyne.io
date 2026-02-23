@@ -10,7 +10,7 @@ screenshots:
 date:      2026-01-13 09:47:55
 excerpt:   Simple, cross-platform desktop app to organize, search, and run your favorite terminal commands.
 category:  productivity
-developer: Albert, Arakelyan
+developer: Albert Arakelyan
 
 git: https://github.com/AlbertArakelyan/keep-command
 package: github.com/AlbertArakelyan/keep-command

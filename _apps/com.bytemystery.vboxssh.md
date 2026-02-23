@@ -13,7 +13,7 @@ screenshots:
 date:      2026-01-17 22:32:08
 excerpt:   VBoxSsh is a graphical platform independent front end for managing and administrating VirtualBox instances in your network.
 category:  utility
-developer: Reiner, Pröls
+developer: Reiner Pröls
 
 git: https://github.com/bytemystery-com/vboxssh/
 package: github.com/bytemystery-com/vboxssh/
