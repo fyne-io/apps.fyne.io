@@ -12,8 +12,8 @@ excerpt:   minicrypt - public key encryption program
 category:  utility
 developer: Stefan Claas
 
-git: https://github.com/706f6c6c7578/minicrypt/tree/main
-package: github.com/706f6c6c7578/minicrypt/tree/main
+git: https://github.com/706f6c6c7578/minicrypt
+package: github.com/706f6c6c7578/minicrypt
 version: 
 
 
