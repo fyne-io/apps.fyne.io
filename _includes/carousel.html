@@ -241,14 +241,33 @@
         }
   }
   {% if include.duration %}
-  setInterval(function(){
+  var carouselTimer;
+
+  function advanceCarousel() {
     var j=0;
     var elements = document.querySelectorAll('#featured .carousel__control--forward');
     for(i=(elements.length - 1);i>-1;i--) {
       if(isVisible(elements[i])) j=i;
     }
     elements[j].click();
-  },{{ include.duration }}000);
+  }
+
+  function scheduleCarousel() {
+    clearTimeout(carouselTimer);
+    carouselTimer = setTimeout(function() {
+      advanceCarousel();
+      scheduleCarousel();
+    }, {{ include.duration }}000);
+  }
+
+  scheduleCarousel();
+
+  var resetEls = '#featured .carousel__control--forward, #featured .carousel__control--backward, #featured .carousel__indicator';
+  document.querySelectorAll(resetEls).forEach(function(el) {
+    el.addEventListener('click', function() {
+      scheduleCarousel();
+    });
+  });
   {% endif %}
 </script>
 
