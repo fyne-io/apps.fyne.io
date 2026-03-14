@@ -238,7 +238,7 @@
     carouselTimer = setTimeout(function() {
       advanceCarousel();
       scheduleCarousel();
-    }, {{ $duration }}000);
+    }, {{ print $duration "000" }});
   }
 
   scheduleCarousel();
