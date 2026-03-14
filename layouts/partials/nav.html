@@ -4,36 +4,29 @@
 {{- $allApps := where (where .Site.Pages "Section" "apps") ".Params.appid" "!=" nil -}}
 {{- $enabledApps := where $allApps ".Params.disabled" "!=" true -}}
 
-<div class="relative">
-  <div class="max-w-5xl mx-auto px-4">
-    <div class="flex justify-end py-2">
-      <div class="flex items-center gap-1 cursor-pointer">
-        <img onclick="openSearch()" src="/assets/images/search.svg" loading="lazy" alt="Search" class="h-8 invert dark:invert-0 opacity-60 hover:opacity-100">
-        <input type="text" class="search-input-closed" maxlength="256" placeholder="Search..." id="js-search__input">
-      </div>
+<div class="max-w-5xl mx-auto px-4 mb-8">
+  <div class="flex items-start justify-between">
+    <div class="w-2/3 max-md:w-full">
+      <h1 class="text-5xl md:text-7xl font-semibold">Apps</h1>
+      <p class="text-xl text-neutral-400 mt-2">Just some of the amazing apps created using Fyne.
+        <br><a href="https://docs.fyne.io/submit/" class="text-primary-400 hover:underline">Submit yours here</a>
+      </p>
+    </div>
+    <div class="flex items-center gap-1 cursor-pointer mt-4">
+      <img onclick="openSearch()" src="/assets/images/search.svg" loading="lazy" alt="Search" class="h-8 invert dark:invert-0 opacity-60 hover:opacity-100">
+      <input type="text" class="search-input-closed" maxlength="256" placeholder="Search..." id="js-search__input">
     </div>
   </div>
   <div class="results-container results-container-closed" id="results-container">
-    <div class="max-w-5xl mx-auto px-4">
-      <div class="apps-grid" id="search-results">
-      </div>
+    <div class="apps-grid" id="search-results">
     </div>
-  </div>
-</div>
-
-<div class="max-w-5xl mx-auto px-4 mb-8">
-  <div class="w-2/3 max-md:w-full">
-    <h1 class="text-5xl md:text-7xl font-semibold">Apps</h1>
-    <p class="text-xl text-neutral-400 mt-2">Just some of the amazing apps created using Fyne.
-      <br><a href="https://docs.fyne.io/submit/" class="text-primary-400 hover:underline">Submit yours here</a>
-    </p>
   </div>
 </div>
 
 <div class="max-w-5xl mx-auto px-4 mb-4">
   <div class="flex flex-wrap gap-2 items-center">
     <a href="/" class="filter-tab {{ if eq $currentTitle "Newest additions" }}filter-tab-active{{ end }}">Home</a>
-    <a href="/all.html" class="filter-tab {{ if eq $currentTitle "All Apps" }}filter-tab-active{{ end }}">All ({{ len $enabledApps }})</a>
+    <a href="/all.html" class="filter-tab {{ if eq $currentTitle "All Apps" }}filter-tab-active{{ end }}">All ({{ len $allApps }})</a>
 
     <div class="filter-dropdown">
       <div class="filter-tab {{ if $currentCategory }}filter-tab-active{{ end }}">

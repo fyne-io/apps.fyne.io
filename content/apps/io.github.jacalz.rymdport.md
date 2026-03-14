@@ -25,6 +25,8 @@ downloads:
   platforms: darwin/amd64,darwin/arm64,linux/amd64,linux/arm64,freebsd/amd64,freebsd/arm64,windows/amd64
 
 flathub: io.github.jacalz.rymdport
+aliases:
+- /apps/rymdport
 url: /apps/io.github.jacalz.rymdport.html
 layout: app
 

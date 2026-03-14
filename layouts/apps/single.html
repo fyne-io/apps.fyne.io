@@ -34,42 +34,46 @@
     <div class="flex flex-wrap items-center gap-3">
       {{ if .Params.appleid }}
       <a href="https://apps.apple.com/app/id{{ .Params.appleid }}" title="Apple App Store">
-        <img src="/assets/images/appstore.png" class="max-w-[143px]">
+        <img src="/assets/images/appstore.png" style="max-width:143px">
       </a>
       {{ end }}
       {{ if .Params.googleid }}
       <a href="https://play.google.com/store/apps/details?id={{ .Params.googleid }}" title="Play Store">
-        <img src="/assets/images/playstore.png" class="max-w-[160px]">
+        <img src="/assets/images/playstore.png" style="max-width:160px">
       </a>
       {{ end }}
       {{ if .Params.flathub }}
       <a href="https://flathub.org/apps/details/{{ .Params.flathub }}" title="Flathub">
-        <img src="/assets/images/flathub.png" class="max-w-[160px]">
+        <img src="/assets/images/flathub.png" style="max-width:160px">
       </a>
       {{ end }}
       {{ if .Params.appimage }}
       <a href="https://appimage.github.io/{{ .Params.appimage }}/" title="AppImage">
-        <img src="/assets/images/appimage.png" class="max-w-[54px]">
+        <img src="/assets/images/appimage.png" style="max-width:54px">
       </a>
       {{ end }}
       {{ if .Params.downloads }}
       <a href="https://geoffrey-artefacts.fynelabs.com/{{ .Params.downloads.path }}/{{ .Params.downloads.build }}/"
-        class="inline-flex items-center gap-2 bg-black text-white rounded-md no-underline py-2 px-3 text-base font-medium relative">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 fill-white shrink-0">
+        style="display:inline-flex;align-items:center;gap:6px;background:#000;color:#fff;border:1px solid #fff;border-radius:10px;text-decoration:none;padding:4px 10px;height:40px;box-sizing:border-box">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height:22px;fill:white;flex-shrink:0">
           <path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/>
         </svg>
-        <span>Download</span>
-        <span class="text-[8pt] font-normal absolute right-2 top-0.5">All Platforms</span>
+        <span style="display:flex;flex-direction:column;align-items:flex-end;line-height:1.2">
+          <span style="font-size:7pt;font-weight:normal">All Platforms</span>
+          <span style="font-size:13px;font-weight:500">Download</span>
+        </span>
       </a>
       {{ end }}
       {{ if .Params.other }}
       <a href="{{ .Params.other }}"
-        class="inline-flex items-center gap-2 bg-black text-white rounded-md no-underline py-2 px-3 text-base font-medium relative">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 fill-white shrink-0">
+        style="display:inline-flex;align-items:center;gap:6px;background:#000;color:#fff;border:1px solid #fff;border-radius:10px;text-decoration:none;padding:4px 10px;height:40px;box-sizing:border-box">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height:22px;fill:white;flex-shrink:0">
           <path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/>
         </svg>
-        <span>Download</span>
-        <span class="text-[8pt] font-normal absolute right-2 top-0.5">External host</span>
+        <span style="display:flex;flex-direction:column;align-items:flex-end;line-height:1.2">
+          <span style="font-size:7pt;font-weight:normal">External host</span>
+          <span style="font-size:13px;font-weight:500">Download</span>
+        </span>
       </a>
       {{ end }}
     </div>

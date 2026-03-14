@@ -27,7 +27,7 @@
 {{ partial "applist.html" (dict "applist" $byUpdated "limit" 3) }}
 
 <div class="max-w-5xl mx-auto px-4 my-8">
-  <a href="/all.html" class="block w-full text-center py-3 rounded-lg font-semibold text-xl bg-primary-600 hover:bg-primary-500 text-white no-underline">All Apps ({{ len $enabledApps }})</a>
+  <a href="/all.html" class="block w-full text-center py-3 rounded-lg font-semibold text-xl bg-primary-600 hover:bg-primary-500 text-white no-underline">All Apps ({{ len $allApps }})</a>
 </div>
 
 {{ end }}

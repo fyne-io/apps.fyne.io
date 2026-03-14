@@ -10,6 +10,26 @@
 <link href='//fonts.googleapis.com/css?family=Poppins:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
 <style>
+/* Hero background behind top of page */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 800px;
+  background-image: linear-gradient(135deg, rgba(10,14,42,0.75) 0%, rgba(3,7,108,0.7) 50%, rgba(26,31,78,0.75) 100%),
+              url(/img/header-toolkit.jpg);
+  background-size: cover, auto 125%;
+  background-position: center, center bottom;
+  z-index: -1;
+  -webkit-mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
+}
+html:not(.dark) body::before {
+  background-image: linear-gradient(135deg, rgba(200,210,240,0.5) 0%, rgba(180,195,235,0.45) 50%, rgba(200,210,240,0.5) 100%),
+              url(/img/header-toolkit.jpg);
+}
 .article-content {
   max-width: none !important;
 }
@@ -155,20 +175,17 @@
   transition: all .2s ease-out;
 }
 .results-container {
-  position: absolute;
-  left: 0;
-  right: 0;
   z-index: 999;
+  background-color: rgb(23, 23, 23);
+  border-radius: 0.5rem;
   box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: max-height 0.3s ease;
 }
 .results-container-closed {
-  top: -430px;
-  visibility: hidden;
-  transition: all .2s ease-in;
+  max-height: 0;
 }
 .results-container-open {
-  top: 80px;
-  visibility: visible;
-  transition: top .2s ease-in;
+  max-height: 800px;
 }
 </style>
