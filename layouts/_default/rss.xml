@@ -1,0 +1,22 @@
+{{- $allApps := where (where .Site.Pages "Section" "apps") ".Params.appid" "!=" nil -}}
+{{- $enabledApps := where $allApps ".Params.disabled" "!=" true }}<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ .Site.Title | htmlEscape }}</title>
+    <description>{{ .Site.Params.description | htmlEscape }}</description>
+    <link>{{ .Site.BaseURL }}</link>
+    <atom:link href="{{ .Site.BaseURL }}feed.xml" rel="self" type="application/rss+xml" />
+    {{- range $enabledApps }}
+      <item>
+        <title>{{ .Title | htmlEscape }}</title>
+        <description><![CDATA[{{ .Content | safeHTML }}]]></description>
+        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+        <link>{{ .Permalink }}</link>
+        <guid isPermaLink="true">{{ .Permalink }}</guid>
+        <icon>{{ .Params.icon }}</icon>
+        <excerpt>{{ .Params.excerpt }}</excerpt>
+        <developer>{{ .Params.developer }}</developer>
+      </item>
+    {{- end }}
+  </channel>
+</rss>

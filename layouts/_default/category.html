@@ -1,0 +1,8 @@
+{{ define "main" }}
+{{- $allApps := where (where .Site.Pages "Section" "apps") ".Params.appid" "!=" nil -}}
+{{- $enabledApps := where $allApps ".Params.disabled" "!=" true -}}
+{{- $catApps := where $enabledApps ".Params.category" .Params.category -}}
+{{- $sorted := sort $catApps ".Title" -}}
+{{ partial "nav.html" . }}
+{{ partial "applist.html" (dict "applist" $sorted) }}
+{{ end }}

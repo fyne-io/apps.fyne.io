@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{- $allApps := where (where .Site.Pages "Section" "apps") ".Params.appid" "!=" nil -}}
+{{- $enabledApps := where $allApps ".Params.disabled" "!=" true -}}
+
+{{ partial "nav.html" . }}
+
+<div class="max-w-5xl mx-auto px-4">
+  <div class="featured-card">
+    {{ partial "carousel.html" (dict "Site" .Site "height" "33" "unit" "%" "duration" 7) }}
+  </div>
+</div>
+
+<div class="max-w-5xl mx-auto px-4 mt-8 mb-4">
+  <h3 class="text-2xl font-semibold">New (9)</h3>
+</div>
+
+{{- $byDate := sort $enabledApps ".Params.date" "desc" -}}
+{{ partial "applist.html" (dict "applist" $byDate "limit" 9) }}
+
+{{- $hasUpdated := where $enabledApps ".Params.updated" "!=" nil -}}
+{{- $byUpdated := sort $hasUpdated ".Params.updated" "desc" -}}
+
+<div class="max-w-5xl mx-auto px-4 mt-8 mb-4">
+  <h3 class="text-2xl font-semibold">Recently Updated (3)</h3>
+</div>
+
+{{ partial "applist.html" (dict "applist" $byUpdated "limit" 3) }}
+
+<div class="max-w-5xl mx-auto px-4 my-8">
+  <a href="/all.html" class="block w-full text-center py-3 rounded-lg font-semibold text-xl bg-primary-600 hover:bg-primary-500 text-white no-underline">All Apps ({{ len $enabledApps }})</a>
+</div>
+
+{{ end }}

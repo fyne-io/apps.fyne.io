@@ -1,0 +1,35 @@
+{{- $allApps := where (where .Site.Pages "Section" "apps") ".Params.appid" "!=" nil -}}
+{{- $enabledApps := where $allApps ".Params.disabled" "!=" true -}}
+{{- $sorted := sort $enabledApps ".Title" -}}
+[
+{{- range $idx, $app := $sorted -}}
+{{- if $idx }},{{ end }}
+{
+  "id": "{{ $app.Params.appid }}",
+  "name": {{ $app.Title | jsonify }},
+  "icon": "{{ $app.Params.icon }}",
+  "summary": {{ $app.Params.excerpt | jsonify }},
+  "url": "{{ $app.Permalink }}",
+
+  "requires": "{{ $app.Params.requires }}",
+  "category": "{{ $app.Params.category }}",
+  "website": "{{ $app.Params.home }}",
+  "developer": "{{ $app.Params.developer }}",
+
+  "screenshots": [
+{{- range $si, $img := $app.Params.screenshots }}
+    {{ if $si }},{{ end }}{
+      "image": "{{ $img.url }}",
+      "type": "desktop"
+    }
+{{- end }}
+  ],
+  "source": {
+    "git": "{{ $app.Params.git }}",
+    "package": "{{ $app.Params.package }}"
+  },
+  "version": "{{ $app.Params.version }}",
+  "date": "{{ $app.Date.Format "2006-01-02T15:04:05-07:00" }}"
+}
+{{- end }}
+]

@@ -1,0 +1,37 @@
+<div class="mt-24 py-12 bg-neutral-900">
+  <div class="max-w-5xl mx-auto px-4 flex gap-12 text-sm">
+    <div>
+      <div class="uppercase text-xs text-neutral-400 tracking-wide mb-1">info</div>
+      <div>
+        <a href="mailto:info@fyne.io" target="_blank" class="text-neutral-300 hover:underline">info@fyne.io</a><br>
+        <a href="/feed.xml" target="_blank" class="text-neutral-300 hover:underline">Subscribe via RSS</a>
+      </div>
+    </div>
+    <div>
+      <div class="uppercase text-xs text-neutral-400 tracking-wide mb-1">Made a Fyne app?</div>
+      <div>
+        <a href="https://developer.fyne.io/submit/" target="_blank" class="text-neutral-300 hover:underline">Submit an App</a>
+      </div>
+    </div>
+  </div>
+</div>
+<footer id="site-footer" style="padding: 0 0 1rem 0; height: 4.5rem; display: flex; align-items: center;" class="print:hidden">
+  <div style="position: relative; display: flex; align-items: center; justify-content: center; width: 100%;">
+    <p style="position: absolute; left: 0; margin: 0;" class="text-sm text-neutral-500 dark:text-neutral-400">
+      &copy; {{ now.Format "2006" }} {{ .Site.Copyright | markdownify }}
+    </p>
+    <p style="margin: 0;" class="text-sm text-neutral-500 dark:text-neutral-400">
+      If you like the Fyne toolkit please consider
+      <a href="https://fyne.io/sponsor/" class="hover:underline hover:text-primary-500">sponsoring</a> our work.
+    </p>
+  </div>
+</footer>
+<script src="/assets/js/search.js" type="text/javascript"></script>
+<script type="text/javascript">
+  superSearch({
+    searchFile: '/feed.xml',
+    searchSelector: '#js-search',
+    inputSelector: '#js-search__input',
+    resultsSelector: '#js-search__results'
+  });
+</script>

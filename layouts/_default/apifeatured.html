@@ -1,0 +1,19 @@
+{{- $allApps := where (where .Site.Pages "Section" "apps") ".Params.appid" "!=" nil -}}
+[
+{{- range $idx, $item := .Site.Data.featured -}}
+{{- $matchingApps := where $allApps ".Params.appid" $item.id -}}
+{{- $app := index $matchingApps 0 -}}
+{{- if $idx }},{{ end }}
+{
+  "id": "{{ $item.id }}",
+  "description": {{ $app.Params.excerpt | jsonify }}
+  {{- if $item.image }},
+  "image": "{{ $item.image }}"
+  {{- else }},
+  "background": "{{ $item.color }}",
+  "icon": "{{ $app.Params.icon }}",
+  "color": "{{ index $item "name-color" }}"
+  {{- end }}
+}
+{{- end }}
+]

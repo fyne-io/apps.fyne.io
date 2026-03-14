@@ -1,0 +1,99 @@
+{{ define "main" }}
+<div class="max-w-5xl mx-auto px-4">
+
+  {{/* Title Area */}}
+  <div class="flex items-center gap-6 mt-12 mb-12 max-sm:flex-col max-sm:items-start max-sm:gap-3 max-sm:mt-6">
+    <img src="{{ .Params.icon }}" loading="lazy" alt="app icon" class="app-icon-img" onerror="this.style.display='none'">
+    <h1 class="text-5xl md:text-7xl font-semibold">{{ .Title }}</h1>
+  </div>
+
+  {{/* Developer */}}
+  <div class="mb-6">
+    <h5 class="font-semibold mb-1">Developer</h5>
+    <p class="text-neutral-400">{{ .Params.developer }}</p>
+  </div>
+
+  {{/* About */}}
+  <div class="mb-6">
+    <h5 class="font-semibold mb-1">About</h5>
+    <div class="text-neutral-400 prose dark:prose-invert max-w-none">{{ .Content }}</div>
+  </div>
+
+  {{/* Donate */}}
+  {{ if .Params.donate }}
+  <div class="mb-6">
+    <a class="font-semibold text-primary-400 hover:underline" href="{{ .Params.donate }}">Donate</a>
+  </div>
+  {{ end }}
+
+  {{/* Stores */}}
+  {{ if or .Params.appleid .Params.googleid .Params.flathub .Params.appimage .Params.downloads .Params.other }}
+  <div class="mb-6">
+    <h5 class="font-semibold mb-1">Stores</h5>
+    <p class="text-neutral-400 mb-3">This app is also available to install from the following stores:</p>
+    <div class="flex flex-wrap items-center gap-3">
+      {{ if .Params.appleid }}
+      <a href="https://apps.apple.com/app/id{{ .Params.appleid }}" title="Apple App Store">
+        <img src="/assets/images/appstore.png" class="max-w-[143px]">
+      </a>
+      {{ end }}
+      {{ if .Params.googleid }}
+      <a href="https://play.google.com/store/apps/details?id={{ .Params.googleid }}" title="Play Store">
+        <img src="/assets/images/playstore.png" class="max-w-[160px]">
+      </a>
+      {{ end }}
+      {{ if .Params.flathub }}
+      <a href="https://flathub.org/apps/details/{{ .Params.flathub }}" title="Flathub">
+        <img src="/assets/images/flathub.png" class="max-w-[160px]">
+      </a>
+      {{ end }}
+      {{ if .Params.appimage }}
+      <a href="https://appimage.github.io/{{ .Params.appimage }}/" title="AppImage">
+        <img src="/assets/images/appimage.png" class="max-w-[54px]">
+      </a>
+      {{ end }}
+      {{ if .Params.downloads }}
+      <a href="https://geoffrey-artefacts.fynelabs.com/{{ .Params.downloads.path }}/{{ .Params.downloads.build }}/"
+        class="inline-flex items-center gap-2 bg-black text-white rounded-md no-underline py-2 px-3 text-base font-medium relative">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 fill-white shrink-0">
+          <path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/>
+        </svg>
+        <span>Download</span>
+        <span class="text-[8pt] font-normal absolute right-2 top-0.5">All Platforms</span>
+      </a>
+      {{ end }}
+      {{ if .Params.other }}
+      <a href="{{ .Params.other }}"
+        class="inline-flex items-center gap-2 bg-black text-white rounded-md no-underline py-2 px-3 text-base font-medium relative">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 fill-white shrink-0">
+          <path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/>
+        </svg>
+        <span>Download</span>
+        <span class="text-[8pt] font-normal absolute right-2 top-0.5">External host</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  {{/* Screenshots */}}
+  {{ if .Params.screenshots }}
+  <div class="my-8">
+    {{ range .Params.screenshots }}
+    <img src="{{ .url }}" loading="lazy" alt="app screenshot" class="screenshot w-full">
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{/* Installation */}}
+  <div class="w-2/3 max-md:w-full mb-12">
+    <h2 class="text-2xl font-semibold mb-3">Installation</h2>
+    <p class="text-neutral-400 mb-2">You can install this directly from the source code using the Fyne command as follows:</p>
+    <div class="install-code bg-neutral-200 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">go install fyne.io/tools/cmd/fyne@latest
+fyne install {{ .Params.package }}@latest</div>
+    <p class="text-neutral-400 mb-2">Or you can download the code directly from git:</p>
+    <div class="install-code bg-neutral-200 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">git clone {{ .Params.git }}</div>
+  </div>
+
+</div>
+{{ end }}

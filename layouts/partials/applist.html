@@ -1,0 +1,26 @@
+{{- $applist := .applist -}}
+{{- $limit := .limit | default 0 -}}
+<div class="max-w-5xl mx-auto px-4">
+  <div class="apps-grid">
+  {{- $i := 0 -}}
+  {{- range $applist -}}
+    {{- if .Params.disabled -}}
+      {{- continue -}}
+    {{- end -}}
+    {{- $i = add $i 1 -}}
+    {{- if and (gt $limit 0) (gt $i $limit) -}}
+      {{- break -}}
+    {{- end -}}
+    <a href="{{ .RelPermalink }}" class="app-card bg-neutral-100 dark:bg-neutral-800">
+      {{ if .Params.icon }}
+      <div class="app-icon-img" style="background: url({{ .Params.icon }}) no-repeat center/contain;"></div>
+      {{ end }}
+      <div class="flex flex-col">
+        <span class="text-xs uppercase text-neutral-400 tracking-wide">{{ .Params.category }}</span>
+        <h5 class="text-lg font-semibold mt-1">{{ .Title }}</h5>
+        <p class="text-sm text-neutral-400 mt-1">{{ .Params.excerpt }}</p>
+      </div>
+    </a>
+  {{- end -}}
+  </div>
+</div>

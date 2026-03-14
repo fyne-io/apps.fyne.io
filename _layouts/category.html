@@ -1,8 +1,0 @@
----
-layout: default
----
-{% include nav.html %}
-{% assign applist = site.apps | where: 'category', page.category | sort: 'title' %}
-{% include list.html applist=applist %}
-
-

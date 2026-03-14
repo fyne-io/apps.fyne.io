@@ -1,0 +1,59 @@
+<div class="main-menu flex items-center w-full gap-2 p-1 pl-0">
+  <a href="https://fyne.io" class="text-base font-medium truncate min-w-0 shrink">
+    Fyne.io
+  </a>
+  <div class="flex items-center ms-auto">
+    <div class="hidden md:flex">
+      {{ partial "header/components/desktop-menu.html" . }}
+    </div>
+    <div class="flex md:hidden">
+      {{ partial "header/components/mobile-menu.html" . }}
+    </div>
+  </div>
+</div>
+
+{{ if .Site.Menus.subnavigation }}
+  <div
+    class="main-menu flex pb-3 flex-col items-end justify-between md:justify-start space-x-3 {{ if .Site.Params.Logo }}
+      -mt-[15px]
+    {{ end }}">
+    <div class="hidden md:flex items-center space-x-5">
+      {{ range .Site.Menus.subnavigation }}
+        <a
+          href="{{ .URL }}"
+          {{ if or (strings.HasPrefix .URL "http:" ) (strings.HasPrefix .URL "https:" ) }}
+            target="_blank"
+          {{ end }}
+          class="flex items-center bf-icon-color-hover">
+          {{ if .Pre }}
+            <span {{ if and .Pre .Name }}class="mr-1"{{ end }}>
+              {{ partial "icon.html" .Pre }}
+            </span>
+          {{ end }}
+          <span class="text-xs font-light" title="{{ .Title }}">
+            {{ .Name | markdownify }}
+          </span>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
+
+{{ if .Site.Params.highlightCurrentMenuArea }}
+  <script>
+    (function () {
+      var mainmenu = document.querySelector(".main-menu");
+      if (!mainmenu) return;
+
+      var path = window.location.pathname;
+      var links = mainmenu.querySelectorAll('a[href="' + path + '"]');
+
+      links.forEach(function (link) {
+        var targets = link.querySelectorAll("span");
+        targets.forEach(function (el) {
+          el.classList.add("active");
+        });
+      });
+    })();
+  </script>
+{{ end }}
