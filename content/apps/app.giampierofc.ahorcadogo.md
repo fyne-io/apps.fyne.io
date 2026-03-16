@@ -2,10 +2,10 @@
 appid: app.giampierofc.ahorcadogo
 title: ahorcadoGO
 home: https://gportfolio2.netlify.app/
-icon: https://raw.githubusercontent.com/GiampieroFC/ahorcadogo/main/icon.png?token=GHSAT0AAAAAAB67K76BEZHQ6ZJNDWXFIPTIZCEFSJA
+icon: https://github.com/GiampieroFC/ahorcadogo/blob/main/icon.png?raw=true
 
 screenshots:
-- url: https://raw.githubusercontent.com/GiampieroFC/ahorcadogo/main/public/screenshot/screenshot.webp?token=GHSAT0AAAAAAB67K76AQHN5MMCSEK2LUMW4ZCEFRYQ
+- url: https://github.com/GiampieroFC/ahorcadogo/blob/main/public/screenshot/screenshot.webp?raw=true
 
 date:      2023-05-01 11:29:00+1000
 excerpt:   Enter letters until you guess the title of a Wikipedia article

@@ -12,7 +12,7 @@ screenshots:
 
 date:      2025-11-30 00:15:53+0000
 excerpt:   A fully-featured SSH terminal emulator with tree-based session management, multi-tab interface, and SSH key authentication
-category:  operating systems
+category:  system
 developer: Scott Peterman
 
 git: https://github.com/scottpeterman/tetherssh
