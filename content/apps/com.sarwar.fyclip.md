@@ -1,24 +1,55 @@
 ---
 appid: com.sarwar.fyclip
-title: FyClip - Clipboard Manager
-home: https://sarwar-hossain-vert.vercel.app
-icon: "https://github.com/Sarwarhridoy4/FyClip---Advanced-Clipboard-Manager/blob/production/icon.png?raw=true"
+title: FyClip Advanced-Clipboard-Manager
+home: https://github.com/Sarwarhridoy4/FyClip---Advanced-Clipboard-Manager
+icon: https://github.com/Sarwarhridoy4/FyClip---Advanced-Clipboard-Manager/blob/production/icon.png?raw=true
+layout: app
 
 screenshots:
-- url: "https://github.com/Sarwarhridoy4/FyClip---Advanced-Clipboard-Manager/blob/production/screenshot.png?raw=true"
+- url: https://github.com/Sarwarhridoy4/FyClip---Advanced-Clipboard-Manager/blob/production/internal/app/assets/screenshots/screenshot1.png?raw=true
+- url: https://github.com/Sarwarhridoy4/FyClip---Advanced-Clipboard-Manager/blob/production/internal/app/assets/screenshots/screenshot2.png?raw=true
+- url: https://github.com/Sarwarhridoy4/FyClip---Advanced-Clipboard-Manager/blob/production/internal/app/assets/screenshots/screenshot3.png?raw=true
 
-date:      2025-09-14 08:43:10+0000
-excerpt:   About A powerful, cross-platform clipboard manager built with Go and Fyne.
+
+date:      2025-09-14 08:43:10
+updated:   2026-03-20 12:13:57
+excerpt:   A modular, high-performance clipboard manager built with Go and Fyne v2.7&#43;.
 category:  utility
 developer: Sarwar Hossain
 
-git: "https://github.com/Sarwarhridoy4/FyClip---Advanced-Clipboard-Manager"
-package: "github.com/Sarwarhridoy4/FyClip---Advanced-Clipboard-Manager"
-version: 1.1.0
+git: https://github.com/Sarwarhridoy4/FyClip---Advanced-Clipboard-Manager
+package: github.com/Sarwarhridoy4/FyClip---Advanced-Clipboard-Manager
+version: 2.0.0
 
-other: "https://github.com/Sarwarhridoy4/FyClip---Advanced-Clipboard-Manager/releases/tag/1.3.0"
-url: /apps/com.sarwar.fyclip.html
-layout: app
+
+
+other: https://apps.fyne.io/apps/com.sarwar.fyclip.html
 ---
 
-A powerful, cross-platform clipboard manager built with Go and Fyne that automatically tracks your clipboard history, provides instant search, and persists data between sessions. Now with image support and pinning for favorite items.
+FyClip - Advanced Clipboard Manager
+A modular, high-performance clipboard manager built with Go and Fyne v2.7&#43;.
+
+### Features
+
+📋 Clipboard History: Automatically saves text, images, HTML, and files  
+📌 Pin Items: Keep important items at the top  
+⭐ Favorites View: Toggle pinned-only view instantly  
+🔍 Enhanced Search: Regex, case-sensitive, and fuzzy matching  
+❌ Clear Search: One-click reset for the search box  
+🖼️ Image Support: Preview and save clipboard images  
+📝 HTML Support: Capture and preserve HTML formatting  
+📁 File History: Track files copied from file manager  
+📤 Unified Export: Export selected text or images from one action  
+📝 Markdown Preview: Markdown content renders correctly in preview pane  
+🕒 Relative Time &#43; Reuse Count: List rows show recency and copy frequency  
+💾 Persistent Storage: History saved across sessions  
+🔒 Encrypted Storage: AES-256-GCM encryption at rest  
+☁️ Encrypted Backup: Password-protected backup and restore  
+📝 Snippets: Save and expand text templates  
+🚀 AutoStart: Launch on system startup  
+⏸️ Pause Capture: Pause monitoring for 5 minutes from toolbar/tray  
+🎨 Modern UI: Dark theme with responsive design  
+⚡ Performance: Debounced updates, async operations, O(1) lookups  
+🐧 Linux Packaging: Official Fyne Linux package pipeline for .deb and .AppImage  
+🔒 Thread-Safe: Proper concurrency handling  
+🛡️ Sensitive Data Detection: Auto-detect credit cards, SSN, API keys  
