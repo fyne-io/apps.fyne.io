@@ -30,6 +30,10 @@ html:not(.dark) body::before {
   background-image: linear-gradient(135deg, rgba(200,210,240,0.5) 0%, rgba(180,195,235,0.45) 50%, rgba(200,210,240,0.5) 100%),
               url(/img/header-toolkit.jpg);
 }
+html:not(.dark) .dev-block .text-neutral-400, html:not(.dark) .about-block .text-neutral-400 {
+  color: black;
+}
+
 .article-content {
   max-width: none !important;
 }
@@ -73,9 +77,10 @@ html:not(.dark) body::before {
 
 /* App icon in cards and detail */
 .app-icon-img {
-  width: 128px;
-  height: 128px;
+  width: 96px;
+  height: 96px;
   object-fit: contain;
+  padding-right: 10px;
 }
 @media (max-width: 991px) {
   .app-icon-img { width: 72px; height: 72px; }

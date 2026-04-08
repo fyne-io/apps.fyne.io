@@ -2,19 +2,19 @@
 <div class="max-w-5xl mx-auto px-4">
 
   {{/* Title Area */}}
-  <div class="flex items-center gap-6 mt-12 mb-12 max-sm:flex-col max-sm:items-start max-sm:gap-3 max-sm:mt-6">
+  <div class="flex items-center gap-6 mt-12 mb-12 max-sm:flex-col max-sm:items-start max-sm:gap-3 max-sm:mt-6" style="margin-bottom: calc(var(--spacing) * 6)">
     <img src="{{ .Params.icon }}" loading="lazy" alt="app icon" class="app-icon-img" onerror="this.style.display='none'">
-    <h1 class="text-5xl md:text-7xl font-semibold">{{ .Title }}</h1>
+    <h1 class="text-5xl md:text-7xl font-semibold" style="font-size: revert;">{{ .Title }}</h1>
   </div>
 
   {{/* Developer */}}
-  <div class="mb-6">
+  <div class="mb-6 dev-block">
     <h5 class="font-semibold mb-1">Developer</h5>
     <p class="text-neutral-400">{{ .Params.developer }}</p>
   </div>
 
   {{/* About */}}
-  <div class="mb-6">
+  <div class="mb-6 about-block">
     <h5 class="font-semibold mb-1">About</h5>
     <div class="text-neutral-400 prose dark:prose-invert max-w-none">{{ .Content }}</div>
   </div>
