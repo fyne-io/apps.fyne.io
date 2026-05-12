@@ -30,7 +30,7 @@
   {{ if or .Params.appleid .Params.googleid .Params.flathub .Params.appimage .Params.downloads .Params.other }}
   <div class="mb-6">
     <h5 class="font-semibold mb-1">Stores</h5>
-    <p class="text-neutral-400 mb-3">This app is also available to install from the following stores:</p>
+    <p class="mb-3">This app is also available to install from the following stores:</p>
     <div class="flex flex-wrap items-center gap-3">
       {{ if .Params.appleid }}
       <a href="https://apps.apple.com/app/id{{ .Params.appleid }}" title="Apple App Store">
