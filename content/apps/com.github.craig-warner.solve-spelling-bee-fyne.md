@@ -14,7 +14,6 @@ developer: Craig Warner
 git: https://github.com/craig-warner/solve-spelling-bee-fyne
 package: github.com/craig-warner/solve-spelling-bee-fyne
 version: v1.0
-url: /apps/com.github.craig-warner.solve-spelling-bee-fyne.html
 layout: app
 
 ---

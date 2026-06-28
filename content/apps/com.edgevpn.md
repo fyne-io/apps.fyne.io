@@ -17,7 +17,6 @@ developer: Ettore Di Giacinto
 git: https://github.com/mudler/edgevpn-gui
 package: github.com/mudler/edgevpn-gui
 version: 0.1
-url: /apps/com.edgevpn.html
 layout: app
 
 ---

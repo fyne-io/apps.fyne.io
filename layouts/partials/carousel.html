@@ -24,12 +24,12 @@
             {{- range $idx, $item := $featured }}
             {{- if $item.image }}
             <li class="carousel__slide" style="background-image: url('{{ $item.image }}');">
-              <a href="/apps/{{ $item.id }}.html">&nbsp;</a></li>
+              <a href="/apps/{{ $item.id }}/">&nbsp;</a></li>
             {{- else }}
             {{- $matchingApps := where $allApps ".Params.appid" $item.id -}}
             {{- $app := index $matchingApps 0 -}}
             <li class="carousel__slide" style="background-color: {{ $item.color }};">
-              <a href="/apps/{{ $item.id }}.html">
+              <a href="/apps/{{ $item.id }}/">
                 <img class="icon" src="{{ $app.Params.icon }}" />
                 <p style="color: {{ index $item "name-color" }}">
                   {{ $app.Title }}<br />

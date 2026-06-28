@@ -17,7 +17,6 @@ developer: Arsen Musayelyan
 git: https://gitea.arsenm.dev/Arsen6331/permafrost.git
 package: gitea.arsenm.dev/Arsen6331/permafrost
 version:
-url: /apps/dev.arsen.permafrost.html
 layout: app
 
 ---

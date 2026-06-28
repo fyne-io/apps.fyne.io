@@ -15,7 +15,6 @@ developer: Jenin Sutradhar
 git: https://github.com/JeninSutradhar/sonic3
 package: github.com/JeninSutradhar/sonic3
 version: 1.0
-url: /apps/com.jenin.sonic3.html
 layout: app
 
 ---

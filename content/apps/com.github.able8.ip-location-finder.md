@@ -15,7 +15,6 @@ developer: able8
 git: https://github.com/able8/ip-location-finder
 package: github.com/able8/ip-location-finder
 version:
-url: /apps/com.github.able8.ip-location-finder.html
 layout: app
 
 ---

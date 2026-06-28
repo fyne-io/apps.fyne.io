@@ -83,11 +83,31 @@ enableRobotsTXT = true
     url = "https://fyne.io/support"
     weight = 70
 
+# App pages are migrating from the legacy /apps/<id>.html URL to the clean directory
+# URL /apps/<id>/. Each app builds two outputs (see content/apps/_index.md cascade):
+#   AppPage     -> /apps/<id>/        the canonical full page (listed first, so it
+#                                      drives .Permalink and the <link canonical>)
+#   AppRedirect -> /apps/<id>.html    a meta-refresh stub redirecting to the canonical
+# uglyURLs makes AppRedirect emit the legacy .html path; AppPage opts back out via noUgly.
+[uglyURLs]
+  apps = true
+
 [outputFormats]
   [outputFormats.RSS]
     mediaType = "application/rss+xml"
     baseName = "feed"
     isPlainText = true
+
+  # Canonical app page at the clean directory URL /apps/<id>/.
+  [outputFormats.AppPage]
+    mediaType = "text/html"
+    noUgly = true
+    notAlternative = true
+
+  # Legacy /apps/<id>.html path, rendered as a redirect stub (layouts/apps/single.appredirect.html).
+  [outputFormats.AppRedirect]
+    mediaType = "text/html"
+    notAlternative = true
 
   [outputFormats.APIJSON]
     mediaType = "application/json"

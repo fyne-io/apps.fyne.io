@@ -15,7 +15,6 @@ developer: Maurits van der Schee
 git: https://github.com/mevdschee/fyne-mines
 package: github.com/mevdschee/fyne-mines
 version: v1.1.0
-url: /apps/com.tqdev.fyne-mines.html
 layout: app
 
 ---

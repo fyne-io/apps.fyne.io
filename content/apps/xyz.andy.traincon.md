@@ -18,7 +18,6 @@ version:
 
 appleid: 1558523098
 googleid: xyz.andy.traincon
-url: /apps/xyz.andy.traincon.html
 layout: app
 
 ---

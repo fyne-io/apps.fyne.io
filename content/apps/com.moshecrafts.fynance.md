@@ -18,7 +18,6 @@ developer: Clinton Moshe
 git: https://github.com/clinton-mwachia/Fynance
 package: github.com/clinton-mwachia/Fynance
 version: v1.2.3
-url: /apps/com.moshecrafts.fynance.html
 layout: app
 
 ---

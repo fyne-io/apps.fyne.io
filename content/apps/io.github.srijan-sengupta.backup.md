@@ -12,7 +12,6 @@ developer: Srijan Sengupta
 git: https://github.com/Srijan-Sengupta/Backup-Master.git
 package: github.com/Srijan-Sengupta/Backup-Master
 version: 1.0
-url: /apps/io.github.srijan-sengupta.backup.html
 layout: app
 
 ---

@@ -19,7 +19,6 @@ version: 1.0
 
 
 other: https://www.iridium-works.com/en/tools/exif-cleaner
-url: /apps/com.iridium-works.exif-cleaner.html
 layout: app
 
 ---

@@ -16,7 +16,6 @@ package: github.com/fynelabs/snowflake
 version: 
 
 googleid: com.fynelabs.snowflake
-url: /apps/com.fynelabs.snowflake.html
 layout: app
 
 ---

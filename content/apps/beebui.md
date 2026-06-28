@@ -15,7 +15,6 @@ developer: Andy Williams
 git: https://github.com/andydotxyz/beebui.git
 package: github.com/andydotxyz/beebui/cmd/beebui
 version:
-url: /apps/beebui.html
 layout: app
 
 ---

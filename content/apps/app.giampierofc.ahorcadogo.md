@@ -15,7 +15,6 @@ developer: Giampiero Fermini
 git: https://github.com/GiampieroFC/ahorcadogo
 package: github.com/GiampieroFC/ahorcadogo
 version:
-url: /apps/app.giampierofc.ahorcadogo.html
 layout: app
 
 ---

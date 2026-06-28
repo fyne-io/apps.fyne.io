@@ -15,7 +15,6 @@ developer: Fábio Correia
 git: https://github.com/fabiodcorreia/catch-my-file
 package: github.com/fabiodcorreia/catch-my-file
 version:
-url: /apps/com.github.fabiodcorreia.catch-my-file.html
 layout: app
 
 ---

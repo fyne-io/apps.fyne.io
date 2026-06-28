@@ -18,7 +18,6 @@ developer: Reiner Pröls
 git: https://github.com/bytemystery-com/smartdiary
 package: github.com/bytemystery-com/smartdiary
 version: v0.3.3
-url: /apps/com.bytemystery.smartdiary2.html
 layout: app
 
 ---

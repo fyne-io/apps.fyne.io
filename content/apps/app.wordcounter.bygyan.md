@@ -16,7 +16,6 @@ developer: Gyan Patel
 git: https://github.com/gyanpatel/word-counter-fyne-ui
 package: github.com/gyanpatel/word-counter-fyne-ui
 version: 1.0.0
-url: /apps/app.wordcounter.bygyan.html
 layout: app
 
 ---

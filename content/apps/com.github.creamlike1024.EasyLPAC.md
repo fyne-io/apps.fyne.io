@@ -17,7 +17,6 @@ developer: creamlike1024
 git: https://github.com/creamlike1024/EasyLPAC
 package: github.com/creamlike1024/EasyLPAC
 version: 0.6.8
-url: /apps/com.github.creamlike1024.EasyLPAC.html
 layout: app
 
 ---

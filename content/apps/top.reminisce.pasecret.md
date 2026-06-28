@@ -17,7 +17,6 @@ developer: Jack Lin
 git: https://github.com/BlueSkyCaps/pasecret
 package: github.com/BlueSkyCaps/pasecret
 version:
-url: /apps/top.reminisce.pasecret.html
 layout: app
 
 ---

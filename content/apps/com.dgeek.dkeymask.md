@@ -15,7 +15,6 @@ developer: Geek mask
 git: https://github.com/geekmask/dkeymask
 package: github.com/geekmask/dkeymask
 version: 1.0.0
-url: /apps/com.dgeek.dkeymask.html
 layout: app
 
 ---

@@ -21,7 +21,6 @@ downloads:
   path: github/andydotxyz/andydotxyz/slydes
   build: latest
   platforms: android,darwin/amd64,darwin/arm64,linux/amd64,linux/arm64,windows/amd64
-url: /apps/xyz.andy.slydes.html
 layout: app
 
 ---

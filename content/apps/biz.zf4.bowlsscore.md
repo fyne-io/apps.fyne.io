@@ -17,7 +17,6 @@ developer: Ashley Kitson
 git: https://github.com/chippyash/bowlsscore
 package: github.com/chippyash/bowlsscore
 version:
-url: /apps/biz.zf4.bowlsscore.html
 layout: app
 
 ---

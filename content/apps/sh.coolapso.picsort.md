@@ -15,7 +15,6 @@ developer: Carlos, Colaço
 git: https://github.com/coolapso/picsort
 package: github.com/coolapso/picsort
 version:
-url: /apps/sh.coolapso.picsort.html
 layout: app
 
 ---

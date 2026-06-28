@@ -17,7 +17,6 @@ developer: yazhou wang
 git: https://gitee.com/andrewgithub/EtcdKeeperFyne
 package: gitee.com/andrewgithub/EtcdKeeperFyne
 version: V1.0.0.0
-url: /apps/com.gitee.andrewgithub.EtcdKeeperFyne.html
 layout: app
 
 ---

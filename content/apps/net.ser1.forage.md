@@ -15,7 +15,6 @@ developer: Sean Russell
 git: https://hg.sr.ht/~ser/forage/
 package: hg.sr.ht/~ser/forage
 version: v1.1.1
-url: /apps/net.ser1.forage.html
 layout: app
 
 ---

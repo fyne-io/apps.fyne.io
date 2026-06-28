@@ -15,7 +15,6 @@ developer: Stefan Claas
 git: https://github.com/706f6c6c7578/minicrypt
 package: github.com/706f6c6c7578/minicrypt
 version:
-url: /apps/oc2mx.net.minicrypt.html
 layout: app
 
 ---

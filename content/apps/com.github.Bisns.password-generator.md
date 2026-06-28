@@ -14,7 +14,6 @@ developer: Jian Chen
 git: https://github.com/Bisns/password-generator.git
 package: github.com/Bisns/password-generator
 version: v0.0.1
-url: /apps/com.github.Bisns.password-generator.html
 layout: app
 
 ---

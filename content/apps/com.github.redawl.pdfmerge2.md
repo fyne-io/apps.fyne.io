@@ -15,7 +15,6 @@ developer: Eli Burch
 git: https://github.com/redawl/pdfmerge2
 package: github.com/redawl/pdfmerge2
 version: v0.5.0
-url: /apps/com.github.redawl.pdfmerge2.html
 layout: app
 
 ---

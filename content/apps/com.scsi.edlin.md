@@ -18,7 +18,6 @@ developer: Bob shofner
 git: https://github.com/shofster/edlin
 package: github.com/shofster/edlin
 version: 0.9.1 Apr 2025
-url: /apps/com.scsi.edlin.html
 layout: app
 
 ---

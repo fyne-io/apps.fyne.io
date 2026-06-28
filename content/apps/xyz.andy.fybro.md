@@ -15,7 +15,6 @@ developer: Andy Williams
 git: https://github.com/andydotxyz/fybro.git
 package: github.com/andydotxyz/fybro
 version:
-url: /apps/xyz.andy.fybro.html
 layout: app
 
 ---

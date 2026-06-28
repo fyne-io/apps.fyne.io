@@ -15,7 +15,6 @@ developer: able8
 git: https://github.com/able8/ssl-certificate-decoder/
 package: github.com/able8/ssl-certificate-decoder/
 version:
-url: /apps/com.github.able8.ssl-certificate-decoder.html
 layout: app
 
 ---

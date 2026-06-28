@@ -22,7 +22,6 @@ version: ketquaxoso (0.0.1ubuntu1)
 
 
 other: https://github.com/dopaemon/KetQuaXoSo/releases
-url: /apps/com.dopaemon.ketquaxoso.html
 layout: app
 
 ---

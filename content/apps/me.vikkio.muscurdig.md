@@ -15,7 +15,6 @@ developer: Vincenzo Ciaccio
 git: https://github.com/vikkio88/muscurd-ig
 package: github.com/vikkio88/muscurd-ig
 version: 1.0
-url: /apps/me.vikkio.muscurdig.html
 layout: app
 
 ---

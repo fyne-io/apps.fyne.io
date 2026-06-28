@@ -15,7 +15,6 @@ developer: Arnav Bhatt
 git: https://github.com/arnavbhatt288/utkirna
 package: github.com/arnavbhatt288/utkirna
 version: v1.0.0
-url: /apps/com.ghativega.Utkirna.html
 layout: app
 
 ---

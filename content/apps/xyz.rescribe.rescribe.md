@@ -16,7 +16,6 @@ git: https://git.rescribe.xyz/bookpipeline
 package: rescribe.xyz/bookpipeline/cmd/rescribe
 version: 1.0.0
 requires: windows,linux,darwin
-url: /apps/xyz.rescribe.rescribe.html
 layout: app
 
 ---

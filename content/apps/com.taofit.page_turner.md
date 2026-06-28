@@ -17,7 +17,6 @@ developer: Tao Sun
 git: https://github.com/taofit/e-book-app-fyne
 package: github.com/taofit/e-book-app-fyne
 version: 1.00
-url: /apps/com.taofit.page_turner.html
 layout: app
 
 ---

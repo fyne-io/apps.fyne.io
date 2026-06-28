@@ -18,7 +18,6 @@ developer: li man
 git: https://github.com/mangenotwork/TFLanHttpDesktop
 package: github.com/mangenotwork/TFLanHttpDesktop
 version: v0.4.1
-url: /apps/com.github.mangenotwork.TFLanHttpDesktop.html
 layout: app
 
 ---

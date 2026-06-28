@@ -18,7 +18,6 @@ developer: Tamiyoshi Naka
 git: https://github.com/nktmys/winticator
 package: github.com/nktmys/winticator
 version: v0.2.0
-url: /apps/com.winticator.app.html
 layout: app
 
 ---

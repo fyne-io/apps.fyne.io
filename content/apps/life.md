@@ -18,7 +18,6 @@ version:
 
 appleid: 1555055099
 googleid: io.fyne.life
-url: /apps/life.html
 layout: app
 
 ---

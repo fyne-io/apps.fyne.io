@@ -17,7 +17,6 @@ package: github.com/npalumbo/keepassui
 version: 0.0.1
 
 googleid: com.keepassui
-url: /apps/com.github.npalumbo.keepassui.html
 layout: app
 
 ---

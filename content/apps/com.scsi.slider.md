@@ -18,7 +18,6 @@ developer: bob shofner
 git: https://github.com/shofster/slider
 package: github.com/shofster/slider
 version: 1.0
-url: /apps/com.scsi.slider.html
 layout: app
 
 ---

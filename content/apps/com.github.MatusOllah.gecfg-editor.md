@@ -17,7 +17,6 @@ developer: Matúš Ollah
 git: https://github.com/MatusOllah/gecfg-editor
 package: github.com/MatusOllah/gecfg-editor
 version: 1.0.0
-url: /apps/com.github.MatusOllah.gecfg-editor.html
 layout: app
 
 ---

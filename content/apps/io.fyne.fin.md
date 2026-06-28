@@ -16,7 +16,6 @@ developer: The Fyne Team
 git: https://github.com/fyne-io/fin.git
 package: github.com/fyne-io/fin
 version:
-url: /apps/io.fyne.fin.html
 layout: app
 
 ---

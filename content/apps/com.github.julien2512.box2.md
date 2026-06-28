@@ -16,7 +16,6 @@ developer: Julien Moquet
 git: github.com/julien2512/box2
 package: github.com/julien2512/box2
 version: 2.0
-url: /apps/com.github.julien2512.box2.html
 layout: app
 
 ---

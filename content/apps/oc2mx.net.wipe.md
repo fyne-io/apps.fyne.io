@@ -16,7 +16,6 @@ developer: Stefan Claas
 git: https://github.com/Ch1ffr3punk/wipe
 package: github.com/Ch1ffr3punk/wipe
 version: v0.1.0
-url: /apps/oc2mx.net.wipe.html
 layout: app
 
 ---

@@ -15,7 +15,6 @@ developer: Utopia zhifeng
 git: https://github.com/utopiazeng/chatdemo.git
 package: github.com/utopiazeng/chatdemo.git
 version: 1.0
-url: /apps/com.whatssaas.chatdemo.html
 layout: app
 
 ---

@@ -16,7 +16,6 @@ developer: Alex Ballas
 git: https://github.com/alexballas/go2tv.git
 package: github.com/alexballas/go2tv/cmd/go2tv
 version: 1.17.1
-url: /apps/com.github.alexballas.go2tv.html
 layout: app
 
 ---

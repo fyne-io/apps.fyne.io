@@ -16,7 +16,6 @@ developer: SteveOC
 git: https://github.com/potato-arcade/p64.git
 package: github.com/potato-arcade/p64/cmd/potato64
 version:
-url: /apps/potato_arcade.html
 layout: app
 
 ---

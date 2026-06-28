@@ -15,7 +15,6 @@ developer: Anh Duy
 git: https://github.com/anhcraft/ytb-downloader
 package: github.com/anhcraft/ytb-downloader
 version: 1.0.1
-url: /apps/dev.anhcraft.ytbdownloader.html
 layout: app
 
 ---

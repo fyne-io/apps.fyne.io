@@ -15,7 +15,6 @@ developer: Chris Howey
 git: https://github.com/howeyc/crocgui.git
 package: github.com/howeyc/crocgui
 version:
-url: /apps/com.github.howeyc.crocgui.html
 layout: app
 
 ---

@@ -20,7 +20,6 @@ package: github.com/maciej-piatek/TWEENK
 version: 0.1.5
 
 other: https://github.com/maciej-piatek/TWEENK/releases/
-url: /apps/com.mpdev.tweenk.html
 layout: app
 
 ---

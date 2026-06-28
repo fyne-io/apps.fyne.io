@@ -15,7 +15,6 @@ developer: Michael Saenz
 git: https://github.com/michaeljsaenz/kview
 package: github.com/michaeljsaenz/kview
 version: 0.0.5
-url: /apps/app.kview.html
 layout: app
 
 ---

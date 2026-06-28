@@ -16,7 +16,6 @@ developer: Matteo Bendotti
 git: https://git.massive.box/massivebox/fcaster
 package: git.massive.box/massivebox/fcaster
 version:
-url: /apps/box.massive.fcaster.html
 layout: app
 
 ---

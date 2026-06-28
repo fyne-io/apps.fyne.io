@@ -16,7 +16,6 @@ developer: Alex Gubin
 git: https://github.com/avelex/passwordme
 package: github.com/avelex/passwordme
 version: v0.1.0
-url: /apps/com.password.me.html
 layout: app
 
 ---

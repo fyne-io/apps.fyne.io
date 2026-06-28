@@ -18,7 +18,6 @@ developer: Ventsislav Georgiev
 git: https://github.com/ventsislav-georgiev/prosper
 package: github.com/ventsislav-georgiev/prosper
 version: 0.11.0
-url: /apps/com.ventsislav-georgiev.prosper.html
 layout: app
 
 ---

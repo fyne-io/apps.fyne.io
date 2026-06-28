@@ -15,7 +15,6 @@ developer: Able Lv
 git: https://github.com/able8/work-break-timer
 package: github.com/able8/work-break-timer
 version:
-url: /apps/com.github.able8.work-break-timer.html
 layout: app
 
 ---

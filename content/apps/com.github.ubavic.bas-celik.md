@@ -15,7 +15,6 @@ developer: Nikola Ubavić
 git: https://github.com/ubavic/bas-celik.git
 package: github.com/ubavic/bas-celik
 version:
-url: /apps/com.github.ubavic.bas-celik.html
 layout: app
 
 ---

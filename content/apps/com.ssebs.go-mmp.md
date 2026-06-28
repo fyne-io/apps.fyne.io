@@ -15,7 +15,6 @@ developer: Seb Safari
 git: https://github.com/ssebs/go-mmp
 package: github.com/ssebs/go-mmp
 version: 1.2.1
-url: /apps/com.ssebs.go-mmp.html
 layout: app
 
 ---

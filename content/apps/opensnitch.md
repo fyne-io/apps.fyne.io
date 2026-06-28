@@ -16,7 +16,6 @@ developer: Luca Corbo
 git: https://github.com/lucor/fyne-opensnitch.git
 package: github.com/lucor/fyne-opensnitch
 version:
-url: /apps/opensnitch.html
 layout: app
 
 ---

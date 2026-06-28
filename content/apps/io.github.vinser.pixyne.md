@@ -23,7 +23,6 @@ package: github.com/vinser/pixyne
 version: 1.6.0
 
 flathub: io.github.vinser.pixyne
-url: /apps/io.github.vinser.pixyne.html
 layout: app
 
 ---

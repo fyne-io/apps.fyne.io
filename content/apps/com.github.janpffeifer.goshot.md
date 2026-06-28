@@ -15,7 +15,6 @@ developer: Jan Pfeifer
 git: https://github.com/janpfeifer/goshot.git
 package: github.com/janpfeifer/goshot
 version: v0.1.2
-url: /apps/com.github.janpffeifer.goshot.html
 layout: app
 
 ---

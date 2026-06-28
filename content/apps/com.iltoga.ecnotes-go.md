@@ -15,7 +15,6 @@ developer: iltoga
 git: https://github.com/iltoga/ecnotes-go.git
 package: github.com/iltoga/ecnotes-go
 version: 0.1
-url: /apps/com.iltoga.ecnotes-go.html
 layout: app
 
 ---

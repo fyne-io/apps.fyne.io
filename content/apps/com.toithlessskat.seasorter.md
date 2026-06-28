@@ -15,7 +15,6 @@ developer: Ustym Hentosh
 git: https://github.com/ustymhentosh/SeaSorter
 package: github.com/ustymhentosh/SeaSorter/main
 version:
-url: /apps/com.toithlessskat.seasorter.html
 layout: app
 
 ---

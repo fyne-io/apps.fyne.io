@@ -17,7 +17,6 @@ developer: sui fei
 git: https://github.com/suifei/asm2hex
 package: github.com/suifei/asm2hex
 version: 1.0
-url: /apps/suifei.asm2hex.app.html
 layout: app
 
 ---

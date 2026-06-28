@@ -15,7 +15,6 @@ developer: Agustin B
 git: https://github.com/redraw/wizzz
 package: github.com/redraw/wizzz/src
 version:
-url: /apps/ar.terrestre.wizzz.html
 layout: app
 
 ---

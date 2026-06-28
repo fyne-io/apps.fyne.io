@@ -14,7 +14,6 @@ developer: Palexer
 git: https://github.com/Palexer/image-viewer.git
 package: github.com/Palexer/image-viewer/ImageViewer
 version:
-url: /apps/io.github.palexer.image-viewer.html
 layout: app
 
 ---

@@ -16,7 +16,6 @@ developer: Glenn Lewis
 git: https://github.com/gmlewis/go-gerber.git
 package: github.com/gmlewis/go-gerber/gerber/viewer
 version:
-url: /apps/gerber_viewer.html
 layout: app
 
 ---

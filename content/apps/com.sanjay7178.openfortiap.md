@@ -15,7 +15,6 @@ developer: Sai Sanjay Kottakota
 git: https://github.com/sanjay7178/openfortiapauth
 package: github.com/sanjay7178/openfortiapauth
 version: v1
-url: /apps/com.sanjay7178.openfortiap.html
 layout: app
 
 ---

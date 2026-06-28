@@ -20,7 +20,6 @@ downloads:
   path: github/andydotxyz/andydotxyz/flappy
   build: 958
   platforms: darwin/amd64,darwin/arm64,windows/amd64,windows/arm64
-url: /apps/xyz.andy.flappy.html
 layout: app
 
 ---

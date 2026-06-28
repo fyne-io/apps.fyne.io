@@ -18,7 +18,6 @@ version:
 
 appleid: 1568737297
 googleid: io.fyne.calculator
-url: /apps/io.fyne.calculator.html
 layout: app
 
 ---

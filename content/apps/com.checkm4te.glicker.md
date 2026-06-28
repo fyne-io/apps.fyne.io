@@ -17,7 +17,6 @@ developer: Gerardo Jiménez
 git: https://github.com/checkm4ted/glicker
 package: github.com/checkm4ted/glicker
 version: 1.0.0
-url: /apps/com.checkm4te.glicker.html
 layout: app
 
 ---

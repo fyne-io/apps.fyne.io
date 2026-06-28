@@ -15,7 +15,6 @@ developer: A I
 git: https://github.com/source-c/usm
 package: github.com/source-c/usm
 version: 1.1.1
-url: /apps/ai.z7.apps.usm.html
 layout: app
 
 ---

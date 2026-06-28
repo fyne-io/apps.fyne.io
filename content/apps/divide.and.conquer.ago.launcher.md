@@ -22,7 +22,6 @@ version: 1.0.0
 
 
 other: https://nightly.link/Divide-and-Conquer-AGO/ago-launcher/workflows/build/main
-url: /apps/divide.and.conquer.ago.launcher.html
 layout: app
 
 ---

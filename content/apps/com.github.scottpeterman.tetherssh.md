@@ -18,7 +18,6 @@ developer: Scott Peterman
 git: https://github.com/scottpeterman/tetherssh
 package: github.com/scottpeterman/tetherssh/cli
 version: 0.2.0
-url: /apps/com.github.scottpeterman.tetherssh.html
 layout: app
 
 ---

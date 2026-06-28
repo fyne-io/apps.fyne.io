@@ -15,7 +15,6 @@ developer: YiMing Chen
 git: https://github.com/magdev2022/p2pChat
 package: github.com/magdev2022/p2pChat
 version: 1.0.0
-url: /apps/com.github.magdev2022.p2pChat.html
 layout: app
 
 ---

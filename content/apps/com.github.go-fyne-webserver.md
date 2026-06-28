@@ -14,7 +14,6 @@ developer: Maximilian Kalus
 git: https://github.com/mkalus/go-fyne-webserver
 package: github.com/mkalus/go-fyne-webserver
 version: 0.1.0
-url: /apps/com.github.go-fyne-webserver.html
 layout: app
 
 ---

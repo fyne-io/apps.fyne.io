@@ -15,7 +15,6 @@ developer: The Fyne Team
 git: https://github.com/fyne-io/fyne.git
 package: github.com/fyne-io/fyne/cmd/fyne_settings
 version: 1.3.0
-url: /apps/settings.html
 layout: app
 
 ---

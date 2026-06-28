@@ -16,7 +16,6 @@ developer: Bob Shofner
 git: https://github.com/shofster/snap
 package: github.com/shofster/snap
 version:
-url: /apps/com.scsi.snap.html
 layout: app
 
 ---

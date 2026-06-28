@@ -15,7 +15,6 @@ developer: Grant Cullar
 git: https://github.com/gocrazygh/newlock
 package: github.com/gocrazygh/newlock
 version: v0.1.3
-url: /apps/com.github.gocrazygh.newlock.html
 layout: app
 
 ---

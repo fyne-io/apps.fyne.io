@@ -17,7 +17,6 @@ developer: Ed Lang
 git: https://github.com/nh3000-org/nh3000
 package: github.com/nh3000-org/nh3000
 version: 1
-url: /apps/org.nh3000.nh3000.html
 layout: app
 
 ---

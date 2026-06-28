@@ -14,7 +14,6 @@ developer: The Fyne Team
 git: https://github.com/fyne-io/pixeledit.git
 package: github.com/fyne-io/pixeledit
 version:
-url: /apps/pixeledit.html
 layout: app
 
 ---

@@ -14,7 +14,6 @@ developer: Ankush Jadhav
 git: https://github.com/AnkushJadhav/fynesweeper
 package: github.com/AnkushJadhav/fynesweeper
 version: v0.0.1
-url: /apps/me.ankushjadhav.fynesweeper.html
 layout: app
 
 ---

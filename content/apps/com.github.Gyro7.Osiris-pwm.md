@@ -16,7 +16,6 @@ developer: Gyro7
 git: https://github.com/Gyro7/Osiris-pwm
 package: github.com/Gyro7/Osiris-pwm
 version: 1.0
-url: /apps/com.github.Gyro7.Osiris-pwm.html
 layout: app
 
 ---

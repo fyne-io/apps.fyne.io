@@ -18,7 +18,6 @@ version: 1.0
 
 
 appleid: id6747825583
-url: /apps/com.orkunkaraduman.app.mtpxfer.html
 layout: app
 
 ---

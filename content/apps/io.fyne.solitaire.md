@@ -19,7 +19,6 @@ version:
 
 appleid: 6502289656
 googleid: io.fyne.example.solitaire
-url: /apps/io.fyne.solitaire.html
 layout: app
 
 ---

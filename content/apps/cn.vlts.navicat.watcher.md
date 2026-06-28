@@ -17,7 +17,6 @@ developer: Throwable Zhang
 git: https://github.com/zjcscut/navicat-watcher
 package: github.com/zjcscut/navicat-watcher
 version: 1.0.0
-url: /apps/cn.vlts.navicat.watcher.html
 layout: app
 
 ---

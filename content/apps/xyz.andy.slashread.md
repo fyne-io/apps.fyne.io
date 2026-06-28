@@ -21,7 +21,6 @@ downloads:
   path: github/andydotxyz/andydotxyz/slashread
   build: 956
   platforms: android,darwin/amd64,darwin/arm64,linux/amd64,linux/arm64,windows/amd64,windows/arm64
-url: /apps/xyz.andy.slashread.html
 layout: app
 
 ---

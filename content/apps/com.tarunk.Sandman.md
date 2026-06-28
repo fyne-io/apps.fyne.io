@@ -17,7 +17,6 @@ developer: Tarun Koyalwar
 git: https://github.com/tarunKoyalwar/Sandman
 package: github.com/tarunKoyalwar/Sandman
 version: 1.0.0
-url: /apps/com.tarunk.Sandman.html
 layout: app
 
 ---

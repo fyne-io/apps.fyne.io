@@ -15,7 +15,6 @@ developer: Advait Joglekar
 git: https://github.com/rumourscape/temporary-mailer
 package: github.com/rumourscape/temporary-mailer
 version: 1.0.0
-url: /apps/com.github.rumourscape.temporary-mailer.html
 layout: app
 
 ---

@@ -22,7 +22,6 @@ version: 0.1
 
 
 other: https://github.com/GopherGhaznix/Bayan
-url: /apps/bayan.ghaznix.com.html
 layout: app
 
 ---

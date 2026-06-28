@@ -17,7 +17,6 @@ developer: Dmitrii Taradai
 git: https://github.com/taradaidv/goscout.git
 package: github.com/taradaidv/goscout
 version: 0.3.0
-url: /apps/com.github.taradaidv.goscout.html
 layout: app
 
 ---

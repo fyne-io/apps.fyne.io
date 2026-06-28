@@ -15,7 +15,6 @@ developer: Vaclovas Lapinskis
 git: https://webimizer.dev/aip2p
 package: webimizer.dev/aip2p
 version: v0.0.5
-url: /apps/app.aip2p.app.html
 layout: app
 
 ---

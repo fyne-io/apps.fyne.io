@@ -16,7 +16,6 @@ developer: javaLux
 git: https://github.com/javaLux/registrymate
 package: github.com/javaLux/registrymate
 version: 1.0.0
-url: /apps/com.javaLux.registrymate.html
 layout: app
 
 ---

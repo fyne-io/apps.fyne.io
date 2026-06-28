@@ -18,7 +18,6 @@ developer: The Fyne Team
 git: https://github.com/fyne-io/terminal.git
 package: github.com/fyne-io/terminal/cmd/fyneterm
 version:
-url: /apps/io.fyne.fyneterm.html
 layout: app
 
 ---

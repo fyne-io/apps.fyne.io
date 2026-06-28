@@ -15,7 +15,6 @@ developer: Corbett Ferguson
 git: https://github.com/habitualdev/ArtyCalc
 package: github.com/habitualdev/ArtyCalc
 version: 2.4.0
-url: /apps/com.habitualmedia.artycalc.html
 layout: app
 
 ---

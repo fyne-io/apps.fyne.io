@@ -22,7 +22,6 @@ downloads:
   path: github/andydotxyz/xypwn/southpark-downloader-ui/cmd/southpark-downloader-ui
   build: 386
   platforms: darwin/amd64,darwin/arm64,linux/amd64,windows/amd64
-url: /apps/org.nobrain.southparkdownloaderui.html
 layout: app
 
 ---

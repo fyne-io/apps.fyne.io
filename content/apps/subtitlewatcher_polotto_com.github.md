@@ -14,7 +14,6 @@ developer: subtitlewatcher
 git: https://github.com/polotto/subtitlewatcher.git
 package: github.com/polotto/subtitlewatcher
 version: v0.2.0
-url: /apps/subtitlewatcher_polotto_com.github.html
 layout: app
 
 ---

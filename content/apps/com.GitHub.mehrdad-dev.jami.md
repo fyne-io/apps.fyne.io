@@ -15,7 +15,6 @@ developer: Mehrdad Mohammadian
 git: https://github.com/mehrdad-dev/Jami.git
 package: github.com/mehrdad-dev/Jami/cmd
 version: 1.3
-url: /apps/com.GitHub.mehrdad-dev.jami.html
 layout: app
 
 ---

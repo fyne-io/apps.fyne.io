@@ -15,7 +15,6 @@ developer: Stephen Merrony
 git: https://github.com/SMerrony/DasherG
 package: github.com/SMerrony/DasherG/cmd/DasherG
 version: 0.17.0
-url: /apps/fr.merrony.dasherg.html
 layout: app
 
 ---

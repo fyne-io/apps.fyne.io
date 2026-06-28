@@ -18,7 +18,6 @@ package: github.com/zquestz/fortunate
 version: v1.1.0
 
 requires: linux,macos
-url: /apps/at.greyh.fortunate.html
 layout: app
 
 ---

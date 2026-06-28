@@ -15,7 +15,6 @@ developer: Craig Warner
 git: https://github.com/craig-warner/mandelbrot-toy
 package: github.com/craig-warner/mandelbrot-toy
 version: 1.0.0
-url: /apps/com.warnerbits.mandelbrottoy.html
 layout: app
 
 ---

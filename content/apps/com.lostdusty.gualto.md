@@ -17,7 +17,6 @@ developer: Lost Dusty
 git: https://github.com/lostdusty/gualto
 package: github.com/lostdusty/gualto
 version: v1.0.0
-url: /apps/com.lostdusty.gualto.html
 layout: app
 
 ---

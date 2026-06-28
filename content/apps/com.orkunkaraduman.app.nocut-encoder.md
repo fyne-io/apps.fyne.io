@@ -18,7 +18,6 @@ version: 1.0
 
 
 appleid: id6753283458
-url: /apps/com.orkunkaraduman.app.nocut-encoder.html
 layout: app
 
 ---

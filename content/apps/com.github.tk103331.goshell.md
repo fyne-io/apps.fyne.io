@@ -14,7 +14,6 @@ developer: tk103331
 git: https://github.com/tk103331/goshell.git
 package: github.com/tk103331/goshell
 version: v0.1.0
-url: /apps/com.github.tk103331.goshell.html
 layout: app
 
 ---

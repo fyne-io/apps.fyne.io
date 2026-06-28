@@ -17,7 +17,6 @@ developer: Princess Mortix
 git: https://github.com/alternativeon/alternativeon
 package: github.com/alternativeon/alternativeon
 version: v1.0.1
-url: /apps/link.princessmortix.aon.html
 layout: app
 
 ---

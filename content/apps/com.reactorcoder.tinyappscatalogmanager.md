@@ -15,7 +15,6 @@ developer: Marin Sagovac
 git: https://github.com/reactorcoder/tinyappscatalogmanager.git
 package: github.com/reactorcoder/tinyappscatalogmanager
 version: 1.0
-url: /apps/com.reactorcoder.tinyappscatalogmanager.html
 layout: app
 
 ---

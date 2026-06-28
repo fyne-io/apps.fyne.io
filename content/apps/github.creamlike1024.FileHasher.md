@@ -15,7 +15,6 @@ developer: creamlike1024
 git: https://github.com/creamlike1024/FileHasher
 package: github.com/creamlike1024/FileHasher
 version: 1.0
-url: /apps/github.creamlike1024.FileHasher.html
 layout: app
 
 ---

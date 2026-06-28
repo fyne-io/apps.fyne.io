@@ -18,7 +18,6 @@ developer: Stefan Claas
 git: https://github.com/Ch1ffr3punk/mmg
 package: github.com/Ch1ffr3punk/mmg
 version: v0.1.5
-url: /apps/oc2mx.net.html
 layout: app
 
 ---

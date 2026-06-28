@@ -17,7 +17,6 @@ developer: Emschu
 git: https://github.com/emschu/archivebox-quick-add.git
 package: github.com/emschu/archivebox-quick-add
 version:
-url: /apps/org.archivebox.go-quick-add.html
 layout: app
 
 ---

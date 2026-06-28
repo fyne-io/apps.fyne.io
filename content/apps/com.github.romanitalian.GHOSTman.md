@@ -16,7 +16,6 @@ developer: Roman Romadin
 git: https://github.com/romanitalian/GHOSTman
 package: github.com/romanitalian/GHOSTman
 version: v2.0.1
-url: /apps/com.github.romanitalian.GHOSTman.html
 layout: app
 
 ---

@@ -18,7 +18,6 @@ developer: Thomas Queste
 git: https://github.com/tomsquest/fynodoro
 package: github.com/tomsquest/fynodoro
 version: 1.12.0
-url: /apps/com.tomsquest.fynodoro.html
 layout: app
 
 ---

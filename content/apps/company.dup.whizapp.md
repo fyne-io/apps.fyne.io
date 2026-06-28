@@ -17,7 +17,6 @@ developer: Abdelkarim Ouazmir
 git: https://github.com/KM8Oz/WhizApp.git
 package: github.com/KM8Oz/WhizApp
 version: 1.0.0
-url: /apps/company.dup.whizapp.html
 layout: app
 
 ---

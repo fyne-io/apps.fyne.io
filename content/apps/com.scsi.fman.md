@@ -15,7 +15,6 @@ developer: Bob Shofner
 git: https://github.com/shofster/fman
 package: github.com/shofster/fman
 version: 1.0
-url: /apps/com.scsi.fman.html
 layout: app
 
 ---

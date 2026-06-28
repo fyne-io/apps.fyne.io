@@ -20,7 +20,6 @@ version: v0.3.1
 
 
 other: https://github.com/thomas-marquis/s3-box/blob/main/README.md
-url: /apps/fr.scalde.s3box.html
 layout: app
 
 ---

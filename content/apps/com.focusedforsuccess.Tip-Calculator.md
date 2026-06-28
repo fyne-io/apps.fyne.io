@@ -18,7 +18,6 @@ version: v2.0
 
 
 appleid: 6733221022
-url: /apps/com.focusedforsuccess.Tip-Calculator.html
 layout: app
 
 ---

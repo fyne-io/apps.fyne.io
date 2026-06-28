@@ -22,7 +22,6 @@ version: v0.2.0
 
 
 other: Desktop App - at the moment
-url: /apps/com.bytemystery.vboxssh.html
 layout: app
 
 ---

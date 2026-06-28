@@ -18,7 +18,6 @@ developer: Roman Romadin
 git: https://github.com/ytget/yt-downloader
 package: github.com/ytget/yt-downloader
 version: v0.3.3
-url: /apps/com.github.ytget.yt-downloader.html
 layout: app
 
 ---

@@ -15,7 +15,6 @@ developer: Radoslaw Ceberek
 git: https://github.com/rad756/PlayLog
 package: github.com/rad756/PlayLog
 version: v1.0.0
-url: /apps/com.GitHub.rad756.PlayLog.html
 layout: app
 
 ---

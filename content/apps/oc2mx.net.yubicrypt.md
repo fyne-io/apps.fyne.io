@@ -15,7 +15,6 @@ developer: Stefan Claas
 git: https://github.com/Ch1ffr3punk/yubicrypt
 package: github.com/Ch1ffr3punk/yubicrypt
 version: v0.1.0
-url: /apps/oc2mx.net.yubicrypt.html
 layout: app
 
 ---

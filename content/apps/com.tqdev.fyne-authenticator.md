@@ -16,7 +16,6 @@ developer: Maurits van der Schee
 git: https://github.com/mevdschee/fyne-authenticator
 package: github.com/mevdschee/fyne-authenticator
 version: v1.0.0
-url: /apps/com.tqdev.fyne-authenticator.html
 layout: app
 
 ---

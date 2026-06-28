@@ -15,7 +15,6 @@ developer: Stefan Claas
 git: https://github.com/Ch1ffr3punk/MicroCrypt
 package: github.com/Ch1ffr3punk/MicroCrypt
 version: 0.1.1
-url: /apps/oc2mx.net.microcrypt.html
 layout: app
 
 ---

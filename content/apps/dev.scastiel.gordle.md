@@ -15,7 +15,6 @@ developer: Sebastien Castiel
 git: https://github.com/scastiel/gordle
 package: github.com/scastiel/gordle
 version: 1.0.0
-url: /apps/dev.scastiel.gordle.html
 layout: app
 
 ---

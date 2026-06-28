@@ -19,7 +19,6 @@ developer: Alina
 git: https://github.com/Sharrnah/whispering-ui
 package: github.com/Sharrnah/whispering-ui
 version: 1.3.2.1
-url: /apps/io.github.whispering-tiger.html
 layout: app
 
 ---

@@ -18,7 +18,6 @@ version: v1.4
 
 
 appleid: id6744373914
-url: /apps/com.focusedforsuccess.craps.html
 layout: app
 
 ---

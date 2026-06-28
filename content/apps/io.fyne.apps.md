@@ -21,7 +21,6 @@ downloads:
   path: github/andydotxyz/fyne-io/apps
   build: 536
   platforms: darwin/amd64,darwin/arm64,linux/amd64,linux/arm64,windows/amd64
-url: /apps/io.fyne.apps.html
 layout: app
 
 ---

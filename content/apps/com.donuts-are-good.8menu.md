@@ -15,7 +15,6 @@ developer: puggy pug
 git: https://github.com/donuts-are-good/8menu
 package: github.com/donuts-are-good/8menu
 version: v1.0.0
-url: /apps/com.donuts-are-good.8menu.html
 layout: app
 
 ---

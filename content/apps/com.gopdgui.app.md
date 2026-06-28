@@ -21,7 +21,6 @@ downloads:
   path: github/andydotxyz/ManuelReschke/go-pd-gui
   build: 38
   platforms: android,darwin/amd64,darwin/arm64,linux/amd64,linux/386,windows/amd64,windows/386
-url: /apps/com.gopdgui.app.html
 layout: app
 
 ---

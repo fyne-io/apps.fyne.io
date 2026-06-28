@@ -17,7 +17,6 @@ developer: Alejandro
 git: https://github.com/saturnavt/pcinfo
 package: github.com/saturnavt/pcinfo
 version:
-url: /apps/com.github.saturnavt.pcinfo.html
 layout: app
 
 ---

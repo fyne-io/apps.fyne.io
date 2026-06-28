@@ -18,7 +18,6 @@ developer: Manish Sharma
 git: https://github.com/manish8561/volume_control_sw
 package: github.com/manish8561/volume_control_sw
 version: 1.2.0
-url: /apps/com.github.manish8561.volume_control_sw.html
 layout: app
 
 ---

@@ -15,7 +15,6 @@ developer: wanna w
 git: https://github.com/wangle201210/sudoku
 package: github.com/wangle201210/sudoku
 version: v1.0.0
-url: /apps/com.wangle.sudoku.html
 layout: app
 
 ---

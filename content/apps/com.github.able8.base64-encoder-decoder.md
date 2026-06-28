@@ -15,7 +15,6 @@ developer: able8
 git: https://github.com/able8/base64-encoder-decoder
 package: github.com/able8/base64-encoder-decoder
 version:
-url: /apps/com.github.able8.base64-encoder-decoder.html
 layout: app
 
 ---

@@ -17,7 +17,6 @@ developer: Michael Dupre
 git: https://github.com/midu-SA/Taskmgr.git
 package: github.com/midu-SA/Taskmgr/task_app
 version: 0.9
-url: /apps/com.github.midu-SA.Taskmgr.html
 layout: app
 
 ---

@@ -14,7 +14,6 @@ developer: Palexer
 git: https://github.com/Palexer/vocabulary-trainer.git
 package: github.com/Palexer/vocabulary-trainer/VocabularyTrainer
 version:
-url: /apps/io.github.palexer.vocabulary-trainer.html
 layout: app
 
 ---

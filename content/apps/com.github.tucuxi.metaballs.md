@@ -15,7 +15,6 @@ developer: tucuxi
 git:     https://github.com/tucuxi/metaballs
 package: github.com/tucuxi/metaballs
 version: v1.0.0
-url: /apps/com.github.tucuxi.metaballs.html
 layout: app
 
 ---

@@ -16,7 +16,6 @@ developer: Rikudou Sage
 git: https://github.com/RikudouSage/LargeCsvReader
 package: github.com/RikudouSage/LargeCsvReader
 version: 1.3.0
-url: /apps/com.rikudousage.large_csv_reader.html
 layout: app
 
 ---

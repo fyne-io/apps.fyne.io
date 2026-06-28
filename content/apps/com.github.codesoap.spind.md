@@ -17,7 +17,6 @@ developer: Richard Ulmer
 git: https://github.com/codesoap/spind
 package: github.com/codesoap/spind
 version: 0.2.0
-url: /apps/com.github.codesoap.spind.html
 layout: app
 
 ---

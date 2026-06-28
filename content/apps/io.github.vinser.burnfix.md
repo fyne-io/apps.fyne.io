@@ -19,7 +19,6 @@ package: github.com/vinser/burnfix
 version: 1.1.0
 
 flathub: io.github.vinser.burnfix
-url: /apps/io.github.vinser.burnfix.html
 layout: app
 
 ---

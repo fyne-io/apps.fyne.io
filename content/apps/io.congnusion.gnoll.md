@@ -15,7 +15,6 @@ developer: Matt
 git: https://github.com/cognusion/gnoll
 package: github.com/cognusion/gnoll
 version: 1.0.3
-url: /apps/io.congnusion.gnoll.html
 layout: app
 
 ---

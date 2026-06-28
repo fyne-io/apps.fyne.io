@@ -17,7 +17,6 @@ developer: Allen Tse
 git: https://gitlab.com/bon-ami/ezcomm.git
 package: gitlab.com/bon-ami/ezcomm/guiFyne
 version: 6.1.6
-url: /apps/io.sourceforge.ezproject.ezcomm.html
 layout: app
 
 ---

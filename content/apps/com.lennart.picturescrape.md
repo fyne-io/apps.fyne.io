@@ -15,7 +15,6 @@ developer: Lennart Martens
 git: https://github.com/Lennart1978/picturescrape.git
 package: github.com/Lennart1978/picturescrape
 version: 1.0
-url: /apps/com.lennart.picturescrape.html
 layout: app
 
 ---

@@ -15,7 +15,6 @@ developer: Patchouli
 git: https://github.com/VoileLab/goimgpack
 package: github.com/VoileLab/goimgpack
 version:
-url: /apps/com.github.voile.goimgpack.html
 layout: app
 
 ---

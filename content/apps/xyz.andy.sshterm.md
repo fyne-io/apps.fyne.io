@@ -20,7 +20,6 @@ version: v0.4
 
 appleid: 1578453574
 googleid: xyz.andy.sshterm2
-url: /apps/xyz.andy.sshterm.html
 layout: app
 
 ---

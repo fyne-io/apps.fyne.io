@@ -18,7 +18,6 @@ developer: Tiago Melo
 git: https://github.com/tiagomelo/image-resizer
 package: github.com/tiagomelo/image-resizer
 version: v0.1.0
-url: /apps/info.tiagomelo.imageresizer.html
 layout: app
 
 ---

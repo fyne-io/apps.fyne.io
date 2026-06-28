@@ -15,7 +15,6 @@ developer: presskey
 git: https://github.com/presskey/rabbit
 package: github.com/presskey/rabbit
 version: 0.0.1
-url: /apps/com.github.presskey.rabbit.html
 layout: app
 
 ---

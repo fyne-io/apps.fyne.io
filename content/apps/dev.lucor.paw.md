@@ -15,7 +15,6 @@ developer: Luca Corbo
 git: https://lucor.dev/paw
 package: lucor.dev/paw/cmd/paw
 version: 0.9.0
-url: /apps/dev.lucor.paw.html
 layout: app
 
 ---

@@ -15,7 +15,6 @@ developer: Sebastian Safari
 git: https://github.com/ssebs/MVCTipCalc.git
 package: github.com/ssebs/MVCTipCalc
 version: v1.0.1
-url: /apps/com.ssebs.mvctipcalc.html
 layout: app
 
 ---

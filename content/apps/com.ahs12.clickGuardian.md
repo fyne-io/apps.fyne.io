@@ -19,7 +19,6 @@ version: 1.0.3
 
 
 other: https://github.com/AHS12/click-guardian/releases
-url: /apps/com.ahs12.clickGuardian.html
 layout: app
 
 ---

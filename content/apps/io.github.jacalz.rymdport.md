@@ -27,7 +27,6 @@ downloads:
 flathub: io.github.jacalz.rymdport
 aliases:
 - /apps/rymdport
-url: /apps/io.github.jacalz.rymdport.html
 layout: app
 
 ---

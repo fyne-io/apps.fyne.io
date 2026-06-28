@@ -15,7 +15,6 @@ developer: David Terpin
 git: https://github.com/aixoio/aixoio-privacy-tools
 package: github.com/aixoio/aixoio-privacy-tools
 version: 2.0.0
-url: /apps/com.github.aixoio.aixoioprivacytools.html
 layout: app
 
 ---

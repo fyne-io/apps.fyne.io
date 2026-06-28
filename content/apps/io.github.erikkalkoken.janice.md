@@ -17,7 +17,6 @@ package: github.com/ErikKalkoken/janice
 version: 0.1.1
 
 appimage: Janice
-url: /apps/io.github.erikkalkoken.janice.html
 layout: app
 
 ---

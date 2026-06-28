@@ -16,7 +16,6 @@ developer: Miguel Sousa
 git: https://github.com/MGSousa/go-timer
 package: github.com/MGSousa/go-timer
 version:
-url: /apps/com.mgstools.timer.html
 layout: app
 
 ---

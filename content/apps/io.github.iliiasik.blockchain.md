@@ -22,7 +22,6 @@ package: github.com/Iliiasik/Blockchain
 version: 1.5.0
 
 
-url: /apps/io.github.iliiasik.blockchain.html
 
 ---
 

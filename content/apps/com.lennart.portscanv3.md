@@ -17,7 +17,6 @@ developer: Lennart Martens
 git: https://github.com/Lennart1978/portscannerv3.0.git
 package: github.com/Lennart1978/portscannerv3.0
 version: 3.0
-url: /apps/com.lennart.portscanv3.html
 layout: app
 
 ---

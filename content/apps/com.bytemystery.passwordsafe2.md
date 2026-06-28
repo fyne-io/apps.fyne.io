@@ -18,7 +18,6 @@ developer: Reiner Pröls
 git: https://github.com/bytemystery-com/passwordsafe
 package: github.com/bytemystery-com/passwordsafe
 version: v0.3.2
-url: /apps/com.bytemystery.passwordsafe2.html
 layout: app
 
 ---

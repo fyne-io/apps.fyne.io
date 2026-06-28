@@ -16,7 +16,6 @@ developer: Andy Williams
 git: https://github.com/andydotxyz/fomato.git
 package: github.com/andydotxyz/fomato
 version:
-url: /apps/xyz.andy.fomato.html
 layout: app
 
 ---

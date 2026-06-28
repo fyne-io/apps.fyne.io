@@ -14,7 +14,6 @@ developer: Jacalz
 git: https://github.com/Jacalz/sparta.git
 package: github.com/Jacalz/sparta
 version: 0.8.0
-url: /apps/sparta.html
 layout: app
 
 ---

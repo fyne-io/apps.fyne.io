@@ -15,7 +15,6 @@ developer: tk103331
 git: https://github.com/tk103331/gohosts.git
 package: github.com/tk103331/gohosts
 version:
-url: /apps/com.github.tk103331.gohosts.html
 layout: app
 
 ---

@@ -18,7 +18,6 @@ developer: Tiago Melo
 git: github.com/tiagomelo/macos-dmg-creator
 package: om/tiagomelo/macos-dmg-creator
 version: v0.1.0
-url: /apps/info.tiagomelo.macosdmgcreator.html
 layout: app
 
 ---

@@ -16,7 +16,6 @@ developer: Tejashwi Kalp Taru
 git: https://github.com/tejashwikalptaru/gotune/
 package: github.com/tejashwikalptaru/gotune/
 version: 0.1
-url: /apps/com.tejashwi.gotune.html
 layout: app
 
 ---

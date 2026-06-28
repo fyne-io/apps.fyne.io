@@ -15,7 +15,6 @@ developer: Robert T
 git: https://github.com/r0b0/mpd-radio
 package: github.com/r0b0/mpd-radio
 version: 24.09
-url: /apps/sk.hq.r0b0.mpdradio.html
 layout: app
 
 ---

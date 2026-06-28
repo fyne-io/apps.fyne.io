@@ -20,7 +20,6 @@ package: github.com/MironCo/picopeeker/desktop-app/cmd/picopeeker
 version: 0.3.0
 
 other: https://github.com/MironCo/picopeeker/releases
-url: /apps/com.MironCo.Picopeeker.html
 layout: app
 
 ---

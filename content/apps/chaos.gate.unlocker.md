@@ -18,7 +18,6 @@ package: github.com/imsgit/chaos-gate-unlocker
 version: 1.0.0.47
 
 other: https://www.nexusmods.com/warhammer40kchaosgatedaemonhunters/mods/5
-url: /apps/chaos.gate.unlocker.html
 layout: app
 
 ---

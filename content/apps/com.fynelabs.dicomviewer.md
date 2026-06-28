@@ -15,7 +15,6 @@ developer: Fyne Labs
 git: https://github.com/fynelabs/dicomgraphics.git
 package: github.com/fynelabs/dicomgraphics/cmd/dicomviewer
 version:
-url: /apps/com.fynelabs.dicomviewer.html
 layout: app
 
 ---

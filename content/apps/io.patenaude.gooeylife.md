@@ -16,7 +16,6 @@ developer: Mitch Patenaude
 git: https://github.com/pneumaticdeath/GooeyLife
 package: github.com/pneumaticdeath/GooeyLife
 version: v0.1.3
-url: /apps/io.patenaude.gooeylife.html
 layout: app
 
 ---

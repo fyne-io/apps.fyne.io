@@ -18,7 +18,6 @@ version: 1.0.0
 
 
 googleid: https://play.google.com/store/apps/details?id=com.padelin.lite&amp;hl=id
-url: /apps/com.padelin.lite.html
 layout: app
 
 ---

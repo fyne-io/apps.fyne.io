@@ -16,7 +16,6 @@ developer: Sid
 git: https://github.com/BabySid/sid-desktop
 package: github.com/BabySid/sid-desktop/desktop
 version:
-url: /apps/cn.sid.desktop.html
 layout: app
 
 ---

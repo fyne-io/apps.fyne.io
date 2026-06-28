@@ -15,7 +15,6 @@ developer: YiMin Chen
 git: https://github.com/magdev2022/SystemMonitor
 package: github.com/magdev2022/SystemMonitor
 version: 1.0
-url: /apps/com.magdev.app.html
 layout: app
 
 ---

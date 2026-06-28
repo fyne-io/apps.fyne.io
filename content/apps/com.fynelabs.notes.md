@@ -18,7 +18,6 @@ version:
 
 appleid: 1555919586
 googleid: com.fynelabs.notes
-url: /apps/com.fynelabs.notes.html
 layout: app
 
 ---

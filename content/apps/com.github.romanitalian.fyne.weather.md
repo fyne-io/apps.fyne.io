@@ -15,7 +15,6 @@ developer: Roman Romadin
 git: https://github.com/romanitalian/fyne-weather
 package: github.com/romanitalian/fyne-weather
 version: v0.0.1
-url: /apps/com.github.romanitalian.fyne.weather.html
 layout: app
 
 ---

@@ -18,7 +18,6 @@ developer: mohsen
 git: https://github.com/Mohsen20031203/KV-Toolbox
 package: github.com/Mohsen20031203/KV-Toolbox/cmd/KV-Toolbox
 version:
-url: /apps/com.DatabaseDB.KV-Toolbox.html
 layout: app
 
 ---

@@ -15,7 +15,6 @@ developer: YiMing Chen
 git: https://github.com/magdev2022/TranslatorApp
 package: github.com/magdev2022/TranslatorApp
 version: 1.0.0
-url: /apps/com.magdev.translator.html
 layout: app
 
 ---

@@ -20,7 +20,6 @@ version: 1.0.0
 
 
 other: https://git.kor-elf.net/kor-elf/gui-for-ffmpeg/releases
-url: /apps/net.kor-elf.projects.gui-for-ffmpeg.html
 layout: app
 
 ---

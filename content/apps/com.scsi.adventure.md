@@ -16,7 +16,6 @@ developer: Bob Shofner
 git: https://github.com/shofster/adventure
 package: github.com/shofster/adventure
 version:
-url: /apps/com.scsi.adventure.html
 layout: app
 
 ---

@@ -17,7 +17,6 @@ developer: Erik Kalkoken
 git: https://github.com/ErikKalkoken/evebuddy.git
 package: github.com/ErikKalkoken/evebuddy
 version: v0.8.0
-url: /apps/io.github.erikkalkoken.evebuddymyapp.html
 layout: app
 
 ---

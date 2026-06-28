@@ -19,7 +19,6 @@ package: github.com/jeninSutradhar/kryptos
 version: 1.0
 
 other: https://kryptos-wallet.netlify.app
-url: /apps/com.jenin.kryptos.html
 layout: app
 
 ---

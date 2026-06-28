@@ -15,7 +15,6 @@ developer: Jens Himmelrath
 git: https://github.com/sirion/fanmi
 package: github.com/sirion/fanmi/app
 version: 0.2
-url: /apps/net.himmelrath.fanmi.html
 layout: app
 
 ---

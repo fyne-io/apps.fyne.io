@@ -15,7 +15,6 @@ developer: Andy Williams
 git: https://github.com/andydotxyz/fysionboard.git
 package: github.com/andydotxyz/fysionboard
 version:
-url: /apps/xyz.andy.fysionboard.html
 layout: app
 
 ---

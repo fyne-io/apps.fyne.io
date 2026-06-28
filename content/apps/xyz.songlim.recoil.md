@@ -17,7 +17,6 @@ developer: Song Lim Tan
 git: https://github.com/songlim327/recoil
 package: github.com/songlim327/recoil
 version: 1.0.1
-url: /apps/xyz.songlim.recoil.html
 layout: app
 
 ---

@@ -22,7 +22,6 @@ version: 0.0.8
 
 
 other: https://github.com/owu/share-sniffer/releases
-url: /apps/owu.github.io.html
 layout: app
 
 ---

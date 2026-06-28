@@ -18,7 +18,6 @@ developer: Sarwar Hossain
 git: https://github.com/Sarwarhridoy4/github-ssh-manager
 package: github.com/Sarwarhridoy4/github-ssh-manager
 version: 2.0.0
-url: /apps/com.sarwarhridoy4.github-ssh-manager.html
 layout: app
 
 ---

@@ -14,7 +14,6 @@ developer: Aaron Turner
 git: https://github.com/synfinatic/alpacascope.git
 package: github.com/synfinatic/alpacascope/gui
 version: 2.0.0
-url: /apps/net.synfin.AlpacaScope.html
 layout: app
 
 ---

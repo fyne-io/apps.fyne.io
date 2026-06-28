@@ -16,7 +16,6 @@ developer: Nicholas VanCise
 git: https://github.com/thenick775/thelist.git
 package: github.com/thenick775/thelist/src
 version: 1.0
-url: /apps/com.vancise.TheList.html
 layout: app
 
 ---

@@ -16,7 +16,6 @@ developer: Nikko Voichich
 git: https://github.com/Nikeweke/pomadorik
 package: github.com/Nikeweke/pomadorik
 version: 1.0.0
-url: /apps/com.pomadorik.html
 layout: app
 
 ---

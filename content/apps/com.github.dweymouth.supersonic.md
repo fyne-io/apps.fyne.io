@@ -19,7 +19,6 @@ version: 0.18.1
 
 
 flatpak: io.github.dweymouth.supersonic
-url: /apps/com.github.dweymouth.supersonic.html
 layout: app
 
 ---

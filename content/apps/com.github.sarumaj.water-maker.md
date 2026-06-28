@@ -16,7 +16,6 @@ developer: Dawid Ciepiela
 git: https://github.com/sarumaj/water-maker.git
 package: github.com/sarumaj/water-maker/cmd/water-maker
 version: v1.0.0
-url: /apps/com.github.sarumaj.water-maker.html
 layout: app
 
 ---

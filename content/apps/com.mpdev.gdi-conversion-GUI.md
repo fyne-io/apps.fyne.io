@@ -18,7 +18,6 @@ package: github.com/maciej-piatek/gdi-conversion-GUI
 version: 0.2
 
 other: https://github.com/maciej-piatek/gdi-conversion-GUI/releases
-url: /apps/com.mpdev.gdi-conversion-GUI.html
 layout: app
 
 ---

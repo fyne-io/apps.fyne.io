@@ -19,7 +19,6 @@ requires: linux,freebsd,windows,darwin
 git: https://github.com/mudler/golauncher
 package: github.com/mudler/golauncher
 version: 0.1
-url: /apps/com.golauncher.html
 layout: app
 
 ---

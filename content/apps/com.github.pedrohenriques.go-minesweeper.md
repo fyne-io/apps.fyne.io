@@ -14,7 +14,6 @@ developer: Pedro Henriques
 git: https://github.com/PedroHenriques/go-minesweeper
 package: github.com/PedroHenriques/go-minesweeper
 version: 1.0.0
-url: /apps/com.github.pedrohenriques.go-minesweeper.html
 layout: app
 
 ---

@@ -16,7 +16,6 @@ developer: Stanislav
 git: https://github.com/goxray/desktop
 package: github.com/goxray/desktop
 version: v0.0.3
-url: /apps/com.github.goxray.client.app.html
 layout: app
 
 ---

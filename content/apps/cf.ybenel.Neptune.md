@@ -15,7 +15,6 @@ developer: Younes Ben El
 git: https://github.com/M1ndo/Neptune.git
 package: github.com/M1ndo/Neptune
 version: 1.0.1
-url: /apps/cf.ybenel.Neptune.html
 layout: app
 
 ---

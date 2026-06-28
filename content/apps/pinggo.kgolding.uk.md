@@ -20,7 +20,6 @@ downloads:
   path: github/andydotxyz/kgolding/pinggo
   build: 46
   platforms: darwin/amd64,darwin/arm64,freebsd/amd64,freebsd/arm64,linux/amd64,linux/arm64,windows/amd64
-url: /apps/pinggo.kgolding.uk.html
 layout: app
 
 ---

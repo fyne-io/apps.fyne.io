@@ -15,7 +15,6 @@ developer: puggy pug
 git: https://github.com/donuts-are-good/roku-fyne
 package: github.com/donuts-are-good/roku-fyne
 version: v1.0.0
-url: /apps/com.donuts-are-good.roku-fyne.html
 layout: app
 
 ---

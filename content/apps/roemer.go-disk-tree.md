@@ -15,7 +15,6 @@ developer: Roman Bäriswyl
 git: https://github.com/Roemer/disk-tree
 package: github.com/Roemer/disk-tree
 version:
-url: /apps/roemer.go-disk-tree.html
 layout: app
 
 ---

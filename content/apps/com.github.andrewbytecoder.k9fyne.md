@@ -15,7 +15,6 @@ developer: wang yazhou
 git: https://github.com/andrewbytecoder/k9fyne
 package: github.com/andrewbytecoder/k9fyne
 version: v0.0.9.0
-url: /apps/com.github.andrewbytecoder.k9fyne.html
 layout: app
 
 ---

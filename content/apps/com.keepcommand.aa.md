@@ -15,7 +15,6 @@ developer: Albert Arakelyan
 git: https://github.com/AlbertArakelyan/keep-command
 package: github.com/AlbertArakelyan/keep-command
 version:
-url: /apps/com.keepcommand.aa.html
 layout: app
 
 ---
