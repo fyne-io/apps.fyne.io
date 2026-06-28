@@ -1,13 +1,10 @@
+  - id: com.fyshos.elemental
+    image: /assets/images/carousel/elemental.png
   - id: com.github.dweymouth.supersonic
     image: /assets/images/carousel/supersonic.png
-  - id: io.github.jacalz.rymdport
-    color: "#1e3c6d"
-    name-color: "#ffffff"
   - id: divide.and.conquer.ago.launcher
     image: /assets/images/carousel/divideandconquer.png
-  - id: xyz.andy.fomato
-    color: "#0a7b0b"
-    name-color: "#ff5f3a"
+  - id: com.fyshos.tyde
+    image: /assets/images/carousel/tyde.png
   - id: me.ankushjadhav.fynesweeper
     image: /assets/images/carousel/fynesweeper.png
- 
