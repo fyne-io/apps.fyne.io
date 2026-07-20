@@ -17,7 +17,7 @@ git: https://github.com/zquestz/fortunate.git
 package: github.com/zquestz/fortunate
 version: v1.1.0
 
-requires: linux,macos
+requires: linux,darwin
 layout: app
 
 ---
