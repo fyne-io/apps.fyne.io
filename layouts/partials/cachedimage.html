@@ -1,0 +1,30 @@
+{{- /*
+  cachedimage — republish a remote image under our own domain at build time.
+
+  App icons and screenshots point at external hosts (mostly github.com and
+  raw.githubusercontent.com). Serving those directly makes every page view
+  depend on those hosts and hit GitHub's raw rate limits. This fetches the
+  image once at build time, caches it (Hugo's file cache, persisted in CI),
+  and returns a local RelPermalink served from apps.fyne.io (Fastly CDN).
+
+  On any fetch error it falls back to the original URL so the page still works.
+
+  Remote fetching only happens in PRODUCTION builds (CI / `hugo` with the
+  default production environment). In local dev — `hugo server`, or any
+  non-production environment — it returns the original external URL unchanged,
+  so local iteration stays fast and works offline, exactly like before. To
+  preview the cached behaviour locally: `hugo server --environment production`.
+
+  Usage: {{ partial "cachedimage.html" .Params.icon }}
+*/ -}}
+{{- $url := . -}}
+{{- $out := $url -}}
+{{- if and hugo.IsProduction $url (or (hasPrefix $url "https://") (hasPrefix $url "http://")) -}}
+  {{- $attempt := try (resources.GetRemote $url) -}}
+  {{- with $attempt.Err -}}
+    {{- warnf "cachedimage: cannot fetch %q: %s" $url . -}}
+  {{- else with $attempt.Value -}}
+    {{- $out = .RelPermalink -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

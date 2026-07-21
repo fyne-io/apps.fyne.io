@@ -11,7 +11,7 @@
   "image": "{{ $item.image }}"
   {{- else }},
   "background": "{{ $item.color }}",
-  "icon": "{{ $app.Params.icon }}",
+  "icon": "{{ partial "cachedimage.html" $app.Params.icon | absURL }}",
   "color": "{{ index $item "name-color" }}"
   {{- end }}
 }

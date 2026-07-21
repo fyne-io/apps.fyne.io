@@ -9,7 +9,7 @@
   title and image.
 */}}
 {{- with .Params.icon -}}
-  {{- $img := . | absURL -}}
+  {{- $img := partial "cachedimage.html" . | absURL -}}
   {{- $alt := printf "%s app for Fyne" $.Title -}}
   <meta property="og:image" content="{{ $img }}">
   <meta property="og:image:alt" content="{{ $alt }}">

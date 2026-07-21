@@ -30,7 +30,7 @@
             {{- $app := index $matchingApps 0 -}}
             <li class="carousel__slide" style="background-color: {{ $item.color }};">
               <a href="/apps/{{ $item.id }}/">
-                <img class="icon" src="{{ $app.Params.icon }}" />
+                <img class="icon" src="{{ partial "cachedimage.html" $app.Params.icon }}" />
                 <p style="color: {{ index $item "name-color" }}">
                   {{ $app.Title }}<br />
                   <span class="description">{{ $app.Params.excerpt }}</span>

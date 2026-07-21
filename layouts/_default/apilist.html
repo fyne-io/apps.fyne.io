@@ -7,7 +7,7 @@
 {
   "id": "{{ $app.Params.appid }}",
   "name": {{ $app.Title | jsonify }},
-  "icon": "{{ $app.Params.icon }}",
+  "icon": "{{ partial "cachedimage.html" $app.Params.icon | absURL }}",
   "summary": {{ $app.Params.excerpt | jsonify }},
   "url": "{{ $app.Permalink }}",
 
@@ -19,7 +19,7 @@
   "screenshots": [
 {{- range $si, $img := $app.Params.screenshots }}
     {{ if $si }},{{ end }}{
-      "image": "{{ $img.url }}",
+      "image": "{{ partial "cachedimage.html" $img.url | absURL }}",
       "type": "desktop"
     }
 {{- end }}

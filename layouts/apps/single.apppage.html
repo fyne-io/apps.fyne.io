@@ -3,7 +3,7 @@
 
   {{/* Title Area */}}
   <div class="flex items-center gap-6 mt-12 mb-12 max-sm:flex-col max-sm:items-start max-sm:gap-3 max-sm:mt-6" style="margin-bottom: calc(var(--spacing) * 6)">
-    <img src="{{ .Params.icon }}" loading="lazy" alt="app icon" class="app-icon-img" onerror="this.style.display='none'">
+    <img src="{{ partial "cachedimage.html" .Params.icon }}" loading="lazy" alt="app icon" class="app-icon-img" onerror="this.style.display='none'">
     <h1 class="text-5xl md:text-7xl font-semibold" style="font-size: revert;">{{ .Title }}</h1>
   </div>
 
@@ -84,7 +84,7 @@
   {{ if .Params.screenshots }}
   <div class="my-8">
     {{ range .Params.screenshots }}
-    <img src="{{ .url }}" loading="lazy" alt="app screenshot" class="screenshot w-full">
+    <img src="{{ partial "cachedimage.html" .url }}" loading="lazy" alt="app screenshot" class="screenshot w-full">
     {{ end }}
   </div>
   {{ end }}

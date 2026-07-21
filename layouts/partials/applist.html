@@ -13,7 +13,7 @@
     {{- end -}}
     <a href="{{ .RelPermalink }}" class="app-card bg-neutral-100 dark:bg-neutral-800">
       {{ if .Params.icon }}
-      <div class="app-icon-img" style="background: url({{ .Params.icon }}) no-repeat center/contain;"></div>
+      <div class="app-icon-img" style="background: url({{ partial "cachedimage.html" .Params.icon }}) no-repeat center/contain;"></div>
       {{ end }}
       <div class="flex flex-col">
         <span class="text-xs uppercase text-neutral-400 tracking-wide">{{ .Params.category }}</span>
