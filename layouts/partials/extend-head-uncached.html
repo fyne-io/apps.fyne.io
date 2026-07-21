@@ -1,0 +1,18 @@
+{{/*
+  Rich link previews for app detail pages.
+
+  Blowfish's head only emits og:image / twitter:image from page-bundle
+  resources or a site-wide defaultSocialImage, neither of which our apps
+  use — their artwork lives in the `icon` front-matter field. So deep links
+  to an app previewed with just the site favicon. Here we surface that icon
+  (the same image the listing cards use) so shared links show the app's
+  title and image.
+*/}}
+{{- with .Params.icon -}}
+  {{- $img := . | absURL -}}
+  {{- $alt := printf "%s app for Fyne" $.Title -}}
+  <meta property="og:image" content="{{ $img }}">
+  <meta property="og:image:alt" content="{{ $alt }}">
+  <meta name="twitter:image" content="{{ $img }}">
+  <meta name="twitter:image:alt" content="{{ $alt }}">
+{{- end -}}

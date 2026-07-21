@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ .Title }}</title>
+    {{/* .Permalink is the canonical (AppPage) directory URL — see hugo.toml outputs. */}}
+    <link rel="canonical" href="{{ .Permalink }}">
+    <meta name="robots" content="noindex">
+    <meta http-equiv="refresh" content="0; url={{ .Permalink }}">
+  </head>
+  <body>
+    <p>This page has moved to <a href="{{ .Permalink }}">{{ .Permalink }}</a>.</p>
+  </body>
+</html>
