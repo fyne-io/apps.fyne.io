@@ -1,4 +1,5 @@
 ---
+disabled: true # icon host whizapp.dup.company is offline (DNS no longer resolves)
 appid: company.dup.whizapp
 title: WhizApp
 home: https://dup.comany

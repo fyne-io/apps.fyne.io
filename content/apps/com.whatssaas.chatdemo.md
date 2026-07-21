@@ -1,4 +1,5 @@
 ---
+disabled: true # icon host www.whatssaas.com has an untrusted cert and returns 503
 appid: com.whatssaas.chatdemo
 title: WhatsSaaS Chat Demo
 home: https://www.whatssaas.com

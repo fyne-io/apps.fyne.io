@@ -1,4 +1,5 @@
 ---
+disabled: true # icon host gitea.arsenm.dev serves a mismatched cert and returns HTML, not the image
 appid: dev.arsen.permafrost
 requires: linux
 title: Permafrost

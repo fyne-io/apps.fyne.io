@@ -1,4 +1,5 @@
 ---
+disabled: true # icon/screenshot host git.massive.box is offline (DNS no longer resolves)
 appid: box.massive.fcaster
 title: FCaster
 home: https://massive.box
