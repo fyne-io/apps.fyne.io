@@ -16,7 +16,9 @@ developer: Andy Williams
 
 git: https://github.com/andydotxyz/orbitly.git
 package: github.com/andydotxyz/orbitly
-version: 
+version: 0.1.0
+
+appleid: 6795962274
 
 layout: app
 
