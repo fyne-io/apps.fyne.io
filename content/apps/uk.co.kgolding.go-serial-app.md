@@ -1,6 +1,6 @@
 ---
 appid: uk.co.kgolding.go-serial-app
-title: Seiral Monitor
+title: Serial Monitor
 home: https://kgolding.uk/
 icon: https://github.com/kgolding/go-serial-monitor/blob/main/icon.png?raw=true
 layout: app
@@ -26,3 +26,5 @@ Live RX/TX monitor with per-line timestamps and side-by-side ASCII/hex columns; 
 Send ad-hoc ASCII or hex data, with an optional line ending (none, LF, CR, CRLF) appended.
 Save, edit and delete reusable ASCII/hex snippets (&#34;presets&#34;) and send any of them with one click. Presets persist between runs.
 Export the log as a .pcapng capture file, openable directly in Wireshark, with RX/TX tagged via packet direction.
+
+Downloads are available at [github.com/kgolding/go-serial-monitor](https://github.com/kgolding/go-serial-monitor/releases)
