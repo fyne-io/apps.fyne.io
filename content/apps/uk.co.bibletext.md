@@ -14,10 +14,10 @@ screenshots:
 date:      2026-08-29 09:43:48
 excerpt:   Read, listen, search, and study Scripture in a calm, private Bible reader — with optional bring-your-own-key AI tools.
 category:  education
-developer: Willow, Noonan
+developer: Willow Noonan
 
 git: https://github.com/cubancorona/bibletext
-package: github.com/cubancorona/bibletext
+package: github.com/cubancorona/bibletext/cmd/desktop
 version: 1.2.4
 
 
