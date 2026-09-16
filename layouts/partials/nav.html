@@ -33,11 +33,11 @@
         <span>{{ if $currentCategory }}{{ $currentCategory | title }}{{ else }}Categories{{ end }}</span>
         <svg class="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
       </div>
-      <nav class="filter-dropdown-list bg-neutral-800 dark:bg-neutral-800">
+      <nav class="filter-dropdown-list">
         {{- $categories := slice "development" "education" "entertainment" "finance" "games" "graphics" "medical" "productivity" "sport" "system" "utility" -}}
         {{- range $categories -}}
           {{- $catApps := where $enabledApps ".Params.category" . -}}
-          <a class="filter-dropdown-link text-neutral-300" href="/category/{{ . }}">{{ . | title }} ({{ len $catApps }})</a>
+          <a class="filter-dropdown-link" href="/category/{{ . }}">{{ . | title }} ({{ len $catApps }})</a>
         {{- end -}}
       </nav>
     </div>
@@ -47,15 +47,15 @@
         <span>{{ if $currentStore }}{{ $currentStore }}{{ else }}App Stores{{ end }}</span>
         <svg class="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
       </div>
-      <nav class="filter-dropdown-list bg-neutral-800 dark:bg-neutral-800">
+      <nav class="filter-dropdown-list">
         {{- $apple := where $enabledApps ".Params.appleid" "!=" nil -}}
         {{- $google := where $enabledApps ".Params.googleid" "!=" nil -}}
         {{- $flat := where $enabledApps ".Params.flathub" "!=" nil -}}
         {{- $appimg := where $enabledApps ".Params.appimage" "!=" nil -}}
-        <a class="filter-dropdown-link text-neutral-300" href="/appstore.html">Apple AppStore ({{ len $apple }})</a>
-        <a class="filter-dropdown-link text-neutral-300" href="/playstore.html">Google Play ({{ len $google }})</a>
-        <a class="filter-dropdown-link text-neutral-300" href="/flathub.html">Flathub ({{ len $flat }})</a>
-        <a class="filter-dropdown-link text-neutral-300" href="/appimage.html">Appimage ({{ len $appimg }})</a>
+        <a class="filter-dropdown-link" href="/appstore.html">Apple AppStore ({{ len $apple }})</a>
+        <a class="filter-dropdown-link" href="/playstore.html">Google Play ({{ len $google }})</a>
+        <a class="filter-dropdown-link" href="/flathub.html">Flathub ({{ len $flat }})</a>
+        <a class="filter-dropdown-link" href="/appimage.html">Appimage ({{ len $appimg }})</a>
       </nav>
     </div>
   </div>
