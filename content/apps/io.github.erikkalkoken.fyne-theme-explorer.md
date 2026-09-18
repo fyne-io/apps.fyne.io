@@ -6,7 +6,7 @@ icon: https://raw.githubusercontent.com/ErikKalkoken/fyne-theme-explorer/main/Ic
 layout: app
 
 screenshots:
-- url: https://iseqgyxdsmhejiqo.public.blob.vercel-storage.com/fyne-theme-explorer/Screenshot%20from%202026-09-17%2023-49-07.png
+- url: https://6pzusduwqzqgax1h.public.blob.vercel-storage.com/fyne-theme-explorer/screenshot.png
 
 date:      2026-09-14 21:27:39
 excerpt:   A desktop app for browsing the current Fyne theme's colors, icons, and sizes.
@@ -15,7 +15,7 @@ developer: Erik Kalkoken
 
 git: https://github.com/ErikKalkoken/fyne-theme-explorer
 package: github.com/ErikKalkoken/fyne-theme-explorer
-version: 
+version:
 
 
 
