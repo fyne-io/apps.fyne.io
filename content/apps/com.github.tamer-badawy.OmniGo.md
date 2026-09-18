@@ -1,6 +1,6 @@
 ---
 appid: com.github.tamer-badawy.OmniGo
-title: OmniApp
+title: OmniGo
 home: https://tamer-badawy.github.io
 icon: https://github.com/tamer-badawy/OmniGo/blob/main/assets/logo.png?raw=true
 layout: app
