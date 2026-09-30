@@ -19,6 +19,7 @@ package: github.com/andydotxyz/orbitly
 version: 0.1.0
 
 appleid: 6795962274
+googleid: xyz.andy.orbitly
 
 layout: app
 
