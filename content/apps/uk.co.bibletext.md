@@ -22,6 +22,7 @@ version: 1.2.4
 
 
 appleid: id6784567351
+googleid: uk.co.bibletext
 
 other: https://bibletext.co.uk/
 ---
